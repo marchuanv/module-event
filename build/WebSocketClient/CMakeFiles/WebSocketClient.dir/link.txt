@@ -1,0 +1,3 @@
+D:\CMake\bin\cmake.exe -E rm -f CMakeFiles\WebSocketClient.dir/objects.a
+D:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\WebSocketClient.dir/objects.a @CMakeFiles\WebSocketClient.dir\objects1.rsp
+D:\msys64\ucrt64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\WebSocketClient.dir/objects.a -Wl,--no-whole-archive -o WebSocketClient.exe -Wl,--out-implib,libWebSocketClient.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\WebSocketClient.dir\linkLibs.rsp

@@ -1,0 +1,20 @@
+[
+{
+  "directory": "D:/github/module-event/build/WebSocketClient",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/WebSocketClient.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\WebSocketClient.dir\\main.cpp.obj -c D:\\github\\module-event\\WebSocketClient\\main.cpp",
+  "file": "D:/github/module-event/WebSocketClient/main.cpp",
+  "output": "WebSocketClient/CMakeFiles/WebSocketClient.dir/main.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/WebSocketServer",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/WebSocketServer.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\WebSocketServer.dir\\main.cpp.obj -c D:\\github\\module-event\\WebSocketServer\\main.cpp",
+  "file": "D:/github/module-event/WebSocketServer/main.cpp",
+  "output": "WebSocketServer/CMakeFiles/WebSocketServer.dir/main.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/Shared/Utils",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Utils.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\Utils.dir\\Source\\base.cpp.obj -c D:\\github\\module-event\\Shared\\Utils\\Source\\base.cpp",
+  "file": "D:/github/module-event/Shared/Utils/Source/base.cpp",
+  "output": "Shared/Utils/CMakeFiles/Utils.dir/Source/base.cpp.obj"
+}
+]

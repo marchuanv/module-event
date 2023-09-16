@@ -1,0 +1,186 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "WebSocketClient",
+					"jsonFile" : "directory-WebSocketClient-Debug-c14d8520058a96ee9775.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "WebSocketClient",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "WebSocketServer",
+					"jsonFile" : "directory-WebSocketServer-Debug-4aca30dac7abf5d8bcc1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "WebSocketServer",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "Shared",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-Shared-Debug-4bbb585c21f50946eff6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "Shared"
+				},
+				{
+					"build" : "Shared/Utils",
+					"jsonFile" : "directory-Shared.Utils-Debug-ce07eb108cda40289afb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 4,
+					"source" : "Shared/Utils",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "EventModule"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "WebSocketClient",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "WebSocketServer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						4
+					],
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "Shared",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "Utils",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "Utils::@634b9bde10f2901143ee",
+					"jsonFile" : "target-Utils-Debug-f50a9d201530c48eddc3.json",
+					"name" : "Utils",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "WebSocketClient::@ccb31f0f87910d632e90",
+					"jsonFile" : "target-WebSocketClient-Debug-22bdbc7a255e0bfca7ce.json",
+					"name" : "WebSocketClient",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "WebSocketServer::@2d205d74cc4a2f6a38cf",
+					"jsonFile" : "target-WebSocketServer-Debug-006b26be376f669fa3cd.json",
+					"name" : "WebSocketServer",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/github/module-event/build",
+		"source" : "D:/github/module-event"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

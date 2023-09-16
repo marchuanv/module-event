@@ -1,0 +1,13 @@
+D:/github/module-event/build/CMakeFiles/edit_cache.dir
+D:/github/module-event/build/CMakeFiles/rebuild_cache.dir
+D:/github/module-event/build/WebSocketClient/CMakeFiles/WebSocketClient.dir
+D:/github/module-event/build/WebSocketClient/CMakeFiles/edit_cache.dir
+D:/github/module-event/build/WebSocketClient/CMakeFiles/rebuild_cache.dir
+D:/github/module-event/build/WebSocketServer/CMakeFiles/WebSocketServer.dir
+D:/github/module-event/build/WebSocketServer/CMakeFiles/edit_cache.dir
+D:/github/module-event/build/WebSocketServer/CMakeFiles/rebuild_cache.dir
+D:/github/module-event/build/Shared/CMakeFiles/edit_cache.dir
+D:/github/module-event/build/Shared/CMakeFiles/rebuild_cache.dir
+D:/github/module-event/build/Shared/Utils/CMakeFiles/Utils.dir
+D:/github/module-event/build/Shared/Utils/CMakeFiles/edit_cache.dir
+D:/github/module-event/build/Shared/Utils/CMakeFiles/rebuild_cache.dir
