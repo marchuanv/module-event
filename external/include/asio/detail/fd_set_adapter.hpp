@@ -15,12 +15,12 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "config.hpp"
 
 #if !defined(ASIO_WINDOWS_RUNTIME)
 
-#include "detail/posix_fd_set_adapter.hpp"
-#include "detail/win_fd_set_adapter.hpp"
+#include "posix_fd_set_adapter.hpp"
+#include "win_fd_set_adapter.hpp"
 
 namespace asio {
 namespace detail {

@@ -15,25 +15,24 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "config.hpp"
 
 #if defined(ASIO_HAS_IOCP)
 
-#include "detail/limits.hpp"
-#include "detail/mutex.hpp"
-#include "detail/op_queue.hpp"
-#include "detail/scoped_ptr.hpp"
-#include "detail/socket_types.hpp"
-#include "detail/thread.hpp"
-#include "detail/thread_context.hpp"
-#include "detail/timer_queue_base.hpp"
-#include "detail/timer_queue_set.hpp"
-#include "detail/wait_op.hpp"
-#include "detail/win_iocp_operation.hpp"
-#include "detail/win_iocp_thread_info.hpp"
-#include "execution_context.hpp"
-
-#include "detail/push_options.hpp"
+#include "limits.hpp"
+#include "mutex.hpp"
+#include "op_queue.hpp"
+#include "scoped_ptr.hpp"
+#include "socket_types.hpp"
+#include "thread.hpp"
+#include "thread_context.hpp"
+#include "timer_queue_base.hpp"
+#include "timer_queue_set.hpp"
+#include "wait_op.hpp"
+#include "win_iocp_operation.hpp"
+#include "win_iocp_thread_info.hpp"
+#include "../execution_context.hpp"
+#include "push_options.hpp"
 
 namespace asio {
 namespace detail {
@@ -335,11 +334,11 @@ private:
 } // namespace detail
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "pop_options.hpp"
 
-#include "detail/impl/win_iocp_io_context.hpp"
+#include "impl/win_iocp_io_context.hpp"
 #if defined(ASIO_HEADER_ONLY)
-# include "asio/detail/impl/win_iocp_io_context.ipp"
+# include "impl/win_iocp_io_context.ipp"
 #endif // defined(ASIO_HEADER_ONLY)
 
 #endif // defined(ASIO_HAS_IOCP)

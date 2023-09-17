@@ -15,10 +15,9 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
-#include "detail/timer_queue_set.hpp"
-
-#include "detail/push_options.hpp"
+#include "../config.hpp"
+#include "../timer_queue_set.hpp"
+#include "../push_options.hpp"
 
 namespace asio {
 namespace detail {
@@ -96,6 +95,6 @@ void timer_queue_set::get_all_timers(op_queue<operation>& ops)
 } // namespace detail
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../pop_options.hpp"
 
 #endif // ASIO_DETAIL_IMPL_TIMER_QUEUE_SET_IPP

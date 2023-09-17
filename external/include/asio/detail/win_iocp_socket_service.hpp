@@ -15,36 +15,36 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "config.hpp"
 
 #if defined(ASIO_HAS_IOCP)
 
 #include <cstring>
-#include "error.hpp"
-#include "execution_context.hpp"
-#include "socket_base.hpp"
-#include "detail/bind_handler.hpp"
-#include "detail/buffer_sequence_adapter.hpp"
-#include "detail/fenced_block.hpp"
-#include "detail/handler_alloc_helpers.hpp"
-#include "detail/handler_invoke_helpers.hpp"
-#include "detail/memory.hpp"
-#include "detail/mutex.hpp"
-#include "detail/operation.hpp"
-#include "detail/reactor_op.hpp"
-#include "detail/select_reactor.hpp"
-#include "detail/socket_holder.hpp"
-#include "detail/socket_ops.hpp"
-#include "detail/socket_types.hpp"
-#include "detail/win_iocp_io_context.hpp"
-#include "detail/win_iocp_null_buffers_op.hpp"
-#include "detail/win_iocp_socket_accept_op.hpp"
-#include "detail/win_iocp_socket_connect_op.hpp"
-#include "detail/win_iocp_socket_recvfrom_op.hpp"
-#include "detail/win_iocp_socket_send_op.hpp"
-#include "detail/win_iocp_socket_service_base.hpp"
+#include "../error.hpp"
+#include "../execution_context.hpp"
+#include "../socket_base.hpp"
+#include "bind_handler.hpp"
+#include "buffer_sequence_adapter.hpp"
+#include "fenced_block.hpp"
+#include "handler_alloc_helpers.hpp"
+#include "handler_invoke_helpers.hpp"
+#include "memory.hpp"
+#include "mutex.hpp"
+#include "operation.hpp"
+#include "reactor_op.hpp"
+#include "select_reactor.hpp"
+#include "socket_holder.hpp"
+#include "socket_ops.hpp"
+#include "socket_types.hpp"
+#include "win_iocp_io_context.hpp"
+#include "win_iocp_null_buffers_op.hpp"
+#include "win_iocp_socket_accept_op.hpp"
+#include "win_iocp_socket_connect_op.hpp"
+#include "win_iocp_socket_recvfrom_op.hpp"
+#include "win_iocp_socket_send_op.hpp"
+#include "win_iocp_socket_service_base.hpp"
 
-#include "detail/push_options.hpp"
+#include "push_options.hpp"
 
 namespace asio {
 namespace detail {
@@ -676,7 +676,7 @@ public:
 } // namespace detail
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "pop_options.hpp"
 
 #endif // defined(ASIO_HAS_IOCP)
 

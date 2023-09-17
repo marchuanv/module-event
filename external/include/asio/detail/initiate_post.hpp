@@ -15,17 +15,16 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
-#include "associated_allocator.hpp"
-#include "associated_executor.hpp"
-#include "detail/work_dispatcher.hpp"
-#include "execution/allocator.hpp"
-#include "execution/blocking.hpp"
-#include "execution/relationship.hpp"
-#include "prefer.hpp"
-#include "require.hpp"
-
-#include "detail/push_options.hpp"
+#include "config.hpp"
+#include "../associated_allocator.hpp"
+#include "../associated_executor.hpp"
+#include "work_dispatcher.hpp"
+#include "../execution/allocator.hpp"
+#include "../execution/blocking.hpp"
+#include "../execution/relationship.hpp"
+#include "../prefer.hpp"
+#include "../require.hpp"
+#include "push_options.hpp"
 
 namespace asio {
 namespace detail {
@@ -247,6 +246,6 @@ private:
 } // namespace detail
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "pop_options.hpp"
 
 #endif // ASIO_DETAIL_INITIATE_POST_HPP

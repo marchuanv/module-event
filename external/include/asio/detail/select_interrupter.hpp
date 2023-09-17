@@ -15,12 +15,12 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "config.hpp"
 
 #if !defined(ASIO_WINDOWS_RUNTIME)
 
 #if defined(ASIO_WINDOWS) || defined(__CYGWIN__) || defined(__SYMBIAN32__)
-# include "asio/detail/socket_select_interrupter.hpp"
+# include "socket_select_interrupter.hpp"
 #elif defined(ASIO_HAS_EVENTFD)
 # include "asio/detail/eventfd_select_interrupter.hpp"
 #else

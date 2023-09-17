@@ -15,12 +15,11 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/bind_handler.hpp"
-#include "detail/handler_alloc_helpers.hpp"
-#include "detail/handler_cont_helpers.hpp"
-#include "detail/handler_invoke_helpers.hpp"
-
-#include "detail/push_options.hpp"
+#include "../detail/bind_handler.hpp"
+#include "../detail/handler_alloc_helpers.hpp"
+#include "../detail/handler_cont_helpers.hpp"
+#include "../detail/handler_invoke_helpers.hpp"
+#include "../detail/push_options.hpp"
 
 namespace asio {
 namespace detail {
@@ -322,6 +321,6 @@ asio_handler_invoke(const Function& function,
 } // namespace detail
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../detail/pop_options.hpp"
 
 #endif // ASIO_DETAIL_WRAPPED_HANDLER_HPP

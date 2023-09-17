@@ -26,7 +26,6 @@
 #include "../../traits/set_done_member.hpp"
 #include "../../traits/set_error_member.hpp"
 #include "../../traits/set_value_member.hpp"
-
 #include "../../detail/push_options.hpp"
 
 namespace asio {

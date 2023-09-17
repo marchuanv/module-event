@@ -15,7 +15,7 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "../config.hpp"
 
 #if !defined(ASIO_WINDOWS_RUNTIME)
 
@@ -24,13 +24,12 @@
   || defined(__SYMBIAN32__)
 
 #include <cstdlib>
-#include "detail/socket_holder.hpp"
-#include "detail/socket_ops.hpp"
-#include "detail/socket_select_interrupter.hpp"
-#include "detail/throw_error.hpp"
-#include "error.hpp"
-
-#include "detail/push_options.hpp"
+#include "../socket_holder.hpp"
+#include "../socket_ops.hpp"
+#include "../socket_select_interrupter.hpp"
+#include "../throw_error.hpp"
+#include "../../error.hpp"
+#include "../push_options.hpp"
 
 namespace asio {
 namespace detail {
@@ -174,7 +173,7 @@ bool socket_select_interrupter::reset()
 } // namespace detail
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../pop_options.hpp"
 
 #endif // defined(ASIO_WINDOWS)
        // || defined(__CYGWIN__)

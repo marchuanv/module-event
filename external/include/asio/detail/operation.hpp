@@ -15,10 +15,10 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "config.hpp"
 
 #if defined(ASIO_HAS_IOCP)
-# include "asio/detail/win_iocp_operation.hpp"
+# include "win_iocp_operation.hpp"
 #else
 # include "asio/detail/scheduler_operation.hpp"
 #endif

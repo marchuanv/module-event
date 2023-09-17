@@ -15,7 +15,7 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "config.hpp"
 
 #if defined(ASIO_HAS_IOCP) \
   || (!defined(ASIO_HAS_DEV_POLL) \
@@ -24,25 +24,25 @@
       && !defined(ASIO_WINDOWS_RUNTIME))
 
 #include <cstddef>
-#include "detail/fd_set_adapter.hpp"
-#include "detail/limits.hpp"
-#include "detail/mutex.hpp"
-#include "detail/op_queue.hpp"
-#include "detail/reactor_op.hpp"
-#include "detail/reactor_op_queue.hpp"
-#include "detail/scheduler_task.hpp"
-#include "detail/select_interrupter.hpp"
-#include "detail/socket_types.hpp"
-#include "detail/timer_queue_base.hpp"
-#include "detail/timer_queue_set.hpp"
-#include "detail/wait_op.hpp"
-#include "execution_context.hpp"
+#include "fd_set_adapter.hpp"
+#include "limits.hpp"
+#include "mutex.hpp"
+#include "op_queue.hpp"
+#include "reactor_op.hpp"
+#include "reactor_op_queue.hpp"
+#include "scheduler_task.hpp"
+#include "select_interrupter.hpp"
+#include "socket_types.hpp"
+#include "timer_queue_base.hpp"
+#include "timer_queue_set.hpp"
+#include "wait_op.hpp"
+#include "../execution_context.hpp"
 
 #if defined(ASIO_HAS_IOCP)
-# include "asio/detail/thread.hpp"
+# include "thread.hpp"
 #endif // defined(ASIO_HAS_IOCP)
 
-#include "detail/push_options.hpp"
+#include "push_options.hpp"
 
 namespace asio {
 namespace detail {
@@ -275,11 +275,11 @@ private:
 } // namespace detail
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "pop_options.hpp"
 
-#include "detail/impl/select_reactor.hpp"
+#include "impl/select_reactor.hpp"
 #if defined(ASIO_HEADER_ONLY)
-# include "asio/detail/impl/select_reactor.ipp"
+# include "impl/select_reactor.ipp"
 #endif // defined(ASIO_HEADER_ONLY)
 
 #endif // defined(ASIO_HAS_IOCP)

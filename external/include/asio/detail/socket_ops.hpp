@@ -15,13 +15,12 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "config.hpp"
 
-#include "error_code.hpp"
-#include "detail/memory.hpp"
-#include "detail/socket_types.hpp"
-
-#include "detail/push_options.hpp"
+#include "../error_code.hpp"
+#include "memory.hpp"
+#include "socket_types.hpp"
+#include "push_options.hpp"
 
 namespace asio {
 namespace detail {
@@ -366,10 +365,10 @@ ASIO_DECL u_short_type host_to_network_short(u_short_type value);
 } // namespace detail
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "pop_options.hpp"
 
 #if defined(ASIO_HEADER_ONLY)
-# include "asio/detail/impl/socket_ops.ipp"
+# include "impl/socket_ops.ipp"
 #endif // defined(ASIO_HEADER_ONLY)
 
 #endif // ASIO_DETAIL_SOCKET_OPS_HPP

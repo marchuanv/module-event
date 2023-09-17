@@ -8,7 +8,7 @@
 
 #include "algorithms/token_bucket.h"
 
-#include "time/timestamp.h"
+#include "../time/timestamp.h"
 
 namespace CppCommon {
 
