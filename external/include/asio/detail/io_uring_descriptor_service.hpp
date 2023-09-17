@@ -15,7 +15,7 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "config.hpp"
 
 #if defined(ASIO_HAS_IO_URING)
 
@@ -23,20 +23,20 @@
 #include "buffer.hpp"
 #include "cancellation_type.hpp"
 #include "execution_context.hpp"
-#include "detail/buffer_sequence_adapter.hpp"
-#include "detail/descriptor_ops.hpp"
-#include "detail/io_uring_descriptor_read_at_op.hpp"
-#include "detail/io_uring_descriptor_read_op.hpp"
-#include "detail/io_uring_descriptor_write_at_op.hpp"
-#include "detail/io_uring_descriptor_write_op.hpp"
-#include "detail/io_uring_null_buffers_op.hpp"
-#include "detail/io_uring_service.hpp"
-#include "detail/io_uring_wait_op.hpp"
-#include "detail/memory.hpp"
-#include "detail/noncopyable.hpp"
+#include "buffer_sequence_adapter.hpp"
+#include "descriptor_ops.hpp"
+#include "io_uring_descriptor_read_at_op.hpp"
+#include "io_uring_descriptor_read_op.hpp"
+#include "io_uring_descriptor_write_at_op.hpp"
+#include "io_uring_descriptor_write_op.hpp"
+#include "io_uring_null_buffers_op.hpp"
+#include "io_uring_service.hpp"
+#include "io_uring_wait_op.hpp"
+#include "memory.hpp"
+#include "noncopyable.hpp"
 #include "posix/descriptor_base.hpp"
 
-#include "detail/push_options.hpp"
+#include "push_options.hpp"
 
 namespace asio {
 namespace detail {
@@ -676,7 +676,7 @@ private:
 } // namespace detail
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "pop_options.hpp"
 
 #if defined(ASIO_HEADER_ONLY)
 # include "asio/detail/impl/io_uring_descriptor_service.ipp"

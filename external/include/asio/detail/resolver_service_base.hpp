@@ -15,16 +15,16 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "config.hpp"
 #include "error.hpp"
 #include "execution_context.hpp"
-#include "detail/mutex.hpp"
-#include "detail/noncopyable.hpp"
-#include "detail/resolve_op.hpp"
-#include "detail/socket_ops.hpp"
-#include "detail/socket_types.hpp"
-#include "detail/scoped_ptr.hpp"
-#include "detail/thread.hpp"
+#include "mutex.hpp"
+#include "noncopyable.hpp"
+#include "resolve_op.hpp"
+#include "socket_ops.hpp"
+#include "socket_types.hpp"
+#include "scoped_ptr.hpp"
+#include "thread.hpp"
 
 #if defined(ASIO_HAS_IOCP)
 # include "asio/detail/win_iocp_io_context.hpp"
@@ -32,7 +32,7 @@
 # include "asio/detail/scheduler.hpp"
 #endif // defined(ASIO_HAS_IOCP)
 
-#include "detail/push_options.hpp"
+#include "push_options.hpp"
 
 namespace asio {
 namespace detail {
@@ -149,7 +149,7 @@ private:
 } // namespace detail
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "pop_options.hpp"
 
 #if defined(ASIO_HEADER_ONLY)
 # include "asio/detail/impl/resolver_service_base.ipp"

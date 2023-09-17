@@ -15,10 +15,10 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
-#include "detail/resolver_service_base.hpp"
+#include "../config.hpp"
+#include "../resolver_service_base.hpp"
 
-#include "detail/push_options.hpp"
+#include "../push_options.hpp"
 
 namespace asio {
 namespace detail {
@@ -153,6 +153,6 @@ void resolver_service_base::start_work_thread()
 } // namespace detail
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../pop_options.hpp"
 
 #endif // ASIO_DETAIL_IMPL_RESOLVER_SERVICE_BASE_IPP

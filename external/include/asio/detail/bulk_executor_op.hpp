@@ -15,14 +15,13 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
-#include "detail/bind_handler.hpp"
-#include "detail/fenced_block.hpp"
-#include "detail/handler_alloc_helpers.hpp"
-#include "detail/handler_invoke_helpers.hpp"
-#include "detail/scheduler_operation.hpp"
-
-#include "detail/push_options.hpp"
+#include "config.hpp"
+#include "bind_handler.hpp"
+#include "fenced_block.hpp"
+#include "handler_alloc_helpers.hpp"
+#include "handler_invoke_helpers.hpp"
+#include "scheduler_operation.hpp"
+#include "push_options.hpp"
 
 namespace asio {
 namespace detail {
@@ -84,6 +83,6 @@ private:
 } // namespace detail
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "pop_options.hpp"
 
 #endif // ASIO_DETAIL_BULK_EXECUTOR_OP_HPP

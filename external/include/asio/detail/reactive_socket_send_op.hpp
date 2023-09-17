@@ -15,18 +15,18 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
-#include "detail/bind_handler.hpp"
-#include "detail/buffer_sequence_adapter.hpp"
-#include "detail/fenced_block.hpp"
-#include "detail/handler_alloc_helpers.hpp"
-#include "detail/handler_invoke_helpers.hpp"
-#include "detail/handler_work.hpp"
-#include "detail/memory.hpp"
-#include "detail/reactor_op.hpp"
-#include "detail/socket_ops.hpp"
+#include "config.hpp"
+#include "bind_handler.hpp"
+#include "buffer_sequence_adapter.hpp"
+#include "fenced_block.hpp"
+#include "handler_alloc_helpers.hpp"
+#include "handler_invoke_helpers.hpp"
+#include "handler_work.hpp"
+#include "memory.hpp"
+#include "reactor_op.hpp"
+#include "socket_ops.hpp"
 
-#include "detail/push_options.hpp"
+#include "push_options.hpp"
 
 namespace asio {
 namespace detail {
@@ -197,6 +197,6 @@ private:
 } // namespace detail
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "pop_options.hpp"
 
 #endif // ASIO_DETAIL_REACTIVE_SOCKET_SEND_OP_HPP

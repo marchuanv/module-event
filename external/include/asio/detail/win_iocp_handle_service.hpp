@@ -16,24 +16,24 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "config.hpp"
 
 #if defined(ASIO_HAS_IOCP)
 
 #include "associated_cancellation_slot.hpp"
 #include "error.hpp"
 #include "execution_context.hpp"
-#include "detail/buffer_sequence_adapter.hpp"
-#include "detail/cstdint.hpp"
-#include "detail/handler_alloc_helpers.hpp"
-#include "detail/memory.hpp"
-#include "detail/mutex.hpp"
-#include "detail/operation.hpp"
-#include "detail/win_iocp_handle_read_op.hpp"
-#include "detail/win_iocp_handle_write_op.hpp"
-#include "detail/win_iocp_io_context.hpp"
+#include "buffer_sequence_adapter.hpp"
+#include "cstdint.hpp"
+#include "handler_alloc_helpers.hpp"
+#include "memory.hpp"
+#include "mutex.hpp"
+#include "operation.hpp"
+#include "win_iocp_handle_read_op.hpp"
+#include "win_iocp_handle_write_op.hpp"
+#include "win_iocp_io_context.hpp"
 
-#include "detail/push_options.hpp"
+#include "push_options.hpp"
 
 namespace asio {
 namespace detail {
@@ -420,7 +420,7 @@ private:
 } // namespace detail
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "pop_options.hpp"
 
 #if defined(ASIO_HEADER_ONLY)
 # include "asio/detail/impl/win_iocp_handle_service.ipp"

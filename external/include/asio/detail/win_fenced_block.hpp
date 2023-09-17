@@ -15,14 +15,14 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "config.hpp"
 
 #if defined(ASIO_WINDOWS) && !defined(UNDER_CE)
 
-#include "detail/socket_types.hpp"
-#include "detail/noncopyable.hpp"
+#include "socket_types.hpp"
+#include "noncopyable.hpp"
 
-#include "detail/push_options.hpp"
+#include "push_options.hpp"
 
 namespace asio {
 namespace detail {
@@ -83,7 +83,7 @@ public:
 } // namespace detail
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "pop_options.hpp"
 
 #endif // defined(ASIO_WINDOWS) && !defined(UNDER_CE)
 

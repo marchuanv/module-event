@@ -16,7 +16,7 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "config.hpp"
 
 #if defined(ASIO_HAS_SERIAL_PORT)
 #if !defined(ASIO_WINDOWS) && !defined(__CYGWIN__)
@@ -25,7 +25,7 @@
 #include "error.hpp"
 #include "execution_context.hpp"
 #include "serial_port_base.hpp"
-#include "detail/descriptor_ops.hpp"
+#include "descriptor_ops.hpp"
 
 #if defined(ASIO_HAS_IO_URING_AS_DEFAULT)
 # include "asio/detail/io_uring_descriptor_service.hpp"
@@ -33,7 +33,7 @@
 # include "asio/detail/reactive_descriptor_service.hpp"
 #endif // defined(ASIO_HAS_IO_URING_AS_DEFAULT)
 
-#include "detail/push_options.hpp"
+#include "push_options.hpp"
 
 namespace asio {
 namespace detail {
@@ -237,7 +237,7 @@ private:
 } // namespace detail
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "pop_options.hpp"
 
 #if defined(ASIO_HEADER_ONLY)
 # include "asio/detail/impl/posix_serial_port_service.ipp"

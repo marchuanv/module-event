@@ -15,19 +15,19 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
-#include "detail/atomic_count.hpp"
-#include "detail/executor_op.hpp"
-#include "detail/memory.hpp"
-#include "detail/mutex.hpp"
-#include "detail/op_queue.hpp"
-#include "detail/scheduler_operation.hpp"
-#include "detail/scoped_ptr.hpp"
-#include "detail/type_traits.hpp"
+#include "config.hpp"
+#include "atomic_count.hpp"
+#include "executor_op.hpp"
+#include "memory.hpp"
+#include "mutex.hpp"
+#include "op_queue.hpp"
+#include "scheduler_operation.hpp"
+#include "scoped_ptr.hpp"
+#include "type_traits.hpp"
 #include "execution.hpp"
 #include "execution_context.hpp"
 
-#include "detail/push_options.hpp"
+#include "push_options.hpp"
 
 namespace asio {
 namespace detail {
@@ -163,9 +163,9 @@ private:
 } // namespace detail
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "pop_options.hpp"
 
-#include "detail/impl/strand_executor_service.hpp"
+#include "impl/strand_executor_service.hpp"
 #if defined(ASIO_HEADER_ONLY)
 # include "asio/detail/impl/strand_executor_service.ipp"
 #endif // defined(ASIO_HEADER_ONLY)

@@ -24,10 +24,10 @@
 #include <cstddef>
 #include "error.hpp"
 #include "error_code.hpp"
-#include "detail/cstdint.hpp"
-#include "detail/socket_types.hpp"
+#include "cstdint.hpp"
+#include "socket_types.hpp"
 
-#include "detail/push_options.hpp"
+#include "push_options.hpp"
 
 namespace asio {
 namespace detail {
@@ -166,7 +166,7 @@ ASIO_DECL int poll_error(int d,
 } // namespace detail
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "pop_options.hpp"
 
 #if defined(ASIO_HEADER_ONLY)
 # include "asio/detail/impl/descriptor_ops.ipp"

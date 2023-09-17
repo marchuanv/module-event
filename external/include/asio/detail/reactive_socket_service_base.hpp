@@ -15,7 +15,7 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "config.hpp"
 
 #if !defined(ASIO_HAS_IOCP) \
   && !defined(ASIO_WINDOWS_RUNTIME) \
@@ -27,20 +27,20 @@
 #include "error.hpp"
 #include "execution_context.hpp"
 #include "socket_base.hpp"
-#include "detail/buffer_sequence_adapter.hpp"
-#include "detail/memory.hpp"
-#include "detail/reactive_null_buffers_op.hpp"
-#include "detail/reactive_socket_recv_op.hpp"
-#include "detail/reactive_socket_recvmsg_op.hpp"
-#include "detail/reactive_socket_send_op.hpp"
-#include "detail/reactive_wait_op.hpp"
-#include "detail/reactor.hpp"
-#include "detail/reactor_op.hpp"
-#include "detail/socket_holder.hpp"
-#include "detail/socket_ops.hpp"
-#include "detail/socket_types.hpp"
+#include "buffer_sequence_adapter.hpp"
+#include "memory.hpp"
+#include "reactive_null_buffers_op.hpp"
+#include "reactive_socket_recv_op.hpp"
+#include "reactive_socket_recvmsg_op.hpp"
+#include "reactive_socket_send_op.hpp"
+#include "reactive_wait_op.hpp"
+#include "reactor.hpp"
+#include "reactor_op.hpp"
+#include "socket_holder.hpp"
+#include "socket_ops.hpp"
+#include "socket_types.hpp"
 
-#include "detail/push_options.hpp"
+#include "push_options.hpp"
 
 namespace asio {
 namespace detail {
@@ -737,7 +737,7 @@ protected:
 } // namespace detail
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "pop_options.hpp"
 
 #if defined(ASIO_HEADER_ONLY)
 # include "asio/detail/impl/reactive_socket_service_base.ipp"

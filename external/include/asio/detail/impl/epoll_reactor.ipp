@@ -15,22 +15,22 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "../config.hpp"
 
 #if defined(ASIO_HAS_EPOLL)
 
 #include <cstddef>
 #include <sys/epoll.h>
-#include "detail/epoll_reactor.hpp"
-#include "detail/scheduler.hpp"
-#include "detail/throw_error.hpp"
-#include "error.hpp"
+#include "../epoll_reactor.hpp"
+#include "../scheduler.hpp"
+#include "../throw_error.hpp"
+#include "../../error.hpp"
 
 #if defined(ASIO_HAS_TIMERFD)
 # include <sys/timerfd.h>
 #endif // defined(ASIO_HAS_TIMERFD)
 
-#include "detail/push_options.hpp"
+#include "../push_options.hpp"
 
 namespace asio {
 namespace detail {
@@ -819,7 +819,7 @@ void epoll_reactor::descriptor_state::do_complete(
 } // namespace detail
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../pop_options.hpp"
 
 #endif // defined(ASIO_HAS_EPOLL)
 

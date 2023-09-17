@@ -16,7 +16,7 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "config.hpp"
 
 #if defined(ASIO_HAS_KQUEUE)
 
@@ -24,17 +24,17 @@
 #include <sys/types.h>
 #include <sys/event.h>
 #include <sys/time.h>
-#include "detail/conditionally_enabled_mutex.hpp"
-#include "detail/limits.hpp"
-#include "detail/object_pool.hpp"
-#include "detail/op_queue.hpp"
-#include "detail/reactor_op.hpp"
-#include "detail/scheduler_task.hpp"
-#include "detail/select_interrupter.hpp"
-#include "detail/socket_types.hpp"
-#include "detail/timer_queue_base.hpp"
-#include "detail/timer_queue_set.hpp"
-#include "detail/wait_op.hpp"
+#include "conditionally_enabled_mutex.hpp"
+#include "limits.hpp"
+#include "object_pool.hpp"
+#include "op_queue.hpp"
+#include "reactor_op.hpp"
+#include "scheduler_task.hpp"
+#include "select_interrupter.hpp"
+#include "socket_types.hpp"
+#include "timer_queue_base.hpp"
+#include "timer_queue_set.hpp"
+#include "wait_op.hpp"
 #include "error.hpp"
 #include "execution_context.hpp"
 
@@ -43,7 +43,7 @@
 # define EV_OOBAND EV_FLAG1
 #endif // !defined(EV_OOBAND)
 
-#include "detail/push_options.hpp"
+#include "push_options.hpp"
 
 namespace asio {
 namespace detail {
@@ -259,9 +259,9 @@ private:
 } // namespace detail
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "pop_options.hpp"
 
-#include "detail/impl/kqueue_reactor.hpp"
+#include "impl/kqueue_reactor.hpp"
 #if defined(ASIO_HEADER_ONLY)
 # include "asio/detail/impl/kqueue_reactor.ipp"
 #endif // defined(ASIO_HEADER_ONLY)

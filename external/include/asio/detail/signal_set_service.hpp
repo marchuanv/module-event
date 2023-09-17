@@ -15,7 +15,7 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "config.hpp"
 
 #include <cstddef>
 #include <signal.h>
@@ -24,12 +24,12 @@
 #include "error.hpp"
 #include "execution_context.hpp"
 #include "signal_set_base.hpp"
-#include "detail/handler_alloc_helpers.hpp"
-#include "detail/memory.hpp"
-#include "detail/op_queue.hpp"
-#include "detail/signal_handler.hpp"
-#include "detail/signal_op.hpp"
-#include "detail/socket_types.hpp"
+#include "handler_alloc_helpers.hpp"
+#include "memory.hpp"
+#include "op_queue.hpp"
+#include "signal_handler.hpp"
+#include "signal_op.hpp"
+#include "socket_types.hpp"
 
 #if defined(ASIO_HAS_IOCP)
 # include "asio/detail/win_iocp_io_context.hpp"
@@ -45,7 +45,7 @@
 # endif // defined(ASIO_HAS_IO_URING_AS_DEFAULT)
 #endif // !defined(ASIO_WINDOWS) && !defined(__CYGWIN__)
 
-#include "detail/push_options.hpp"
+#include "push_options.hpp"
 
 namespace asio {
 namespace detail {
@@ -283,7 +283,7 @@ private:
 } // namespace detail
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "pop_options.hpp"
 
 #if defined(ASIO_HEADER_ONLY)
 # include "asio/detail/impl/signal_set_service.ipp"

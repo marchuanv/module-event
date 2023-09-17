@@ -15,9 +15,9 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/noncopyable.hpp"
+#include "noncopyable.hpp"
 
-#include "detail/push_options.hpp"
+#include "push_options.hpp"
 
 namespace asio {
 namespace detail {
@@ -42,6 +42,6 @@ public:
 } // namespace detail
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "pop_options.hpp"
 
 #endif // ASIO_DETAIL_NULL_FENCED_BLOCK_HPP

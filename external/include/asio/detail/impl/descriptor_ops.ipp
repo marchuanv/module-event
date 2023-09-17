@@ -24,7 +24,7 @@
   && !defined(ASIO_WINDOWS_RUNTIME) \
   && !defined(__CYGWIN__)
 
-#include "detail/push_options.hpp"
+#include "../push_options.hpp"
 
 namespace asio {
 namespace detail {
@@ -961,7 +961,7 @@ int poll_error(int d, state_type state, asio::error_code& ec)
 } // namespace detail
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../pop_options.hpp"
 
 #endif // !defined(ASIO_WINDOWS)
        //   && !defined(ASIO_WINDOWS_RUNTIME)

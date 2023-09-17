@@ -445,6 +445,6 @@ public:
 } // namespace detail
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "pop_options.hpp"
 
 #endif // ASIO_DETAIL_CONSUMING_BUFFERS_HPP

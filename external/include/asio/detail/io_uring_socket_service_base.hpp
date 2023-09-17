@@ -15,7 +15,7 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "config.hpp"
 
 #if defined(ASIO_HAS_IO_URING)
 
@@ -25,19 +25,19 @@
 #include "error.hpp"
 #include "execution_context.hpp"
 #include "socket_base.hpp"
-#include "detail/buffer_sequence_adapter.hpp"
-#include "detail/memory.hpp"
-#include "detail/io_uring_null_buffers_op.hpp"
-#include "detail/io_uring_service.hpp"
-#include "detail/io_uring_socket_recv_op.hpp"
-#include "detail/io_uring_socket_recvmsg_op.hpp"
-#include "detail/io_uring_socket_send_op.hpp"
-#include "detail/io_uring_wait_op.hpp"
-#include "detail/socket_holder.hpp"
-#include "detail/socket_ops.hpp"
-#include "detail/socket_types.hpp"
+#include "buffer_sequence_adapter.hpp"
+#include "memory.hpp"
+#include "io_uring_null_buffers_op.hpp"
+#include "io_uring_service.hpp"
+#include "io_uring_socket_recv_op.hpp"
+#include "io_uring_socket_recvmsg_op.hpp"
+#include "io_uring_socket_send_op.hpp"
+#include "io_uring_wait_op.hpp"
+#include "socket_holder.hpp"
+#include "socket_ops.hpp"
+#include "socket_types.hpp"
 
-#include "detail/push_options.hpp"
+#include "push_options.hpp"
 
 namespace asio {
 namespace detail {
@@ -652,7 +652,7 @@ protected:
 } // namespace detail
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "pop_options.hpp"
 
 #if defined(ASIO_HEADER_ONLY)
 # include "asio/detail/impl/io_uring_socket_service_base.ipp"

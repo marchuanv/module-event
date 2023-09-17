@@ -15,13 +15,13 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/completion_handler.hpp"
-#include "detail/fenced_block.hpp"
-#include "detail/handler_alloc_helpers.hpp"
-#include "detail/handler_invoke_helpers.hpp"
-#include "detail/memory.hpp"
+#include "../completion_handler.hpp"
+#include "../fenced_block.hpp"
+#include "../handler_alloc_helpers.hpp"
+#include "../handler_invoke_helpers.hpp"
+#include "../memory.hpp"
 
-#include "detail/push_options.hpp"
+#include "../push_options.hpp"
 
 namespace asio {
 namespace detail {
@@ -82,6 +82,6 @@ void strand_service::post(strand_service::implementation_type& impl,
 } // namespace detail
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../pop_options.hpp"
 
 #endif // ASIO_DETAIL_IMPL_STRAND_SERVICE_HPP

@@ -19,13 +19,13 @@
 
 #if defined(ASIO_WINDOWS) && defined(ASIO_WINDOWS_APP)
 
-#include "detail/noncopyable.hpp"
-#include "detail/scoped_ptr.hpp"
-#include "detail/socket_types.hpp"
-#include "detail/throw_error.hpp"
+#include "noncopyable.hpp"
+#include "scoped_ptr.hpp"
+#include "socket_types.hpp"
+#include "throw_error.hpp"
 #include "error.hpp"
 
-#include "detail/push_options.hpp"
+#include "push_options.hpp"
 
 namespace asio {
 namespace detail {
@@ -117,7 +117,7 @@ inline DWORD WINAPI winapp_thread_function(LPVOID arg)
 } // namespace detail
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "pop_options.hpp"
 
 #endif // defined(ASIO_WINDOWS) && defined(ASIO_WINDOWS_APP)
 

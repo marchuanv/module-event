@@ -25,7 +25,7 @@
 
 #include <cstdarg>
 #include <cstdio>
-#include "detail/handler_tracking.hpp"
+#include "../handler_tracking.hpp"
 
 #if defined(ASIO_HAS_BOOST_DATE_TIME)
 # include "asio/time_traits.hpp"
@@ -41,7 +41,7 @@
 # include <unistd.h>
 #endif // !defined(ASIO_WINDOWS)
 
-#include "detail/push_options.hpp"
+#include "../push_options.hpp"
 
 namespace asio {
 namespace detail {
@@ -391,7 +391,7 @@ void handler_tracking::write_line(const char* format, ...)
 } // namespace detail
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../pop_options.hpp"
 
 #endif // defined(ASIO_ENABLE_HANDLER_TRACKING)
 
