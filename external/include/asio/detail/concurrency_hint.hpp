@@ -15,8 +15,8 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
-#include "detail/noncopyable.hpp"
+#include "config.hpp"
+#include "noncopyable.hpp"
 
 // The concurrency hint ID and mask are used to identify when a "well-known"
 // concurrency hint value has been passed to the io_context.

@@ -15,15 +15,14 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "../detail/config.hpp"
 
 #if !defined(ASIO_NO_DEPRECATED)
 
-#include "detail/type_traits.hpp"
-#include "traits/set_done_member.hpp"
-#include "traits/set_done_free.hpp"
-
-#include "detail/push_options.hpp"
+#include "../detail/type_traits.hpp"
+#include "../traits/set_done_member.hpp"
+#include "../traits/set_done_free.hpp"
+#include "../detail/push_options.hpp"
 
 #if defined(GENERATING_DOCUMENTATION)
 
@@ -248,7 +247,7 @@ constexpr bool is_nothrow_set_done_v
 
 #endif // defined(GENERATING_DOCUMENTATION)
 
-#include "detail/pop_options.hpp"
+#include "../detail/pop_options.hpp"
 
 #endif // !defined(ASIO_NO_DEPRECATED)
 

@@ -15,22 +15,21 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "../detail/config.hpp"
 
 #if !defined(ASIO_NO_DEPRECATED)
 
-#include "detail/type_traits.hpp"
-#include "execution/detail/as_invocable.hpp"
-#include "execution/detail/as_operation.hpp"
-#include "execution/detail/as_receiver.hpp"
-#include "execution/executor.hpp"
-#include "execution/operation_state.hpp"
-#include "execution/receiver.hpp"
-#include "execution/sender.hpp"
-#include "traits/connect_member.hpp"
-#include "traits/connect_free.hpp"
-
-#include "detail/push_options.hpp"
+#include "../detail/type_traits.hpp"
+#include "detail/as_invocable.hpp"
+#include "detail/as_operation.hpp"
+#include "detail/as_receiver.hpp"
+#include "executor.hpp"
+#include "operation_state.hpp"
+#include "receiver.hpp"
+#include "sender.hpp"
+#include "../traits/connect_member.hpp"
+#include "../traits/connect_free.hpp"
+#include "../detail/push_options.hpp"
 
 #if defined(GENERATING_DOCUMENTATION)
 
@@ -487,7 +486,7 @@ using connect_result_t = typename connect_result<S, R>::type;
 
 #endif // defined(GENERATING_DOCUMENTATION)
 
-#include "detail/pop_options.hpp"
+#include "../detail/pop_options.hpp"
 
 #endif // !defined(ASIO_NO_DEPRECATED)
 

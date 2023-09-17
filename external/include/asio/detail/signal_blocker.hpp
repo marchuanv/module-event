@@ -15,12 +15,12 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "config.hpp"
 
 #if !defined(ASIO_HAS_THREADS) || defined(ASIO_WINDOWS) \
   || defined(ASIO_WINDOWS_RUNTIME) \
   || defined(__CYGWIN__) || defined(__SYMBIAN32__)
-# include "asio/detail/null_signal_blocker.hpp"
+# include "null_signal_blocker.hpp"
 #elif defined(ASIO_HAS_PTHREADS)
 # include "asio/detail/posix_signal_blocker.hpp"
 #else

@@ -21,7 +21,6 @@
 #include <typeinfo>
 #include "detail/noncopyable.hpp"
 #include "detail/variadic_templates.hpp"
-
 #include "detail/push_options.hpp"
 
 namespace asio {

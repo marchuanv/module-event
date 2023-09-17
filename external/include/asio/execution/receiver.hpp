@@ -15,15 +15,15 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "../detail/config.hpp"
 
 #if !defined(ASIO_NO_DEPRECATED)
 
-#include "detail/type_traits.hpp"
-#include "detail/variadic_templates.hpp"
-#include "execution/set_done.hpp"
-#include "execution/set_error.hpp"
-#include "execution/set_value.hpp"
+#include "../detail/type_traits.hpp"
+#include "../detail/variadic_templates.hpp"
+#include "set_done.hpp"
+#include "set_error.hpp"
+#include "set_value.hpp"
 
 #if defined(ASIO_HAS_STD_EXCEPTION_PTR)
 # include <exception>
@@ -49,7 +49,7 @@
        //   && defined(ASIO_HAS_DEDUCED_RECEIVER_OF_FREE_TRAIT)
        //   && defined(ASIO_HAS_DEDUCED_RECEIVER_OF_MEMBER_TRAIT)
 
-#include "detail/push_options.hpp"
+#include "../detail/push_options.hpp"
 
 namespace asio {
 namespace execution {
@@ -278,7 +278,7 @@ ASIO_VARIADIC_GENERATE(ASIO_PRIVATE_NOTHROW_RECEIVER_OF_TRAITS_DEF)
 } // namespace execution
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../detail/pop_options.hpp"
 
 #endif // !defined(ASIO_NO_DEPRECATED)
 

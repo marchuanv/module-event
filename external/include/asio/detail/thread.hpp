@@ -15,7 +15,7 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "config.hpp"
 
 #if !defined(ASIO_HAS_THREADS)
 # include "asio/detail/null_thread.hpp"
@@ -27,7 +27,7 @@
 # elif defined(ASIO_WINDOWS_APP)
 #  include "asio/detail/winapp_thread.hpp"
 # else
-#  include "asio/detail/win_thread.hpp"
+#  include "win_thread.hpp"
 # endif
 #elif defined(ASIO_HAS_STD_THREAD)
 # include "asio/detail/std_thread.hpp"

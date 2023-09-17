@@ -15,14 +15,13 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
-#include "detail/conditionally_enabled_mutex.hpp"
-#include "detail/event.hpp"
-#include "detail/noncopyable.hpp"
-#include "detail/null_event.hpp"
-#include "detail/scoped_lock.hpp"
-
-#include "detail/push_options.hpp"
+#include "config.hpp"
+#include "conditionally_enabled_mutex.hpp"
+#include "event.hpp"
+#include "noncopyable.hpp"
+#include "null_event.hpp"
+#include "scoped_lock.hpp"
+#include "push_options.hpp"
 
 namespace asio {
 namespace detail {
@@ -115,6 +114,6 @@ private:
 } // namespace detail
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "pop_options.hpp"
 
 #endif // ASIO_DETAIL_CONDITIONALLY_ENABLED_EVENT_HPP

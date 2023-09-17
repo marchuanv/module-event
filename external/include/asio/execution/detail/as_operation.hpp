@@ -15,15 +15,14 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
-#include "detail/memory.hpp"
-#include "detail/type_traits.hpp"
-#include "execution/detail/as_invocable.hpp"
-#include "execution/execute.hpp"
-#include "execution/set_error.hpp"
-#include "traits/start_member.hpp"
-
-#include "detail/push_options.hpp"
+#include "../../detail/config.hpp"
+#include "../../detail/memory.hpp"
+#include "../../detail/type_traits.hpp"
+#include "as_invocable.hpp"
+#include "../execute.hpp"
+#include "../set_error.hpp"
+#include "../../traits/start_member.hpp"
+#include "../../detail/push_options.hpp"
 
 namespace asio {
 namespace execution {
@@ -104,6 +103,6 @@ struct start_member<
 } // namespace traits
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../../detail/pop_options.hpp"
 
 #endif // ASIO_EXECUTION_DETAIL_AS_OPERATION_HPP

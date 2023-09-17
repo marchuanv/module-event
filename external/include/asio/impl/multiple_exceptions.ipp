@@ -15,10 +15,9 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
-#include "multiple_exceptions.hpp"
-
-#include "detail/push_options.hpp"
+#include "../detail/config.hpp"
+#include "../multiple_exceptions.hpp"
+#include "../detail/push_options.hpp"
 
 namespace asio {
 
@@ -44,6 +43,6 @@ std::exception_ptr multiple_exceptions::first_exception() const
 
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../detail/pop_options.hpp"
 
 #endif // ASIO_IMPL_MULTIPLE_EXCEPTIONS_IPP

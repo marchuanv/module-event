@@ -17,9 +17,8 @@
 
 #include "../config.hpp"
 #include "../throw_error.hpp"
-#include "system_error.hpp"
-
-#include "detail/push_options.hpp"
+#include "../../system_error.hpp"
+#include "../push_options.hpp"
 
 namespace asio {
 namespace detail {
@@ -65,6 +64,6 @@ void do_throw_error(
 } // namespace detail
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../pop_options.hpp"
 
 #endif // ASIO_DETAIL_IMPL_THROW_ERROR_IPP

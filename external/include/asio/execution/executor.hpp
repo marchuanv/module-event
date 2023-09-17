@@ -15,14 +15,14 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
-#include "detail/type_traits.hpp"
-#include "execution/invocable_archetype.hpp"
-#include "traits/equality_comparable.hpp"
-#include "traits/execute_member.hpp"
+#include "../detail/config.hpp"
+#include "../detail/type_traits.hpp"
+#include "invocable_archetype.hpp"
+#include "../traits/equality_comparable.hpp"
+#include "../traits/execute_member.hpp"
 
 #if !defined(ASIO_NO_DEPRECATED)
-# include "asio/execution/execute.hpp"
+# include "execute.hpp"
 #endif // !defined(ASIO_NO_DEPRECATED)
 
 #if defined(ASIO_HAS_DEDUCED_EXECUTE_FREE_TRAIT) \
@@ -33,7 +33,7 @@
        //   && defined(ASIO_HAS_DEDUCED_EXECUTE_MEMBER_TRAIT)
        //   && defined(ASIO_HAS_DEDUCED_EQUALITY_COMPARABLE_TRAIT)
 
-#include "detail/push_options.hpp"
+#include "../detail/push_options.hpp"
 
 namespace asio {
 namespace execution {
@@ -257,6 +257,6 @@ using executor_index_t = typename executor_index<T>::type;
 } // namespace execution
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../detail/pop_options.hpp"
 
 #endif // ASIO_EXECUTION_EXECUTOR_HPP

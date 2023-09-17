@@ -15,12 +15,12 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "config.hpp"
 
 #if !defined(ASIO_HAS_THREADS)
-# include "asio/detail/null_mutex.hpp"
+# include "null_mutex.hpp"
 #elif defined(ASIO_WINDOWS)
-# include "asio/detail/win_mutex.hpp"
+# include "win_mutex.hpp"
 #elif defined(ASIO_HAS_PTHREADS)
 # include "asio/detail/posix_mutex.hpp"
 #elif defined(ASIO_HAS_STD_MUTEX_AND_CONDVAR)

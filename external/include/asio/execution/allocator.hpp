@@ -15,16 +15,15 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
-#include "detail/type_traits.hpp"
+#include "../detail/config.hpp"
+#include "../detail/type_traits.hpp"
 #include "executor.hpp"
-#include "scheduler.hpp"
+#include "../detail/scheduler.hpp"
 #include "sender.hpp"
-#include "is_applicable_property.hpp"
-#include "traits/query_static_constexpr_member.hpp"
-#include "traits/static_query.hpp"
-
-#include "detail/push_options.hpp"
+#include "../is_applicable_property.hpp"
+#include "../traits/query_static_constexpr_member.hpp"
+#include "../traits/static_query.hpp"
+#include "../detail/push_options.hpp"
 
 namespace asio {
 
@@ -351,6 +350,6 @@ struct static_query<T, execution::allocator_t<ProtoAllocator>,
 
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../detail/pop_options.hpp"
 
 #endif // ASIO_EXECUTION_ALLOCATOR_HPP

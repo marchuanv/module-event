@@ -15,11 +15,10 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
-#include "detail/noncopyable.hpp"
-#include "detail/tss_ptr.hpp"
-
-#include "detail/push_options.hpp"
+#include "config.hpp"
+#include "noncopyable.hpp"
+#include "tss_ptr.hpp"
+#include "push_options.hpp"
 
 namespace asio {
 namespace detail {
@@ -120,6 +119,6 @@ call_stack<Key, Value>::top_;
 } // namespace detail
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "pop_options.hpp"
 
 #endif // ASIO_DETAIL_CALL_STACK_HPP

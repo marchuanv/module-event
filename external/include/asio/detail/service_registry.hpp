@@ -15,14 +15,14 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "config.hpp"
 #include <typeinfo>
-#include "detail/mutex.hpp"
-#include "detail/noncopyable.hpp"
-#include "detail/type_traits.hpp"
-#include "execution_context.hpp"
+#include "mutex.hpp"
+#include "noncopyable.hpp"
+#include "type_traits.hpp"
+#include "../execution_context.hpp"
 
-#include "detail/push_options.hpp"
+#include "push_options.hpp"
 
 namespace asio {
 
@@ -154,11 +154,11 @@ private:
 } // namespace detail
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "pop_options.hpp"
 
-#include "detail/impl/service_registry.hpp"
+#include "impl/service_registry.hpp"
 #if defined(ASIO_HEADER_ONLY)
-# include "asio/detail/impl/service_registry.ipp"
+# include "impl/service_registry.ipp"
 #endif // defined(ASIO_HEADER_ONLY)
 
 #endif // ASIO_DETAIL_SERVICE_REGISTRY_HPP

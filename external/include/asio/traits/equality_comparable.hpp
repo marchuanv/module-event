@@ -15,8 +15,8 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
-#include "detail/type_traits.hpp"
+#include "../detail/config.hpp"
+#include "../detail/type_traits.hpp"
 
 #if defined(ASIO_HAS_DECLTYPE) \
   && defined(ASIO_HAS_NOEXCEPT) \

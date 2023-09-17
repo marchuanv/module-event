@@ -15,17 +15,16 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "../detail/config.hpp"
 
 #if !defined(ASIO_NO_DEPRECATED)
 
-#include "detail/type_traits.hpp"
-#include "execution/detail/as_invocable.hpp"
-#include "execution/detail/as_receiver.hpp"
-#include "traits/execute_member.hpp"
-#include "traits/execute_free.hpp"
-
-#include "detail/push_options.hpp"
+#include "../detail/type_traits.hpp"
+#include "detail/as_invocable.hpp"
+#include "detail/as_receiver.hpp"
+#include "../traits/execute_member.hpp"
+#include "../traits/execute_free.hpp"
+#include "../detail/push_options.hpp"
 
 #if defined(GENERATING_DOCUMENTATION)
 
@@ -283,7 +282,7 @@ constexpr bool can_execute_v = can_execute<T, F>::value;
 
 #endif // defined(GENERATING_DOCUMENTATION)
 
-#include "detail/pop_options.hpp"
+#include "../detail/pop_options.hpp"
 
 #endif // !defined(ASIO_NO_DEPRECATED)
 

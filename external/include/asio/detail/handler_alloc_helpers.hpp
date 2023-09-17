@@ -15,15 +15,14 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
-#include "detail/memory.hpp"
-#include "detail/noncopyable.hpp"
-#include "detail/recycling_allocator.hpp"
-#include "detail/thread_info_base.hpp"
-#include "associated_allocator.hpp"
-#include "handler_alloc_hook.hpp"
-
-#include "detail/push_options.hpp"
+#include "config.hpp"
+#include "memory.hpp"
+#include "noncopyable.hpp"
+#include "recycling_allocator.hpp"
+#include "thread_info_base.hpp"
+#include "../associated_allocator.hpp"
+#include "../handler_alloc_hook.hpp"
+#include "../detail/push_options.hpp"
 
 // Calls to asio_handler_allocate and asio_handler_deallocate must be made from
 // a namespace that does not contain any overloads of these functions. The
@@ -283,6 +282,6 @@ struct get_hook_allocator<Handler, std::allocator<T> >
       ::asio::detail::thread_info_base::default_tag, op ) \
   /**/
 
-#include "detail/pop_options.hpp"
+#include "../detail/pop_options.hpp"
 
 #endif // ASIO_DETAIL_HANDLER_ALLOC_HELPERS_HPP

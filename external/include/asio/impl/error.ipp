@@ -1,5 +1,5 @@
 //
-// impl/error.ipp
+// error.ipp
 // ~~~~~~~~~~~~~~
 //
 // Copyright (c) 2003-2023 Christopher M. Kohlhoff (chris at kohlhoff dot com)
@@ -15,11 +15,10 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "../detail/config.hpp"
 #include <string>
-#include "error.hpp"
-
-#include "detail/push_options.hpp"
+#include "../error.hpp"
+#include "../detail/push_options.hpp"
 
 namespace asio {
 namespace error {
@@ -123,6 +122,6 @@ const asio::error_category& get_misc_category()
 } // namespace error
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../detail/pop_options.hpp"
 
 #endif // ASIO_IMPL_ERROR_IPP

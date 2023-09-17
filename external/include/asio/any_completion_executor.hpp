@@ -19,7 +19,7 @@
 #if defined(ASIO_USE_TS_EXECUTOR_AS_DEFAULT)
 # include "executor.hpp"
 #else // defined(ASIO_USE_TS_EXECUTOR_AS_DEFAULT)
-# include "execution.hpp"
+#include "execution.hpp"
 #endif // defined(ASIO_USE_TS_EXECUTOR_AS_DEFAULT)
 
 #include "detail/push_options.hpp"

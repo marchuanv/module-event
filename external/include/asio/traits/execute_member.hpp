@@ -1,5 +1,5 @@
 //
-// traits/execute_member.hpp
+// execute_member.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~
 //
 // Copyright (c) 2003-2023 Christopher M. Kohlhoff (chris at kohlhoff dot com)
@@ -15,8 +15,8 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
-#include "detail/type_traits.hpp"
+#include "../detail/config.hpp"
+#include "../detail/type_traits.hpp"
 
 #if defined(ASIO_HAS_DECLTYPE) \
   && defined(ASIO_HAS_NOEXCEPT) \
@@ -26,7 +26,7 @@
        //   && defined(ASIO_HAS_NOEXCEPT)
        //   && defined(ASIO_HAS_WORKING_EXPRESSION_SFINAE)
 
-#include "detail/push_options.hpp"
+#include "../detail/push_options.hpp"
 
 namespace asio {
 namespace traits {
@@ -103,6 +103,6 @@ struct execute_member :
 } // namespace traits
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../detail/pop_options.hpp"
 
 #endif // ASIO_TRAITS_EXECUTE_MEMBER_HPP

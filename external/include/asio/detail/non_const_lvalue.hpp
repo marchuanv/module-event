@@ -15,10 +15,9 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
-#include "detail/type_traits.hpp"
-
-#include "detail/push_options.hpp"
+#include "config.hpp"
+#include "type_traits.hpp"
+#include "push_options.hpp"
 
 namespace asio {
 namespace detail {
@@ -49,6 +48,6 @@ struct non_const_lvalue
 } // namespace detail
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "pop_options.hpp"
 
 #endif // ASIO_DETAIL_NON_CONST_LVALUE_HPP

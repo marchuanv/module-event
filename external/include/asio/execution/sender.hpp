@@ -15,17 +15,17 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "../detail/config.hpp"
 
 #if !defined(ASIO_NO_DEPRECATED)
 
-#include "detail/type_traits.hpp"
-#include "execution/detail/as_invocable.hpp"
-#include "execution/detail/void_receiver.hpp"
-#include "execution/executor.hpp"
-#include "execution/receiver.hpp"
+#include "../detail/type_traits.hpp"
+#include "detail/as_invocable.hpp"
+#include "detail/void_receiver.hpp"
+#include "executor.hpp"
+#include "receiver.hpp"
 
-#include "detail/push_options.hpp"
+#include "../detail/push_options.hpp"
 
 #if defined(ASIO_HAS_ALIAS_TEMPLATES) \
   && defined(ASIO_HAS_VARIADIC_TEMPLATES) \
@@ -307,9 +307,9 @@ ASIO_CONCEPT typed_sender = is_typed_sender<T>::value;
 } // namespace execution
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../detail/pop_options.hpp"
 
-#include "execution/connect.hpp"
+#include "connect.hpp"
 
 #endif // !defined(ASIO_NO_DEPRECATED)
 

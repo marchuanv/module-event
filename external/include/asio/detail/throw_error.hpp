@@ -55,7 +55,7 @@ inline void throw_error(
 #include "pop_options.hpp"
 
 #if defined(ASIO_HEADER_ONLY)
-# include "detail/impl/throw_error.ipp"
+# include "impl/throw_error.ipp"
 #endif // defined(ASIO_HEADER_ONLY)
 
 #endif // ASIO_DETAIL_THROW_ERROR_HPP

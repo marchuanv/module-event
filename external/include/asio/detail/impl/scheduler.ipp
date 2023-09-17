@@ -15,22 +15,21 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
-
-#include "detail/concurrency_hint.hpp"
-#include "detail/event.hpp"
-#include "detail/limits.hpp"
-#include "detail/scheduler.hpp"
-#include "detail/scheduler_thread_info.hpp"
-#include "detail/signal_blocker.hpp"
+#include "../config.hpp"
+#include "../concurrency_hint.hpp"
+#include "../event.hpp"
+#include "../limits.hpp"
+#include "../scheduler.hpp"
+#include "../scheduler_thread_info.hpp"
+#include "../signal_blocker.hpp"
 
 #if defined(ASIO_HAS_IO_URING_AS_DEFAULT)
 # include "asio/detail/io_uring_service.hpp"
 #else // defined(ASIO_HAS_IO_URING_AS_DEFAULT)
-# include "asio/detail/reactor.hpp"
+# include "../reactor.hpp"
 #endif // defined(ASIO_HAS_IO_URING_AS_DEFAULT)
 
-#include "detail/push_options.hpp"
+#include "../push_options.hpp"
 
 namespace asio {
 namespace detail {
@@ -670,6 +669,6 @@ scheduler_task* scheduler::get_default_task(asio::execution_context& ctx)
 } // namespace detail
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../pop_options.hpp"
 
 #endif // ASIO_DETAIL_IMPL_SCHEDULER_IPP

@@ -15,11 +15,10 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "../detail/config.hpp"
 #include "execution_context.hpp"
-#include "detail/service_registry.hpp"
-
-#include "detail/push_options.hpp"
+#include "../detail/service_registry.hpp"
+#include "../detail/push_options.hpp"
 
 namespace asio {
 
@@ -77,6 +76,6 @@ invalid_service_owner::invalid_service_owner()
 
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../detail/pop_options.hpp"
 
 #endif // ASIO_IMPL_EXECUTION_CONTEXT_IPP

@@ -15,20 +15,18 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
-
-#include "error_code.hpp"
-#include "execution_context.hpp"
-#include "detail/atomic_count.hpp"
-#include "detail/conditionally_enabled_event.hpp"
-#include "detail/conditionally_enabled_mutex.hpp"
-#include "detail/op_queue.hpp"
-#include "detail/scheduler_operation.hpp"
-#include "detail/scheduler_task.hpp"
-#include "detail/thread.hpp"
-#include "detail/thread_context.hpp"
-
-#include "detail/push_options.hpp"
+#include "config.hpp"
+#include "../error_code.hpp"
+#include "../impl/execution_context.hpp"
+#include "atomic_count.hpp"
+#include "conditionally_enabled_event.hpp"
+#include "conditionally_enabled_mutex.hpp"
+#include "op_queue.hpp"
+#include "scheduler_operation.hpp"
+#include "scheduler_task.hpp"
+#include "thread.hpp"
+#include "thread_context.hpp"
+#include "push_options.hpp"
 
 namespace asio {
 namespace detail {
@@ -232,10 +230,10 @@ private:
 } // namespace detail
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "pop_options.hpp"
 
 #if defined(ASIO_HEADER_ONLY)
-# include "asio/detail/impl/scheduler.ipp"
+# include "impl/scheduler.ipp"
 #endif // defined(ASIO_HEADER_ONLY)
 
 #endif // ASIO_DETAIL_SCHEDULER_HPP

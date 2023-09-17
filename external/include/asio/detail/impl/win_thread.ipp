@@ -15,18 +15,17 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "../config.hpp"
 
 #if defined(ASIO_WINDOWS) \
   && !defined(ASIO_WINDOWS_APP) \
   && !defined(UNDER_CE)
 
 #include <process.h>
-#include "detail/throw_error.hpp"
-#include "detail/win_thread.hpp"
-#include "error.hpp"
-
-#include "detail/push_options.hpp"
+#include "../throw_error.hpp"
+#include "../win_thread.hpp"
+#include "../../error.hpp"
+#include "../push_options.hpp"
 
 namespace asio {
 namespace detail {
@@ -141,7 +140,7 @@ void __stdcall apc_function(ULONG_PTR) {}
 } // namespace detail
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../pop_options.hpp"
 
 #endif // defined(ASIO_WINDOWS)
        // && !defined(ASIO_WINDOWS_APP)

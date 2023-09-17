@@ -1,5 +1,5 @@
 //
-// exection/impl/receiver_invocation_error.ipp
+// receiver_invocation_error.ipp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //
 // Copyright (c) 2003-2023 Christopher M. Kohlhoff (chris at kohlhoff dot com)
@@ -15,10 +15,10 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
-#include "execution/receiver_invocation_error.hpp"
+#include "../../detail/config.hpp"
+#include "../receiver_invocation_error.hpp"
 
-#include "detail/push_options.hpp"
+#include "../../detail/push_options.hpp"
 
 namespace asio {
 namespace execution {
@@ -31,6 +31,6 @@ receiver_invocation_error::receiver_invocation_error()
 } // namespace execution
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../../detail/pop_options.hpp"
 
 #endif // ASIO_EXECUTION_IMPL_RECEIVER_INVOCATION_ERROR_IPP

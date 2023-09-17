@@ -15,7 +15,7 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "config.hpp"
 
 namespace asio {
 
@@ -32,7 +32,7 @@ class execution_context;
 # include "asio/detail/tss_ptr.hpp"
 #endif // defined(ASIO_ENABLE_HANDLER_TRACKING)
 
-#include "detail/push_options.hpp"
+#include "push_options.hpp"
 
 namespace asio {
 namespace detail {
@@ -255,10 +255,10 @@ private:
 } // namespace detail
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "pop_options.hpp"
 
 #if defined(ASIO_HEADER_ONLY)
-# include "asio/detail/impl/handler_tracking.ipp"
+# include "impl/handler_tracking.ipp"
 #endif // defined(ASIO_HEADER_ONLY)
 
 #endif // ASIO_DETAIL_HANDLER_TRACKING_HPP

@@ -15,10 +15,10 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "config.hpp"
 
 #if defined(ASIO_HAS_IOCP) || defined(ASIO_WINDOWS_RUNTIME)
-# include "asio/detail/null_reactor.hpp"
+# include "null_reactor.hpp"
 #elif defined(ASIO_HAS_IO_URING_AS_DEFAULT)
 # include "asio/detail/null_reactor.hpp"
 #elif defined(ASIO_HAS_EPOLL)
