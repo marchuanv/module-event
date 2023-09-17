@@ -77,7 +77,7 @@ private:
 #include "pop_options.hpp"
 
 #if defined(ASIO_HEADER_ONLY)
-# include "asio/detail/impl/pipe_select_interrupter.ipp"
+#include "impl/pipe_select_interrupter.ipp"
 #endif // defined(ASIO_HEADER_ONLY)
 
 #endif // !defined(ASIO_HAS_EVENTFD)

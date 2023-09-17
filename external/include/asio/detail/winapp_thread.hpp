@@ -23,7 +23,7 @@
 #include "scoped_ptr.hpp"
 #include "socket_types.hpp"
 #include "throw_error.hpp"
-#include "error.hpp"
+#include "../error.hpp"
 
 #include "push_options.hpp"
 

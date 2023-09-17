@@ -22,7 +22,7 @@
   && !defined(__CYGWIN__)
 
 #include <cstddef>
-#include "error.hpp"
+#include "../error.hpp"
 #include "error_code.hpp"
 #include "cstdint.hpp"
 #include "socket_types.hpp"
@@ -169,7 +169,7 @@ ASIO_DECL int poll_error(int d,
 #include "pop_options.hpp"
 
 #if defined(ASIO_HEADER_ONLY)
-# include "asio/detail/impl/descriptor_ops.ipp"
+#include "impl/descriptor_ops.ipp"
 #endif // defined(ASIO_HEADER_ONLY)
 
 #endif // !defined(ASIO_WINDOWS)

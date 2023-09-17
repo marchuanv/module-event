@@ -30,13 +30,13 @@
 #if defined(ASIO_HAS_BOOST_DATE_TIME)
 # include "asio/time_traits.hpp"
 #elif defined(ASIO_HAS_CHRONO)
-# include "asio/detail/chrono.hpp"
-# include "asio/detail/chrono_time_traits.hpp"
+#include "chrono.hpp"
+#include "chrono_time_traits.hpp"
 # include "asio/wait_traits.hpp"
 #endif // defined(ASIO_HAS_BOOST_DATE_TIME)
 
 #if defined(ASIO_WINDOWS_RUNTIME)
-# include "asio/detail/socket_types.hpp"
+#include "socket_types.hpp"
 #elif !defined(ASIO_WINDOWS)
 # include <unistd.h>
 #endif // !defined(ASIO_WINDOWS)

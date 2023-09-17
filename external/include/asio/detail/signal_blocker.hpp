@@ -22,7 +22,7 @@
   || defined(__CYGWIN__) || defined(__SYMBIAN32__)
 # include "null_signal_blocker.hpp"
 #elif defined(ASIO_HAS_PTHREADS)
-# include "asio/detail/posix_signal_blocker.hpp"
+#include "posix_signal_blocker.hpp"
 #else
 # error Only Windows and POSIX are supported!
 #endif

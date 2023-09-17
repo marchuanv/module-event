@@ -18,13 +18,13 @@
 #include "config.hpp"
 
 #if !defined(ASIO_HAS_THREADS)
-# include "asio/detail/null_tss_ptr.hpp"
+#include "null_tss_ptr.hpp"
 #elif defined(ASIO_HAS_THREAD_KEYWORD_EXTENSION)
-# include "asio/detail/keyword_tss_ptr.hpp"
+#include "keyword_tss_ptr.hpp"
 #elif defined(ASIO_WINDOWS)
 # include "win_tss_ptr.hpp"
 #elif defined(ASIO_HAS_PTHREADS)
-# include "asio/detail/posix_tss_ptr.hpp"
+#include "posix_tss_ptr.hpp"
 #else
 # error Only Windows and POSIX are supported!
 #endif

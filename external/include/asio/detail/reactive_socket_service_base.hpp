@@ -24,7 +24,7 @@
 #include "associated_cancellation_slot.hpp"
 #include "buffer.hpp"
 #include "cancellation_type.hpp"
-#include "error.hpp"
+#include "../error.hpp"
 #include "execution_context.hpp"
 #include "socket_base.hpp"
 #include "buffer_sequence_adapter.hpp"
@@ -740,7 +740,7 @@ protected:
 #include "pop_options.hpp"
 
 #if defined(ASIO_HEADER_ONLY)
-# include "asio/detail/impl/reactive_socket_service_base.ipp"
+#include "impl/reactive_socket_service_base.ipp"
 #endif // defined(ASIO_HEADER_ONLY)
 
 #endif // !defined(ASIO_HAS_IOCP)

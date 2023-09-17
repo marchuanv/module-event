@@ -24,14 +24,14 @@
 #include "memory.hpp"
 #include "resolve_op.hpp"
 #include "socket_ops.hpp"
-#include "error.hpp"
+#include "../error.hpp"
 #include "ip/basic_resolver_query.hpp"
 #include "ip/basic_resolver_results.hpp"
 
 #if defined(ASIO_HAS_IOCP)
-# include "asio/detail/win_iocp_io_context.hpp"
+#include "win_iocp_io_context.hpp"
 #else // defined(ASIO_HAS_IOCP)
-# include "asio/detail/scheduler.hpp"
+#include "scheduler.hpp"
 #endif // defined(ASIO_HAS_IOCP)
 
 #include "push_options.hpp"

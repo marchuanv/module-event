@@ -21,7 +21,7 @@
 #if defined(ASIO_HAS_IOCP) && defined(ASIO_HAS_SERIAL_PORT)
 
 #include <string>
-#include "error.hpp"
+#include "../error.hpp"
 #include "execution_context.hpp"
 #include "win_iocp_handle_service.hpp"
 
@@ -225,7 +225,7 @@ private:
 #include "pop_options.hpp"
 
 #if defined(ASIO_HEADER_ONLY)
-# include "asio/detail/impl/win_iocp_serial_port_service.ipp"
+#include "impl/win_iocp_serial_port_service.ipp"
 #endif // defined(ASIO_HEADER_ONLY)
 
 #endif // defined(ASIO_HAS_IOCP) && defined(ASIO_HAS_SERIAL_PORT)

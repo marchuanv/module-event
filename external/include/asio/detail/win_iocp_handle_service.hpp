@@ -20,9 +20,9 @@
 
 #if defined(ASIO_HAS_IOCP)
 
-#include "associated_cancellation_slot.hpp"
-#include "error.hpp"
-#include "execution_context.hpp"
+#include "../associated_cancellation_slot.hpp"
+#include "../error.hpp"
+#include "../execution_context.hpp"
 #include "buffer_sequence_adapter.hpp"
 #include "cstdint.hpp"
 #include "handler_alloc_helpers.hpp"
@@ -423,7 +423,7 @@ private:
 #include "pop_options.hpp"
 
 #if defined(ASIO_HEADER_ONLY)
-# include "asio/detail/impl/win_iocp_handle_service.ipp"
+#include "impl/win_iocp_handle_service.ipp"
 #endif // defined(ASIO_HEADER_ONLY)
 
 #endif // defined(ASIO_HAS_IOCP)

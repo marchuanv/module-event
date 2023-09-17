@@ -287,7 +287,7 @@ private:
 
 #include "impl/epoll_reactor.hpp"
 #if defined(ASIO_HEADER_ONLY)
-# include "asio/detail/impl/epoll_reactor.ipp"
+#include "impl/epoll_reactor.ipp"
 #endif // defined(ASIO_HEADER_ONLY)
 
 #endif // defined(ASIO_HAS_EPOLL)

@@ -22,15 +22,15 @@
 #if !defined(ASIO_WINDOWS) && !defined(__CYGWIN__)
 
 #include <string>
-#include "error.hpp"
+#include "../error.hpp"
 #include "execution_context.hpp"
 #include "serial_port_base.hpp"
 #include "descriptor_ops.hpp"
 
 #if defined(ASIO_HAS_IO_URING_AS_DEFAULT)
-# include "asio/detail/io_uring_descriptor_service.hpp"
+#include "io_uring_descriptor_service.hpp"
 #else // defined(ASIO_HAS_IO_URING_AS_DEFAULT)
-# include "asio/detail/reactive_descriptor_service.hpp"
+#include "reactive_descriptor_service.hpp"
 #endif // defined(ASIO_HAS_IO_URING_AS_DEFAULT)
 
 #include "push_options.hpp"
@@ -240,7 +240,7 @@ private:
 #include "pop_options.hpp"
 
 #if defined(ASIO_HEADER_ONLY)
-# include "asio/detail/impl/posix_serial_port_service.ipp"
+#include "impl/posix_serial_port_service.ipp"
 #endif // defined(ASIO_HEADER_ONLY)
 
 #endif // !defined(ASIO_WINDOWS) && !defined(__CYGWIN__)

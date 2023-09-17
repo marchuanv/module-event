@@ -22,13 +22,13 @@
 #include <future>
 #include "atomic_count.hpp"
 #include "winrt_async_op.hpp"
-#include "error.hpp"
+#include "../error.hpp"
 #include "execution_context.hpp"
 
 #if defined(ASIO_HAS_IOCP)
-# include "asio/detail/win_iocp_io_context.hpp"
+#include "win_iocp_io_context.hpp"
 #else // defined(ASIO_HAS_IOCP)
-# include "asio/detail/scheduler.hpp"
+#include "scheduler.hpp"
 #endif // defined(ASIO_HAS_IOCP)
 
 #include "push_options.hpp"

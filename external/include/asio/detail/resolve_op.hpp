@@ -16,7 +16,7 @@
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
 #include "config.hpp"
-#include "error.hpp"
+#include "../error.hpp"
 #include "operation.hpp"
 
 #include "push_options.hpp"

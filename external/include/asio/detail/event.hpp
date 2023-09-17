@@ -18,13 +18,13 @@
 #include "config.hpp"
 
 #if !defined(ASIO_HAS_THREADS)
-# include "asio/detail/null_event.hpp"
+#include "null_event.hpp"
 #elif defined(ASIO_WINDOWS)
 # include "win_event.hpp"
 #elif defined(ASIO_HAS_PTHREADS)
-# include "asio/detail/posix_event.hpp"
+#include "posix_event.hpp"
 #elif defined(ASIO_HAS_STD_MUTEX_AND_CONDVAR)
-# include "asio/detail/std_event.hpp"
+#include "std_event.hpp"
 #else
 # error Only Windows, POSIX and std::condition_variable are supported!
 #endif

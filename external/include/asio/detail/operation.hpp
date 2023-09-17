@@ -20,7 +20,7 @@
 #if defined(ASIO_HAS_IOCP)
 # include "win_iocp_operation.hpp"
 #else
-# include "asio/detail/scheduler_operation.hpp"
+#include "scheduler_operation.hpp"
 #endif
 
 namespace asio {

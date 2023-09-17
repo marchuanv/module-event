@@ -22,9 +22,9 @@
 #include <string>
 #include "cstdint.hpp"
 #include "win_iocp_handle_service.hpp"
-#include "error.hpp"
-#include "execution_context.hpp"
-#include "file_base.hpp"
+#include "../error.hpp"
+#include "../execution_context.hpp"
+#include "../file_base.hpp"
 
 #include "push_options.hpp"
 
@@ -279,7 +279,7 @@ private:
 #include "pop_options.hpp"
 
 #if defined(ASIO_HEADER_ONLY)
-# include "asio/detail/impl/win_iocp_file_service.ipp"
+#include "impl/win_iocp_file_service.ipp"
 #endif // defined(ASIO_HEADER_ONLY)
 
 #endif // defined(ASIO_HAS_IOCP) && defined(ASIO_HAS_FILE)

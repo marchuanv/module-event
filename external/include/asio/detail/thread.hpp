@@ -18,9 +18,9 @@
 #include "config.hpp"
 
 #if !defined(ASIO_HAS_THREADS)
-# include "asio/detail/null_thread.hpp"
+#include "null_thread.hpp"
 #elif defined(ASIO_HAS_PTHREADS)
-# include "asio/detail/posix_thread.hpp"
+#include "posix_thread.hpp"
 #elif defined(ASIO_WINDOWS)
 # if defined(UNDER_CE)
 #  include "asio/detail/wince_thread.hpp"
@@ -30,7 +30,7 @@
 #  include "win_thread.hpp"
 # endif
 #elif defined(ASIO_HAS_STD_THREAD)
-# include "asio/detail/std_thread.hpp"
+#include "std_thread.hpp"
 #else
 # error Only Windows, POSIX and std::thread are supported!
 #endif

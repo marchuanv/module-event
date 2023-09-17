@@ -16,7 +16,7 @@
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
 #include "config.hpp"
-#include "error.hpp"
+#include "../error.hpp"
 #include "execution_context.hpp"
 #include "mutex.hpp"
 #include "noncopyable.hpp"
@@ -27,9 +27,9 @@
 #include "thread.hpp"
 
 #if defined(ASIO_HAS_IOCP)
-# include "asio/detail/win_iocp_io_context.hpp"
+#include "win_iocp_io_context.hpp"
 #else // defined(ASIO_HAS_IOCP)
-# include "asio/detail/scheduler.hpp"
+#include "scheduler.hpp"
 #endif // defined(ASIO_HAS_IOCP)
 
 #include "push_options.hpp"
@@ -152,7 +152,7 @@ private:
 #include "pop_options.hpp"
 
 #if defined(ASIO_HEADER_ONLY)
-# include "asio/detail/impl/resolver_service_base.ipp"
+#include "impl/resolver_service_base.ipp"
 #endif // defined(ASIO_HEADER_ONLY)
 
 #endif // ASIO_DETAIL_RESOLVER_SERVICE_BASE_HPP

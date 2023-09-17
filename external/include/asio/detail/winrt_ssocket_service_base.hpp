@@ -20,7 +20,7 @@
 #if defined(ASIO_WINDOWS_RUNTIME)
 
 #include "buffer.hpp"
-#include "error.hpp"
+#include "../error.hpp"
 #include "execution_context.hpp"
 #include "socket_base.hpp"
 #include "buffer_sequence_adapter.hpp"
@@ -31,9 +31,9 @@
 #include "winrt_socket_send_op.hpp"
 
 #if defined(ASIO_HAS_IOCP)
-# include "asio/detail/win_iocp_io_context.hpp"
+#include "win_iocp_io_context.hpp"
 #else // defined(ASIO_HAS_IOCP)
-# include "asio/detail/scheduler.hpp"
+#include "scheduler.hpp"
 #endif // defined(ASIO_HAS_IOCP)
 
 #include "push_options.hpp"
@@ -354,7 +354,7 @@ protected:
 #include "pop_options.hpp"
 
 #if defined(ASIO_HEADER_ONLY)
-# include "asio/detail/impl/winrt_ssocket_service_base.ipp"
+#include "impl/winrt_ssocket_service_base.ipp"
 #endif // defined(ASIO_HEADER_ONLY)
 
 #endif // defined(ASIO_WINDOWS_RUNTIME)

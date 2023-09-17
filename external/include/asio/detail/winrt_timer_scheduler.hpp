@@ -31,13 +31,13 @@
 #include "execution_context.hpp"
 
 #if defined(ASIO_HAS_IOCP)
-# include "asio/detail/win_iocp_io_context.hpp"
+#include "win_iocp_io_context.hpp"
 #else // defined(ASIO_HAS_IOCP)
-# include "asio/detail/scheduler.hpp"
+#include "scheduler.hpp"
 #endif // defined(ASIO_HAS_IOCP)
 
 #if defined(ASIO_HAS_IOCP)
-# include "asio/detail/thread.hpp"
+#include "thread.hpp"
 #endif // defined(ASIO_HAS_IOCP)
 
 #include "push_options.hpp"
@@ -139,7 +139,7 @@ private:
 
 #include "impl/winrt_timer_scheduler.hpp"
 #if defined(ASIO_HEADER_ONLY)
-# include "asio/detail/impl/winrt_timer_scheduler.ipp"
+#include "impl/winrt_timer_scheduler.ipp"
 #endif // defined(ASIO_HEADER_ONLY)
 
 #endif // defined(ASIO_WINDOWS_RUNTIME)

@@ -35,7 +35,7 @@
 #include "timer_queue_base.hpp"
 #include "timer_queue_set.hpp"
 #include "wait_op.hpp"
-#include "error.hpp"
+#include "../error.hpp"
 #include "execution_context.hpp"
 
 // Older versions of Mac OS X may not define EV_OOBAND.
@@ -263,7 +263,7 @@ private:
 
 #include "impl/kqueue_reactor.hpp"
 #if defined(ASIO_HEADER_ONLY)
-# include "asio/detail/impl/kqueue_reactor.ipp"
+#include "impl/kqueue_reactor.ipp"
 #endif // defined(ASIO_HEADER_ONLY)
 
 #endif // defined(ASIO_HAS_KQUEUE)

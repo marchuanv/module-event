@@ -25,9 +25,9 @@
 #include "../throw_exception.hpp"
 
 #if defined(ASIO_HAS_IO_URING_AS_DEFAULT)
-# include "asio/detail/io_uring_service.hpp"
+#include "io_uring_service.hpp"
 #else // defined(ASIO_HAS_IO_URING_AS_DEFAULT)
-# include "asio/detail/reactor.hpp"
+#include "reactor.hpp"
 #endif // defined(ASIO_HAS_IO_URING_AS_DEFAULT)
 
 #include "../push_options.hpp"

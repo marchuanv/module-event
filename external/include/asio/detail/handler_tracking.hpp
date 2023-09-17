@@ -27,9 +27,9 @@ class execution_context;
 # include ASIO_CUSTOM_HANDLER_TRACKING
 #elif defined(ASIO_ENABLE_HANDLER_TRACKING)
 # include "asio/error_code.hpp"
-# include "asio/detail/cstdint.hpp"
-# include "asio/detail/static_mutex.hpp"
-# include "asio/detail/tss_ptr.hpp"
+#include "cstdint.hpp"
+#include "static_mutex.hpp"
+#include "tss_ptr.hpp"
 #endif // defined(ASIO_ENABLE_HANDLER_TRACKING)
 
 #include "push_options.hpp"

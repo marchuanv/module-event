@@ -27,7 +27,7 @@
 #include "handler_work.hpp"
 #include "memory.hpp"
 #include "winrt_async_op.hpp"
-#include "error.hpp"
+#include "../error.hpp"
 
 #include "push_options.hpp"
 

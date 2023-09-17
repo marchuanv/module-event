@@ -18,13 +18,13 @@
 #include "config.hpp"
 
 #if !defined(ASIO_HAS_THREADS)
-# include "asio/detail/null_global.hpp"
+#include "null_global.hpp"
 #elif defined(ASIO_WINDOWS)
 # include "win_global.hpp"
 #elif defined(ASIO_HAS_PTHREADS)
-# include "asio/detail/posix_global.hpp"
+#include "posix_global.hpp"
 #elif defined(ASIO_HAS_STD_CALL_ONCE)
-# include "asio/detail/std_global.hpp"
+#include "std_global.hpp"
 #else
 # error Only Windows, POSIX and std::call_once are supported!
 #endif

@@ -311,7 +311,7 @@ private:
 
 #include "impl/io_uring_service.hpp"
 #if defined(ASIO_HEADER_ONLY)
-# include "asio/detail/impl/io_uring_service.ipp"
+#include "impl/io_uring_service.ipp"
 #endif // defined(ASIO_HEADER_ONLY)
 
 #endif // defined(ASIO_HAS_IO_URING)

@@ -21,7 +21,7 @@
 #include <signal.h>
 #include "associated_cancellation_slot.hpp"
 #include "cancellation_type.hpp"
-#include "error.hpp"
+#include "../error.hpp"
 #include "execution_context.hpp"
 #include "signal_set_base.hpp"
 #include "handler_alloc_helpers.hpp"
@@ -32,9 +32,9 @@
 #include "socket_types.hpp"
 
 #if defined(ASIO_HAS_IOCP)
-# include "asio/detail/win_iocp_io_context.hpp"
+#include "win_iocp_io_context.hpp"
 #else // defined(ASIO_HAS_IOCP)
-# include "asio/detail/scheduler.hpp"
+#include "scheduler.hpp"
 #endif // defined(ASIO_HAS_IOCP)
 
 #if !defined(ASIO_WINDOWS) && !defined(__CYGWIN__)
@@ -286,7 +286,7 @@ private:
 #include "pop_options.hpp"
 
 #if defined(ASIO_HEADER_ONLY)
-# include "asio/detail/impl/signal_set_service.ipp"
+#include "impl/signal_set_service.ipp"
 #endif // defined(ASIO_HEADER_ONLY)
 
 #endif // ASIO_DETAIL_SIGNAL_SET_SERVICE_HPP

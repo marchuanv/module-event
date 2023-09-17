@@ -22,9 +22,9 @@
 #elif defined(ASIO_WINDOWS)
 # include "win_mutex.hpp"
 #elif defined(ASIO_HAS_PTHREADS)
-# include "asio/detail/posix_mutex.hpp"
+#include "posix_mutex.hpp"
 #elif defined(ASIO_HAS_STD_MUTEX_AND_CONDVAR)
-# include "asio/detail/std_mutex.hpp"
+#include "std_mutex.hpp"
 #else
 # error Only Windows, POSIX and std::mutex are supported!
 #endif

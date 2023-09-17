@@ -31,7 +31,7 @@
 #if defined(ASIO_HAS_IOCP)
 # include "../win_iocp_io_context.hpp"
 #else // defined(ASIO_HAS_IOCP)
-# include "asio/detail/scheduler.hpp"
+#include "scheduler.hpp"
 #endif // defined(ASIO_HAS_IOCP)
 
 #include "../push_options.hpp"

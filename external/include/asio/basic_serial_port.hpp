@@ -31,7 +31,7 @@
 #include "detail/type_traits.hpp"
 #include "error.hpp"
 #include "execution_context.hpp"
-#include "serial_port_base.hpp"
+#include "../serial_port_base.hpp"
 #if defined(ASIO_HAS_IOCP)
 # include "detail/win_iocp_serial_port_service.hpp"
 #else

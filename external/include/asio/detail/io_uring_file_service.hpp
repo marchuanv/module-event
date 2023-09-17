@@ -24,7 +24,7 @@
 #include "cstdint.hpp"
 #include "descriptor_ops.hpp"
 #include "io_uring_descriptor_service.hpp"
-#include "error.hpp"
+#include "../error.hpp"
 #include "execution_context.hpp"
 #include "file_base.hpp"
 
@@ -252,7 +252,7 @@ private:
 #include "pop_options.hpp"
 
 #if defined(ASIO_HEADER_ONLY)
-# include "asio/detail/impl/io_uring_file_service.ipp"
+#include "impl/io_uring_file_service.ipp"
 #endif // defined(ASIO_HEADER_ONLY)
 
 #endif // defined(ASIO_HAS_FILE)
