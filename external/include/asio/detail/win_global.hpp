@@ -17,9 +17,8 @@
 
 #include "config.hpp"
 #include "static_mutex.hpp"
-#include "detail/tss_ptr.hpp"
-
-#include "detail/push_options.hpp"
+#include "tss_ptr.hpp"
+#include "push_options.hpp"
 
 namespace asio {
 namespace detail {
@@ -66,6 +65,6 @@ T& win_global()
 } // namespace detail
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "pop_options.hpp"
 
 #endif // ASIO_DETAIL_WIN_GLOBAL_HPP

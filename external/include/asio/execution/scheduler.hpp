@@ -15,15 +15,14 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "../detail/config.hpp"
 
 #if !defined(ASIO_NO_DEPRECATED)
 
-#include "detail/type_traits.hpp"
-#include "execution/schedule.hpp"
-#include "traits/equality_comparable.hpp"
-
-#include "detail/push_options.hpp"
+#include "../detail/type_traits.hpp"
+#include "schedule.hpp"
+#include "../traits/equality_comparable.hpp"
+#include "../detail/push_options.hpp"
 
 namespace asio {
 namespace execution {
@@ -84,7 +83,7 @@ ASIO_CONCEPT scheduler = is_scheduler<T>::value;
 } // namespace execution
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../detail/pop_options.hpp"
 
 #endif // !defined(ASIO_NO_DEPRECATED)
 

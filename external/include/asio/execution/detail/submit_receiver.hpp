@@ -15,19 +15,19 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
-#include "detail/type_traits.hpp"
-#include "detail/variadic_templates.hpp"
-#include "execution/connect.hpp"
-#include "execution/receiver.hpp"
-#include "execution/set_done.hpp"
-#include "execution/set_error.hpp"
-#include "execution/set_value.hpp"
-#include "traits/set_done_member.hpp"
-#include "traits/set_error_member.hpp"
-#include "traits/set_value_member.hpp"
+#include "../../detail/config.hpp"
+#include "../../detail/type_traits.hpp"
+#include "../../detail/variadic_templates.hpp"
+#include "../connect.hpp"
+#include "../receiver.hpp"
+#include "../set_done.hpp"
+#include "../set_error.hpp"
+#include "../set_value.hpp"
+#include "../../traits/set_done_member.hpp"
+#include "../../traits/set_error_member.hpp"
+#include "../../traits/set_value_member.hpp"
 
-#include "detail/push_options.hpp"
+#include "../../detail/push_options.hpp"
 
 namespace asio {
 namespace execution {
@@ -228,6 +228,6 @@ struct set_done_member<
 } // namespace traits
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../../detail/pop_options.hpp"
 
 #endif // ASIO_EXECUTION_DETAIL_SUBMIT_RECEIVER_HPP

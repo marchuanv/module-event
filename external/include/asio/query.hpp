@@ -21,7 +21,6 @@
 #include "traits/query_member.hpp"
 #include "traits/query_free.hpp"
 #include "traits/static_query.hpp"
-
 #include "detail/push_options.hpp"
 
 #if defined(GENERATING_DOCUMENTATION)

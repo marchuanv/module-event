@@ -30,13 +30,12 @@
 #include "../detail/variadic_templates.hpp"
 #include "bad_executor.hpp"
 #include "blocking.hpp"
-#include "execution/execute.hpp"
-#include "execution/executor.hpp"
-#include "prefer.hpp"
-#include "query.hpp"
-#include "require.hpp"
-
-#include "detail/push_options.hpp"
+#include "execute.hpp"
+#include "executor.hpp"
+#include "../prefer.hpp"
+#include "../query.hpp"
+#include "../require.hpp"
+#include "../detail/push_options.hpp"
 
 namespace asio {
 
@@ -2718,6 +2717,6 @@ struct prefer_member<
 
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../detail/pop_options.hpp"
 
 #endif // ASIO_EXECUTION_ANY_EXECUTOR_HPP

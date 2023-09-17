@@ -15,12 +15,11 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/executor_op.hpp"
-#include "detail/global.hpp"
-#include "detail/type_traits.hpp"
+#include "../detail/executor_op.hpp"
+#include "../detail/global.hpp"
+#include "../detail/type_traits.hpp"
 #include "system_context.hpp"
-
-#include "detail/push_options.hpp"
+#include "../detail/push_options.hpp"
 
 namespace asio {
 
@@ -180,6 +179,6 @@ void basic_system_executor<Blocking, Relationship, Allocator>::defer(
 
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../detail/pop_options.hpp"
 
 #endif // ASIO_IMPL_SYSTEM_EXECUTOR_HPP

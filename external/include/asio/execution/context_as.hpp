@@ -15,18 +15,17 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
-#include "detail/type_traits.hpp"
-#include "execution/context.hpp"
-#include "execution/executor.hpp"
-#include "execution/scheduler.hpp"
-#include "execution/sender.hpp"
-#include "is_applicable_property.hpp"
-#include "query.hpp"
-#include "traits/query_static_constexpr_member.hpp"
-#include "traits/static_query.hpp"
-
-#include "detail/push_options.hpp"
+#include "../detail/config.hpp"
+#include "../detail/type_traits.hpp"
+#include "context.hpp"
+#include "executor.hpp"
+#include "scheduler.hpp"
+#include "sender.hpp"
+#include "../is_applicable_property.hpp"
+#include "../query.hpp"
+#include "../traits/query_static_constexpr_member.hpp"
+#include "../traits/static_query.hpp"
+#include "../detail/push_options.hpp"
 
 namespace asio {
 
@@ -227,6 +226,6 @@ struct query_free<T, execution::context_as_t<U>,
 
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../detail/pop_options.hpp"
 
 #endif // ASIO_EXECUTION_CONTEXT_AS_HPP

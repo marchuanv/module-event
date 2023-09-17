@@ -17,7 +17,7 @@
 
 #include "system_executor.hpp"
 
-#include "detail/push_options.hpp"
+#include "../detail/push_options.hpp"
 
 namespace asio {
 
@@ -29,6 +29,6 @@ system_context::get_executor() ASIO_NOEXCEPT
 
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../detail/pop_options.hpp"
 
 #endif // ASIO_IMPL_SYSTEM_CONTEXT_HPP

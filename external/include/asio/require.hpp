@@ -21,7 +21,6 @@
 #include "traits/require_member.hpp"
 #include "traits/require_free.hpp"
 #include "traits/static_require.hpp"
-
 #include "detail/push_options.hpp"
 
 #if defined(GENERATING_DOCUMENTATION)

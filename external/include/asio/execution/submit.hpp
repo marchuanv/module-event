@@ -15,20 +15,19 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "../detail/config.hpp"
 
 #if !defined(ASIO_NO_DEPRECATED)
 
-#include "detail/type_traits.hpp"
-#include "execution/detail/submit_receiver.hpp"
-#include "execution/executor.hpp"
-#include "execution/receiver.hpp"
-#include "execution/sender.hpp"
-#include "execution/start.hpp"
-#include "traits/submit_member.hpp"
-#include "traits/submit_free.hpp"
-
-#include "detail/push_options.hpp"
+#include "../detail/type_traits.hpp"
+#include "detail/submit_receiver.hpp"
+#include "executor.hpp"
+#include "receiver.hpp"
+#include "sender.hpp"
+#include "start.hpp"
+#include "../traits/submit_member.hpp"
+#include "../traits/submit_free.hpp"
+#include "../detail/push_options.hpp"
 
 #if defined(GENERATING_DOCUMENTATION)
 
@@ -448,7 +447,7 @@ void submit_helper(ASIO_MOVE_ARG(S) s, ASIO_MOVE_ARG(R) r)
 
 #endif // defined(GENERATING_DOCUMENTATION)
 
-#include "detail/pop_options.hpp"
+#include "../detail/pop_options.hpp"
 
 #endif // !defined(ASIO_NO_DEPRECATED)
 

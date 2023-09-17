@@ -15,13 +15,13 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "../detail/config.hpp"
 
 #if !defined(ASIO_HAS_THREADS) \
   || defined(ASIO_DISABLE_FENCED_BLOCK)
 # include "asio/detail/null_fenced_block.hpp"
 #elif defined(ASIO_HAS_STD_ATOMIC)
-# include "asio/detail/std_fenced_block.hpp"
+# include "../detail/std_fenced_block.hpp"
 #elif defined(__MACH__) && defined(__APPLE__)
 # include "asio/detail/macos_fenced_block.hpp"
 #elif defined(__sun)

@@ -15,20 +15,19 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
-#include "detail/type_traits.hpp"
-#include "execution/executor.hpp"
-#include "execution/scheduler.hpp"
-#include "execution/sender.hpp"
-#include "is_applicable_property.hpp"
-#include "query.hpp"
-#include "traits/query_free.hpp"
-#include "traits/query_member.hpp"
-#include "traits/query_static_constexpr_member.hpp"
-#include "traits/static_query.hpp"
-#include "traits/static_require.hpp"
-
-#include "detail/push_options.hpp"
+#include "../detail/config.hpp"
+#include "../detail/type_traits.hpp"
+#include "executor.hpp"
+#include "scheduler.hpp"
+#include "sender.hpp"
+#include "../is_applicable_property.hpp"
+#include "../query.hpp"
+#include "../traits/query_free.hpp"
+#include "../traits/query_member.hpp"
+#include "../traits/query_static_constexpr_member.hpp"
+#include "../traits/static_query.hpp"
+#include "../traits/static_require.hpp"
+#include "../detail/push_options.hpp"
 
 namespace asio {
 
@@ -895,6 +894,6 @@ struct static_require<T, execution::outstanding_work_t::tracked_t,
 
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../detail/pop_options.hpp"
 
 #endif // ASIO_EXECUTION_OUTSTANDING_WORK_HPP
