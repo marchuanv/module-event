@@ -15,15 +15,15 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/blocking_executor_op.hpp"
-#include "detail/bulk_executor_op.hpp"
-#include "detail/executor_op.hpp"
-#include "detail/fenced_block.hpp"
-#include "detail/non_const_lvalue.hpp"
-#include "detail/type_traits.hpp"
+#include "../detail/blocking_executor_op.hpp"
+#include "../detail/bulk_executor_op.hpp"
+#include "../detail/executor_op.hpp"
+#include "../detail/fenced_block.hpp"
+#include "../detail/non_const_lvalue.hpp"
+#include "../detail/type_traits.hpp"
 #include "execution_context.hpp"
 
-#include "detail/push_options.hpp"
+#include "../detail/push_options.hpp"
 
 namespace asio {
 
@@ -349,6 +349,6 @@ void thread_pool::basic_executor_type<Allocator, Bits>::defer(
 
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../detail/pop_options.hpp"
 
 #endif // ASIO_IMPL_THREAD_POOL_HPP

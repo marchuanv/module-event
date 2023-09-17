@@ -17,20 +17,20 @@
 
 #include <algorithm>
 #include "associator.hpp"
-#include "detail/base_from_cancellation_state.hpp"
-#include "detail/bind_handler.hpp"
-#include "detail/handler_alloc_helpers.hpp"
-#include "detail/handler_cont_helpers.hpp"
-#include "detail/handler_invoke_helpers.hpp"
-#include "detail/handler_tracking.hpp"
-#include "detail/handler_type_requirements.hpp"
-#include "detail/non_const_lvalue.hpp"
-#include "detail/throw_error.hpp"
-#include "detail/type_traits.hpp"
+#include "../detail/base_from_cancellation_state.hpp"
+#include "../detail/bind_handler.hpp"
+#include "../detail/handler_alloc_helpers.hpp"
+#include "../detail/handler_cont_helpers.hpp"
+#include "../detail/handler_invoke_helpers.hpp"
+#include "../detail/handler_tracking.hpp"
+#include "../detail/handler_type_requirements.hpp"
+#include "../detail/non_const_lvalue.hpp"
+#include "../detail/throw_error.hpp"
+#include "../detail/type_traits.hpp"
 #include "error.hpp"
 #include "post.hpp"
 
-#include "detail/push_options.hpp"
+#include "../detail/push_options.hpp"
 
 namespace asio {
 
@@ -954,6 +954,6 @@ async_connect(basic_socket<Protocol, Executor>& s, Iterator begin,
 
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../detail/pop_options.hpp"
 
 #endif // ASIO_IMPL_CONNECT_HPP

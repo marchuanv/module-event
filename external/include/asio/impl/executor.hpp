@@ -21,11 +21,11 @@
 
 #include "../detail/atomic_count.hpp"
 #include "../detail/global.hpp"
-#include "detail/memory.hpp"
+#include "../detail/memory.hpp"
 #include "executor.hpp"
 #include "system_executor.hpp"
 
-#include "detail/push_options.hpp"
+#include "../detail/push_options.hpp"
 
 namespace asio {
 
@@ -293,7 +293,7 @@ const Executor* executor::target() const ASIO_NOEXCEPT
 
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../detail/pop_options.hpp"
 
 #endif // !defined(ASIO_NO_TS_EXECUTORS)
 

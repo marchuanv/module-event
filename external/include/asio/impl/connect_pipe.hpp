@@ -15,14 +15,14 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "../detail/config.hpp"
 
 #if defined(ASIO_HAS_PIPE)
 
 #include "connect_pipe.hpp"
-#include "detail/throw_error.hpp"
+#include "../detail/throw_error.hpp"
 
-#include "detail/push_options.hpp"
+#include "../detail/push_options.hpp"
 
 namespace asio {
 
@@ -66,7 +66,7 @@ ASIO_SYNC_OP_VOID connect_pipe(basic_readable_pipe<Executor1>& read_end,
 
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../detail/pop_options.hpp"
 
 #endif // defined(ASIO_HAS_PIPE)
 
