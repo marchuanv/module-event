@@ -1,20 +1,494 @@
 [
 {
-  "directory": "D:/github/module-event/build/WebSocketClient",
-  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/WebSocketClient.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\WebSocketClient.dir\\main.cpp.obj -c D:\\github\\module-event\\WebSocketClient\\main.cpp",
-  "file": "D:/github/module-event/WebSocketClient/main.cpp",
-  "output": "WebSocketClient/CMakeFiles/WebSocketClient.dir/main.cpp.obj"
+  "directory": "D:/github/module-event/build/websocket-client",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/WebSocketClient.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\WebSocketClient.dir\\main.cpp.obj -c D:\\github\\module-event\\websocket-client\\main.cpp",
+  "file": "D:/github/module-event/websocket-client/main.cpp",
+  "output": "websocket-client/CMakeFiles/WebSocketClient.dir/main.cpp.obj"
 },
 {
-  "directory": "D:/github/module-event/build/WebSocketServer",
-  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/WebSocketServer.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\WebSocketServer.dir\\main.cpp.obj -c D:\\github\\module-event\\WebSocketServer\\main.cpp",
-  "file": "D:/github/module-event/WebSocketServer/main.cpp",
-  "output": "WebSocketServer/CMakeFiles/WebSocketServer.dir/main.cpp.obj"
+  "directory": "D:/github/module-event/build/websocket-server",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/WebSocketServer.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\WebSocketServer.dir\\main.cpp.obj -c D:\\github\\module-event\\websocket-server\\main.cpp",
+  "file": "D:/github/module-event/websocket-server/main.cpp",
+  "output": "websocket-server/CMakeFiles/WebSocketServer.dir/main.cpp.obj"
 },
 {
-  "directory": "D:/github/module-event/build/Shared/Utils",
-  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Utils.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\Utils.dir\\Source\\base.cpp.obj -c D:\\github\\module-event\\Shared\\Utils\\Source\\base.cpp",
-  "file": "D:/github/module-event/Shared/Utils/Source/base.cpp",
-  "output": "Shared/Utils/CMakeFiles/Utils.dir/Source/base.cpp.obj"
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\algorithms\\token_bucket.cpp.obj -c D:\\github\\module-event\\external\\source\\algorithms\\token_bucket.cpp",
+  "file": "D:/github/module-event/external/source/algorithms/token_bucket.cpp",
+  "output": "external/CMakeFiles/external.dir/source/algorithms/token_bucket.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\asio\\service.cpp.obj -c D:\\github\\module-event\\external\\source\\asio\\service.cpp",
+  "file": "D:/github/module-event/external/source/asio/service.cpp",
+  "output": "external/CMakeFiles/external.dir/source/asio/service.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\asio\\ssl_client.cpp.obj -c D:\\github\\module-event\\external\\source\\asio\\ssl_client.cpp",
+  "file": "D:/github/module-event/external/source/asio/ssl_client.cpp",
+  "output": "external/CMakeFiles/external.dir/source/asio/ssl_client.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\asio\\ssl_context.cpp.obj -c D:\\github\\module-event\\external\\source\\asio\\ssl_context.cpp",
+  "file": "D:/github/module-event/external/source/asio/ssl_context.cpp",
+  "output": "external/CMakeFiles/external.dir/source/asio/ssl_context.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\asio\\ssl_server.cpp.obj -c D:\\github\\module-event\\external\\source\\asio\\ssl_server.cpp",
+  "file": "D:/github/module-event/external/source/asio/ssl_server.cpp",
+  "output": "external/CMakeFiles/external.dir/source/asio/ssl_server.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\asio\\ssl_session.cpp.obj -c D:\\github\\module-event\\external\\source\\asio\\ssl_session.cpp",
+  "file": "D:/github/module-event/external/source/asio/ssl_session.cpp",
+  "output": "external/CMakeFiles/external.dir/source/asio/ssl_session.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\asio\\tcp_client.cpp.obj -c D:\\github\\module-event\\external\\source\\asio\\tcp_client.cpp",
+  "file": "D:/github/module-event/external/source/asio/tcp_client.cpp",
+  "output": "external/CMakeFiles/external.dir/source/asio/tcp_client.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\asio\\tcp_resolver.cpp.obj -c D:\\github\\module-event\\external\\source\\asio\\tcp_resolver.cpp",
+  "file": "D:/github/module-event/external/source/asio/tcp_resolver.cpp",
+  "output": "external/CMakeFiles/external.dir/source/asio/tcp_resolver.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\asio\\tcp_server.cpp.obj -c D:\\github\\module-event\\external\\source\\asio\\tcp_server.cpp",
+  "file": "D:/github/module-event/external/source/asio/tcp_server.cpp",
+  "output": "external/CMakeFiles/external.dir/source/asio/tcp_server.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\asio\\tcp_session.cpp.obj -c D:\\github\\module-event\\external\\source\\asio\\tcp_session.cpp",
+  "file": "D:/github/module-event/external/source/asio/tcp_session.cpp",
+  "output": "external/CMakeFiles/external.dir/source/asio/tcp_session.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\asio\\timer.cpp.obj -c D:\\github\\module-event\\external\\source\\asio\\timer.cpp",
+  "file": "D:/github/module-event/external/source/asio/timer.cpp",
+  "output": "external/CMakeFiles/external.dir/source/asio/timer.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\asio\\udp_client.cpp.obj -c D:\\github\\module-event\\external\\source\\asio\\udp_client.cpp",
+  "file": "D:/github/module-event/external/source/asio/udp_client.cpp",
+  "output": "external/CMakeFiles/external.dir/source/asio/udp_client.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\asio\\udp_resolver.cpp.obj -c D:\\github\\module-event\\external\\source\\asio\\udp_resolver.cpp",
+  "file": "D:/github/module-event/external/source/asio/udp_resolver.cpp",
+  "output": "external/CMakeFiles/external.dir/source/asio/udp_resolver.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\asio\\udp_server.cpp.obj -c D:\\github\\module-event\\external\\source\\asio\\udp_server.cpp",
+  "file": "D:/github/module-event/external/source/asio/udp_server.cpp",
+  "output": "external/CMakeFiles/external.dir/source/asio/udp_server.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\cache\\filecache.cpp.obj -c D:\\github\\module-event\\external\\source\\cache\\filecache.cpp",
+  "file": "D:/github/module-event/external/source/cache/filecache.cpp",
+  "output": "external/CMakeFiles/external.dir/source/cache/filecache.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\common\\reader.cpp.obj -c D:\\github\\module-event\\external\\source\\common\\reader.cpp",
+  "file": "D:/github/module-event/external/source/common/reader.cpp",
+  "output": "external/CMakeFiles/external.dir/source/common/reader.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\common\\uint128.cpp.obj -c D:\\github\\module-event\\external\\source\\common\\uint128.cpp",
+  "file": "D:/github/module-event/external/source/common/uint128.cpp",
+  "output": "external/CMakeFiles/external.dir/source/common/uint128.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\common\\uint256.cpp.obj -c D:\\github\\module-event\\external\\source\\common\\uint256.cpp",
+  "file": "D:/github/module-event/external/source/common/uint256.cpp",
+  "output": "external/CMakeFiles/external.dir/source/common/uint256.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\common\\writer.cpp.obj -c D:\\github\\module-event\\external\\source\\common\\writer.cpp",
+  "file": "D:/github/module-event/external/source/common/writer.cpp",
+  "output": "external/CMakeFiles/external.dir/source/common/writer.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\errors\\exceptions.cpp.obj -c D:\\github\\module-event\\external\\source\\errors\\exceptions.cpp",
+  "file": "D:/github/module-event/external/source/errors/exceptions.cpp",
+  "output": "external/CMakeFiles/external.dir/source/errors/exceptions.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\errors\\exceptions_handler.cpp.obj -c D:\\github\\module-event\\external\\source\\errors\\exceptions_handler.cpp",
+  "file": "D:/github/module-event/external/source/errors/exceptions_handler.cpp",
+  "output": "external/CMakeFiles/external.dir/source/errors/exceptions_handler.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\errors\\fatal.cpp.obj -c D:\\github\\module-event\\external\\source\\errors\\fatal.cpp",
+  "file": "D:/github/module-event/external/source/errors/fatal.cpp",
+  "output": "external/CMakeFiles/external.dir/source/errors/fatal.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\errors\\system_error.cpp.obj -c D:\\github\\module-event\\external\\source\\errors\\system_error.cpp",
+  "file": "D:/github/module-event/external/source/errors/system_error.cpp",
+  "output": "external/CMakeFiles/external.dir/source/errors/system_error.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\filesystem\\directory.cpp.obj -c D:\\github\\module-event\\external\\source\\filesystem\\directory.cpp",
+  "file": "D:/github/module-event/external/source/filesystem/directory.cpp",
+  "output": "external/CMakeFiles/external.dir/source/filesystem/directory.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\filesystem\\directory_iterator.cpp.obj -c D:\\github\\module-event\\external\\source\\filesystem\\directory_iterator.cpp",
+  "file": "D:/github/module-event/external/source/filesystem/directory_iterator.cpp",
+  "output": "external/CMakeFiles/external.dir/source/filesystem/directory_iterator.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\filesystem\\exceptions.cpp.obj -c D:\\github\\module-event\\external\\source\\filesystem\\exceptions.cpp",
+  "file": "D:/github/module-event/external/source/filesystem/exceptions.cpp",
+  "output": "external/CMakeFiles/external.dir/source/filesystem/exceptions.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\filesystem\\file.cpp.obj -c D:\\github\\module-event\\external\\source\\filesystem\\file.cpp",
+  "file": "D:/github/module-event/external/source/filesystem/file.cpp",
+  "output": "external/CMakeFiles/external.dir/source/filesystem/file.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\filesystem\\path.cpp.obj -c D:\\github\\module-event\\external\\source\\filesystem\\path.cpp",
+  "file": "D:/github/module-event/external/source/filesystem/path.cpp",
+  "output": "external/CMakeFiles/external.dir/source/filesystem/path.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\filesystem\\symlink.cpp.obj -c D:\\github\\module-event\\external\\source\\filesystem\\symlink.cpp",
+  "file": "D:/github/module-event/external/source/filesystem/symlink.cpp",
+  "output": "external/CMakeFiles/external.dir/source/filesystem/symlink.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\http\\http_client.cpp.obj -c D:\\github\\module-event\\external\\source\\http\\http_client.cpp",
+  "file": "D:/github/module-event/external/source/http/http_client.cpp",
+  "output": "external/CMakeFiles/external.dir/source/http/http_client.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\http\\http_request.cpp.obj -c D:\\github\\module-event\\external\\source\\http\\http_request.cpp",
+  "file": "D:/github/module-event/external/source/http/http_request.cpp",
+  "output": "external/CMakeFiles/external.dir/source/http/http_request.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\http\\http_response.cpp.obj -c D:\\github\\module-event\\external\\source\\http\\http_response.cpp",
+  "file": "D:/github/module-event/external/source/http/http_response.cpp",
+  "output": "external/CMakeFiles/external.dir/source/http/http_response.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\http\\http_server.cpp.obj -c D:\\github\\module-event\\external\\source\\http\\http_server.cpp",
+  "file": "D:/github/module-event/external/source/http/http_server.cpp",
+  "output": "external/CMakeFiles/external.dir/source/http/http_server.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\http\\http_session.cpp.obj -c D:\\github\\module-event\\external\\source\\http\\http_session.cpp",
+  "file": "D:/github/module-event/external/source/http/http_session.cpp",
+  "output": "external/CMakeFiles/external.dir/source/http/http_session.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\http\\https_client.cpp.obj -c D:\\github\\module-event\\external\\source\\http\\https_client.cpp",
+  "file": "D:/github/module-event/external/source/http/https_client.cpp",
+  "output": "external/CMakeFiles/external.dir/source/http/https_client.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\http\\https_server.cpp.obj -c D:\\github\\module-event\\external\\source\\http\\https_server.cpp",
+  "file": "D:/github/module-event/external/source/http/https_server.cpp",
+  "output": "external/CMakeFiles/external.dir/source/http/https_server.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\http\\https_session.cpp.obj -c D:\\github\\module-event\\external\\source\\http\\https_session.cpp",
+  "file": "D:/github/module-event/external/source/http/https_session.cpp",
+  "output": "external/CMakeFiles/external.dir/source/http/https_session.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\math\\math.cpp.obj -c D:\\github\\module-event\\external\\source\\math\\math.cpp",
+  "file": "D:/github/module-event/external/source/math/math.cpp",
+  "output": "external/CMakeFiles/external.dir/source/math/math.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\memory\\memory.cpp.obj -c D:\\github\\module-event\\external\\source\\memory\\memory.cpp",
+  "file": "D:/github/module-event/external/source/memory/memory.cpp",
+  "output": "external/CMakeFiles/external.dir/source/memory/memory.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\string\\encoding.cpp.obj -c D:\\github\\module-event\\external\\source\\string\\encoding.cpp",
+  "file": "D:/github/module-event/external/source/string/encoding.cpp",
+  "output": "external/CMakeFiles/external.dir/source/string/encoding.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\string\\string_utils.cpp.obj -c D:\\github\\module-event\\external\\source\\string\\string_utils.cpp",
+  "file": "D:/github/module-event/external/source/string/string_utils.cpp",
+  "output": "external/CMakeFiles/external.dir/source/string/string_utils.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\system\\console.cpp.obj -c D:\\github\\module-event\\external\\source\\system\\console.cpp",
+  "file": "D:/github/module-event/external/source/system/console.cpp",
+  "output": "external/CMakeFiles/external.dir/source/system/console.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\system\\cpu.cpp.obj -c D:\\github\\module-event\\external\\source\\system\\cpu.cpp",
+  "file": "D:/github/module-event/external/source/system/cpu.cpp",
+  "output": "external/CMakeFiles/external.dir/source/system/cpu.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\system\\dll.cpp.obj -c D:\\github\\module-event\\external\\source\\system\\dll.cpp",
+  "file": "D:/github/module-event/external/source/system/dll.cpp",
+  "output": "external/CMakeFiles/external.dir/source/system/dll.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\system\\environment.cpp.obj -c D:\\github\\module-event\\external\\source\\system\\environment.cpp",
+  "file": "D:/github/module-event/external/source/system/environment.cpp",
+  "output": "external/CMakeFiles/external.dir/source/system/environment.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\system\\pipe.cpp.obj -c D:\\github\\module-event\\external\\source\\system\\pipe.cpp",
+  "file": "D:/github/module-event/external/source/system/pipe.cpp",
+  "output": "external/CMakeFiles/external.dir/source/system/pipe.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\system\\process.cpp.obj -c D:\\github\\module-event\\external\\source\\system\\process.cpp",
+  "file": "D:/github/module-event/external/source/system/process.cpp",
+  "output": "external/CMakeFiles/external.dir/source/system/process.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\system\\shared_memory.cpp.obj -c D:\\github\\module-event\\external\\source\\system\\shared_memory.cpp",
+  "file": "D:/github/module-event/external/source/system/shared_memory.cpp",
+  "output": "external/CMakeFiles/external.dir/source/system/shared_memory.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\system\\stack_trace.cpp.obj -c D:\\github\\module-event\\external\\source\\system\\stack_trace.cpp",
+  "file": "D:/github/module-event/external/source/system/stack_trace.cpp",
+  "output": "external/CMakeFiles/external.dir/source/system/stack_trace.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\system\\stack_trace_manager.cpp.obj -c D:\\github\\module-event\\external\\source\\system\\stack_trace_manager.cpp",
+  "file": "D:/github/module-event/external/source/system/stack_trace_manager.cpp",
+  "output": "external/CMakeFiles/external.dir/source/system/stack_trace_manager.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\system\\stream.cpp.obj -c D:\\github\\module-event\\external\\source\\system\\stream.cpp",
+  "file": "D:/github/module-event/external/source/system/stream.cpp",
+  "output": "external/CMakeFiles/external.dir/source/system/stream.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\system\\uuid.cpp.obj -c D:\\github\\module-event\\external\\source\\system\\uuid.cpp",
+  "file": "D:/github/module-event/external/source/system/uuid.cpp",
+  "output": "external/CMakeFiles/external.dir/source/system/uuid.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\threads\\barrier.cpp.obj -c D:\\github\\module-event\\external\\source\\threads\\barrier.cpp",
+  "file": "D:/github/module-event/external/source/threads/barrier.cpp",
+  "output": "external/CMakeFiles/external.dir/source/threads/barrier.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\threads\\condition_variable.cpp.obj -c D:\\github\\module-event\\external\\source\\threads\\condition_variable.cpp",
+  "file": "D:/github/module-event/external/source/threads/condition_variable.cpp",
+  "output": "external/CMakeFiles/external.dir/source/threads/condition_variable.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\threads\\critical_section.cpp.obj -c D:\\github\\module-event\\external\\source\\threads\\critical_section.cpp",
+  "file": "D:/github/module-event/external/source/threads/critical_section.cpp",
+  "output": "external/CMakeFiles/external.dir/source/threads/critical_section.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\threads\\event_auto_reset.cpp.obj -c D:\\github\\module-event\\external\\source\\threads\\event_auto_reset.cpp",
+  "file": "D:/github/module-event/external/source/threads/event_auto_reset.cpp",
+  "output": "external/CMakeFiles/external.dir/source/threads/event_auto_reset.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\threads\\event_manual_reset.cpp.obj -c D:\\github\\module-event\\external\\source\\threads\\event_manual_reset.cpp",
+  "file": "D:/github/module-event/external/source/threads/event_manual_reset.cpp",
+  "output": "external/CMakeFiles/external.dir/source/threads/event_manual_reset.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\threads\\file_lock.cpp.obj -c D:\\github\\module-event\\external\\source\\threads\\file_lock.cpp",
+  "file": "D:/github/module-event/external/source/threads/file_lock.cpp",
+  "output": "external/CMakeFiles/external.dir/source/threads/file_lock.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\threads\\latch.cpp.obj -c D:\\github\\module-event\\external\\source\\threads\\latch.cpp",
+  "file": "D:/github/module-event/external/source/threads/latch.cpp",
+  "output": "external/CMakeFiles/external.dir/source/threads/latch.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\threads\\mutex.cpp.obj -c D:\\github\\module-event\\external\\source\\threads\\mutex.cpp",
+  "file": "D:/github/module-event/external/source/threads/mutex.cpp",
+  "output": "external/CMakeFiles/external.dir/source/threads/mutex.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\threads\\named_condition_variable.cpp.obj -c D:\\github\\module-event\\external\\source\\threads\\named_condition_variable.cpp",
+  "file": "D:/github/module-event/external/source/threads/named_condition_variable.cpp",
+  "output": "external/CMakeFiles/external.dir/source/threads/named_condition_variable.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\threads\\named_critical_section.cpp.obj -c D:\\github\\module-event\\external\\source\\threads\\named_critical_section.cpp",
+  "file": "D:/github/module-event/external/source/threads/named_critical_section.cpp",
+  "output": "external/CMakeFiles/external.dir/source/threads/named_critical_section.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\threads\\named_event_auto_reset.cpp.obj -c D:\\github\\module-event\\external\\source\\threads\\named_event_auto_reset.cpp",
+  "file": "D:/github/module-event/external/source/threads/named_event_auto_reset.cpp",
+  "output": "external/CMakeFiles/external.dir/source/threads/named_event_auto_reset.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\threads\\named_event_manual_reset.cpp.obj -c D:\\github\\module-event\\external\\source\\threads\\named_event_manual_reset.cpp",
+  "file": "D:/github/module-event/external/source/threads/named_event_manual_reset.cpp",
+  "output": "external/CMakeFiles/external.dir/source/threads/named_event_manual_reset.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\threads\\named_mutex.cpp.obj -c D:\\github\\module-event\\external\\source\\threads\\named_mutex.cpp",
+  "file": "D:/github/module-event/external/source/threads/named_mutex.cpp",
+  "output": "external/CMakeFiles/external.dir/source/threads/named_mutex.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\threads\\named_rw_lock.cpp.obj -c D:\\github\\module-event\\external\\source\\threads\\named_rw_lock.cpp",
+  "file": "D:/github/module-event/external/source/threads/named_rw_lock.cpp",
+  "output": "external/CMakeFiles/external.dir/source/threads/named_rw_lock.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\threads\\named_semaphore.cpp.obj -c D:\\github\\module-event\\external\\source\\threads\\named_semaphore.cpp",
+  "file": "D:/github/module-event/external/source/threads/named_semaphore.cpp",
+  "output": "external/CMakeFiles/external.dir/source/threads/named_semaphore.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\threads\\rw_lock.cpp.obj -c D:\\github\\module-event\\external\\source\\threads\\rw_lock.cpp",
+  "file": "D:/github/module-event/external/source/threads/rw_lock.cpp",
+  "output": "external/CMakeFiles/external.dir/source/threads/rw_lock.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\threads\\semaphore.cpp.obj -c D:\\github\\module-event\\external\\source\\threads\\semaphore.cpp",
+  "file": "D:/github/module-event/external/source/threads/semaphore.cpp",
+  "output": "external/CMakeFiles/external.dir/source/threads/semaphore.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\threads\\thread.cpp.obj -c D:\\github\\module-event\\external\\source\\threads\\thread.cpp",
+  "file": "D:/github/module-event/external/source/threads/thread.cpp",
+  "output": "external/CMakeFiles/external.dir/source/threads/thread.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\time\\time.cpp.obj -c D:\\github\\module-event\\external\\source\\time\\time.cpp",
+  "file": "D:/github/module-event/external/source/time/time.cpp",
+  "output": "external/CMakeFiles/external.dir/source/time/time.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\time\\timestamp.cpp.obj -c D:\\github\\module-event\\external\\source\\time\\timestamp.cpp",
+  "file": "D:/github/module-event/external/source/time/timestamp.cpp",
+  "output": "external/CMakeFiles/external.dir/source/time/timestamp.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\time\\timezone.cpp.obj -c D:\\github\\module-event\\external\\source\\time\\timezone.cpp",
+  "file": "D:/github/module-event/external/source/time/timezone.cpp",
+  "output": "external/CMakeFiles/external.dir/source/time/timezone.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\ws\\ws.cpp.obj -c D:\\github\\module-event\\external\\source\\ws\\ws.cpp",
+  "file": "D:/github/module-event/external/source/ws/ws.cpp",
+  "output": "external/CMakeFiles/external.dir/source/ws/ws.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\ws\\ws_client.cpp.obj -c D:\\github\\module-event\\external\\source\\ws\\ws_client.cpp",
+  "file": "D:/github/module-event/external/source/ws/ws_client.cpp",
+  "output": "external/CMakeFiles/external.dir/source/ws/ws_client.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\ws\\ws_server.cpp.obj -c D:\\github\\module-event\\external\\source\\ws\\ws_server.cpp",
+  "file": "D:/github/module-event/external/source/ws/ws_server.cpp",
+  "output": "external/CMakeFiles/external.dir/source/ws/ws_server.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\ws\\ws_session.cpp.obj -c D:\\github\\module-event\\external\\source\\ws\\ws_session.cpp",
+  "file": "D:/github/module-event/external/source/ws/ws_session.cpp",
+  "output": "external/CMakeFiles/external.dir/source/ws/ws_session.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\ws\\wss_client.cpp.obj -c D:\\github\\module-event\\external\\source\\ws\\wss_client.cpp",
+  "file": "D:/github/module-event/external/source/ws/wss_client.cpp",
+  "output": "external/CMakeFiles/external.dir/source/ws/wss_client.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\ws\\wss_server.cpp.obj -c D:\\github\\module-event\\external\\source\\ws\\wss_server.cpp",
+  "file": "D:/github/module-event/external/source/ws/wss_server.cpp",
+  "output": "external/CMakeFiles/external.dir/source/ws/wss_server.cpp.obj"
+},
+{
+  "directory": "D:/github/module-event/build/external",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/external.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\external.dir\\source\\ws\\wss_session.cpp.obj -c D:\\github\\module-event\\external\\source\\ws\\wss_session.cpp",
+  "file": "D:/github/module-event/external/source/ws/wss_session.cpp",
+  "output": "external/CMakeFiles/external.dir/source/ws/wss_session.cpp.obj"
 }
 ]

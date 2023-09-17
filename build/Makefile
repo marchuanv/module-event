@@ -125,7 +125,7 @@ WebSocketClient: cmake_check_build_system
 
 # fast build rule for target.
 WebSocketClient/fast:
-	$(MAKE) $(MAKESILENT) -f WebSocketClient\CMakeFiles\WebSocketClient.dir\build.make WebSocketClient/CMakeFiles/WebSocketClient.dir/build
+	$(MAKE) $(MAKESILENT) -f websocket-client\CMakeFiles\WebSocketClient.dir\build.make websocket-client/CMakeFiles/WebSocketClient.dir/build
 .PHONY : WebSocketClient/fast
 
 #=============================================================================
@@ -138,21 +138,21 @@ WebSocketServer: cmake_check_build_system
 
 # fast build rule for target.
 WebSocketServer/fast:
-	$(MAKE) $(MAKESILENT) -f WebSocketServer\CMakeFiles\WebSocketServer.dir\build.make WebSocketServer/CMakeFiles/WebSocketServer.dir/build
+	$(MAKE) $(MAKESILENT) -f websocket-server\CMakeFiles\WebSocketServer.dir\build.make websocket-server/CMakeFiles/WebSocketServer.dir/build
 .PHONY : WebSocketServer/fast
 
 #=============================================================================
-# Target rules for targets named Utils
+# Target rules for targets named external
 
 # Build rule for target.
-Utils: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Utils
-.PHONY : Utils
+external: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external
+.PHONY : external
 
 # fast build rule for target.
-Utils/fast:
-	$(MAKE) $(MAKESILENT) -f Shared\Utils\CMakeFiles\Utils.dir\build.make Shared/Utils/CMakeFiles/Utils.dir/build
-.PHONY : Utils/fast
+external/fast:
+	$(MAKE) $(MAKESILENT) -f external\CMakeFiles\external.dir\build.make external/CMakeFiles/external.dir/build
+.PHONY : external/fast
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Utils
 	@echo ... WebSocketClient
 	@echo ... WebSocketServer
+	@echo ... external
 .PHONY : help
 
 

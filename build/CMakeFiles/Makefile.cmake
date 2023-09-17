@@ -30,14 +30,13 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/CMake/share/cmake-3.27/Modules/Platform/Windows.cmake"
   "D:/CMake/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake"
   "D:/github/module-event/CMakeLists.txt"
-  "D:/github/module-event/Shared/CMakeLists.txt"
-  "D:/github/module-event/Shared/Utils/CMakeLists.txt"
-  "D:/github/module-event/WebSocketClient/CMakeLists.txt"
-  "D:/github/module-event/WebSocketServer/CMakeLists.txt"
   "CMakeFiles/3.27.5/CMakeCCompiler.cmake"
   "CMakeFiles/3.27.5/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.27.5/CMakeRCCompiler.cmake"
   "CMakeFiles/3.27.5/CMakeSystem.cmake"
+  "D:/github/module-event/external/CMakeLists.txt"
+  "D:/github/module-event/websocket-client/CMakeLists.txt"
+  "D:/github/module-event/websocket-server/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -49,15 +48,14 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "WebSocketClient/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "WebSocketServer/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Shared/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Shared/Utils/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "websocket-client/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "websocket-server/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "external/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "WebSocketClient/CMakeFiles/WebSocketClient.dir/DependInfo.cmake"
-  "WebSocketServer/CMakeFiles/WebSocketServer.dir/DependInfo.cmake"
-  "Shared/Utils/CMakeFiles/Utils.dir/DependInfo.cmake"
+  "websocket-client/CMakeFiles/WebSocketClient.dir/DependInfo.cmake"
+  "websocket-server/CMakeFiles/WebSocketServer.dir/DependInfo.cmake"
+  "external/CMakeFiles/external.dir/DependInfo.cmake"
   )

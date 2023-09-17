@@ -251,40 +251,31 @@ EventModule_IS_TOP_LEVEL:STATIC=ON
 EventModule_SOURCE_DIR:STATIC=D:/github/module-event
 
 //Value Computed by CMake
-Shared_BINARY_DIR:STATIC=D:/github/module-event/build/Shared
-
-//Value Computed by CMake
-Shared_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-Shared_SOURCE_DIR:STATIC=D:/github/module-event/Shared
-
-//Value Computed by CMake
-Utils_BINARY_DIR:STATIC=D:/github/module-event/build/Shared/Utils
-
-//Value Computed by CMake
-Utils_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-Utils_SOURCE_DIR:STATIC=D:/github/module-event/Shared/Utils
-
-//Value Computed by CMake
-WebSocketClient_BINARY_DIR:STATIC=D:/github/module-event/build/WebSocketClient
+WebSocketClient_BINARY_DIR:STATIC=D:/github/module-event/build/websocket-client
 
 //Value Computed by CMake
 WebSocketClient_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-WebSocketClient_SOURCE_DIR:STATIC=D:/github/module-event/WebSocketClient
+WebSocketClient_SOURCE_DIR:STATIC=D:/github/module-event/websocket-client
 
 //Value Computed by CMake
-WebSocketServer_BINARY_DIR:STATIC=D:/github/module-event/build/WebSocketServer
+WebSocketServer_BINARY_DIR:STATIC=D:/github/module-event/build/websocket-server
 
 //Value Computed by CMake
 WebSocketServer_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-WebSocketServer_SOURCE_DIR:STATIC=D:/github/module-event/WebSocketServer
+WebSocketServer_SOURCE_DIR:STATIC=D:/github/module-event/websocket-server
+
+//Value Computed by CMake
+external_BINARY_DIR:STATIC=D:/github/module-event/build/external
+
+//Value Computed by CMake
+external_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+external_SOURCE_DIR:STATIC=D:/github/module-event/external
 
 
 ########################
@@ -393,7 +384,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

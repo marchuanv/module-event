@@ -62,160 +62,145 @@ CMAKE_BINARY_DIR = D:\github\module-event\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: WebSocketClient/all
-all: WebSocketServer/all
-all: Shared/all
+all: websocket-client/all
+all: websocket-server/all
+all: external/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: WebSocketClient/preinstall
-preinstall: WebSocketServer/preinstall
-preinstall: Shared/preinstall
+preinstall: websocket-client/preinstall
+preinstall: websocket-server/preinstall
+preinstall: external/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: WebSocketClient/clean
-clean: WebSocketServer/clean
-clean: Shared/clean
+clean: websocket-client/clean
+clean: websocket-server/clean
+clean: external/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory Shared
+# Directory level rules for directory external
 
 # Recursive "all" directory target.
-Shared/all: Shared/Utils/all
-.PHONY : Shared/all
+external/all: external/CMakeFiles/external.dir/all
+.PHONY : external/all
 
 # Recursive "preinstall" directory target.
-Shared/preinstall: Shared/Utils/preinstall
-.PHONY : Shared/preinstall
+external/preinstall:
+.PHONY : external/preinstall
 
 # Recursive "clean" directory target.
-Shared/clean: Shared/Utils/clean
-.PHONY : Shared/clean
+external/clean: external/CMakeFiles/external.dir/clean
+.PHONY : external/clean
 
 #=============================================================================
-# Directory level rules for directory Shared/Utils
+# Directory level rules for directory websocket-client
 
 # Recursive "all" directory target.
-Shared/Utils/all: Shared/Utils/CMakeFiles/Utils.dir/all
-.PHONY : Shared/Utils/all
+websocket-client/all: websocket-client/CMakeFiles/WebSocketClient.dir/all
+.PHONY : websocket-client/all
 
 # Recursive "preinstall" directory target.
-Shared/Utils/preinstall:
-.PHONY : Shared/Utils/preinstall
+websocket-client/preinstall:
+.PHONY : websocket-client/preinstall
 
 # Recursive "clean" directory target.
-Shared/Utils/clean: Shared/Utils/CMakeFiles/Utils.dir/clean
-.PHONY : Shared/Utils/clean
+websocket-client/clean: websocket-client/CMakeFiles/WebSocketClient.dir/clean
+.PHONY : websocket-client/clean
 
 #=============================================================================
-# Directory level rules for directory WebSocketClient
+# Directory level rules for directory websocket-server
 
 # Recursive "all" directory target.
-WebSocketClient/all: WebSocketClient/CMakeFiles/WebSocketClient.dir/all
-.PHONY : WebSocketClient/all
+websocket-server/all: websocket-server/CMakeFiles/WebSocketServer.dir/all
+.PHONY : websocket-server/all
 
 # Recursive "preinstall" directory target.
-WebSocketClient/preinstall:
-.PHONY : WebSocketClient/preinstall
+websocket-server/preinstall:
+.PHONY : websocket-server/preinstall
 
 # Recursive "clean" directory target.
-WebSocketClient/clean: WebSocketClient/CMakeFiles/WebSocketClient.dir/clean
-.PHONY : WebSocketClient/clean
+websocket-server/clean: websocket-server/CMakeFiles/WebSocketServer.dir/clean
+.PHONY : websocket-server/clean
 
 #=============================================================================
-# Directory level rules for directory WebSocketServer
-
-# Recursive "all" directory target.
-WebSocketServer/all: WebSocketServer/CMakeFiles/WebSocketServer.dir/all
-.PHONY : WebSocketServer/all
-
-# Recursive "preinstall" directory target.
-WebSocketServer/preinstall:
-.PHONY : WebSocketServer/preinstall
-
-# Recursive "clean" directory target.
-WebSocketServer/clean: WebSocketServer/CMakeFiles/WebSocketServer.dir/clean
-.PHONY : WebSocketServer/clean
-
-#=============================================================================
-# Target rules for target WebSocketClient/CMakeFiles/WebSocketClient.dir
+# Target rules for target websocket-client/CMakeFiles/WebSocketClient.dir
 
 # All Build rule for target.
-WebSocketClient/CMakeFiles/WebSocketClient.dir/all:
-	$(MAKE) $(MAKESILENT) -f WebSocketClient\CMakeFiles\WebSocketClient.dir\build.make WebSocketClient/CMakeFiles/WebSocketClient.dir/depend
-	$(MAKE) $(MAKESILENT) -f WebSocketClient\CMakeFiles\WebSocketClient.dir\build.make WebSocketClient/CMakeFiles/WebSocketClient.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\github\module-event\build\CMakeFiles --progress-num=3,4 "Built target WebSocketClient"
-.PHONY : WebSocketClient/CMakeFiles/WebSocketClient.dir/all
+websocket-client/CMakeFiles/WebSocketClient.dir/all: external/CMakeFiles/external.dir/all
+	$(MAKE) $(MAKESILENT) -f websocket-client\CMakeFiles\WebSocketClient.dir\build.make websocket-client/CMakeFiles/WebSocketClient.dir/depend
+	$(MAKE) $(MAKESILENT) -f websocket-client\CMakeFiles\WebSocketClient.dir\build.make websocket-client/CMakeFiles/WebSocketClient.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\github\module-event\build\CMakeFiles --progress-num=1,2 "Built target WebSocketClient"
+.PHONY : websocket-client/CMakeFiles/WebSocketClient.dir/all
 
 # Build rule for subdir invocation for target.
-WebSocketClient/CMakeFiles/WebSocketClient.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\github\module-event\build\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 WebSocketClient/CMakeFiles/WebSocketClient.dir/all
+websocket-client/CMakeFiles/WebSocketClient.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\github\module-event\build\CMakeFiles 83
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 websocket-client/CMakeFiles/WebSocketClient.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\github\module-event\build\CMakeFiles 0
-.PHONY : WebSocketClient/CMakeFiles/WebSocketClient.dir/rule
+.PHONY : websocket-client/CMakeFiles/WebSocketClient.dir/rule
 
 # Convenience name for target.
-WebSocketClient: WebSocketClient/CMakeFiles/WebSocketClient.dir/rule
+WebSocketClient: websocket-client/CMakeFiles/WebSocketClient.dir/rule
 .PHONY : WebSocketClient
 
 # clean rule for target.
-WebSocketClient/CMakeFiles/WebSocketClient.dir/clean:
-	$(MAKE) $(MAKESILENT) -f WebSocketClient\CMakeFiles\WebSocketClient.dir\build.make WebSocketClient/CMakeFiles/WebSocketClient.dir/clean
-.PHONY : WebSocketClient/CMakeFiles/WebSocketClient.dir/clean
+websocket-client/CMakeFiles/WebSocketClient.dir/clean:
+	$(MAKE) $(MAKESILENT) -f websocket-client\CMakeFiles\WebSocketClient.dir\build.make websocket-client/CMakeFiles/WebSocketClient.dir/clean
+.PHONY : websocket-client/CMakeFiles/WebSocketClient.dir/clean
 
 #=============================================================================
-# Target rules for target WebSocketServer/CMakeFiles/WebSocketServer.dir
+# Target rules for target websocket-server/CMakeFiles/WebSocketServer.dir
 
 # All Build rule for target.
-WebSocketServer/CMakeFiles/WebSocketServer.dir/all:
-	$(MAKE) $(MAKESILENT) -f WebSocketServer\CMakeFiles\WebSocketServer.dir\build.make WebSocketServer/CMakeFiles/WebSocketServer.dir/depend
-	$(MAKE) $(MAKESILENT) -f WebSocketServer\CMakeFiles\WebSocketServer.dir\build.make WebSocketServer/CMakeFiles/WebSocketServer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\github\module-event\build\CMakeFiles --progress-num=5,6 "Built target WebSocketServer"
-.PHONY : WebSocketServer/CMakeFiles/WebSocketServer.dir/all
+websocket-server/CMakeFiles/WebSocketServer.dir/all: external/CMakeFiles/external.dir/all
+	$(MAKE) $(MAKESILENT) -f websocket-server\CMakeFiles\WebSocketServer.dir\build.make websocket-server/CMakeFiles/WebSocketServer.dir/depend
+	$(MAKE) $(MAKESILENT) -f websocket-server\CMakeFiles\WebSocketServer.dir\build.make websocket-server/CMakeFiles/WebSocketServer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\github\module-event\build\CMakeFiles --progress-num=3,4 "Built target WebSocketServer"
+.PHONY : websocket-server/CMakeFiles/WebSocketServer.dir/all
 
 # Build rule for subdir invocation for target.
-WebSocketServer/CMakeFiles/WebSocketServer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\github\module-event\build\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 WebSocketServer/CMakeFiles/WebSocketServer.dir/all
+websocket-server/CMakeFiles/WebSocketServer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\github\module-event\build\CMakeFiles 83
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 websocket-server/CMakeFiles/WebSocketServer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\github\module-event\build\CMakeFiles 0
-.PHONY : WebSocketServer/CMakeFiles/WebSocketServer.dir/rule
+.PHONY : websocket-server/CMakeFiles/WebSocketServer.dir/rule
 
 # Convenience name for target.
-WebSocketServer: WebSocketServer/CMakeFiles/WebSocketServer.dir/rule
+WebSocketServer: websocket-server/CMakeFiles/WebSocketServer.dir/rule
 .PHONY : WebSocketServer
 
 # clean rule for target.
-WebSocketServer/CMakeFiles/WebSocketServer.dir/clean:
-	$(MAKE) $(MAKESILENT) -f WebSocketServer\CMakeFiles\WebSocketServer.dir\build.make WebSocketServer/CMakeFiles/WebSocketServer.dir/clean
-.PHONY : WebSocketServer/CMakeFiles/WebSocketServer.dir/clean
+websocket-server/CMakeFiles/WebSocketServer.dir/clean:
+	$(MAKE) $(MAKESILENT) -f websocket-server\CMakeFiles\WebSocketServer.dir\build.make websocket-server/CMakeFiles/WebSocketServer.dir/clean
+.PHONY : websocket-server/CMakeFiles/WebSocketServer.dir/clean
 
 #=============================================================================
-# Target rules for target Shared/Utils/CMakeFiles/Utils.dir
+# Target rules for target external/CMakeFiles/external.dir
 
 # All Build rule for target.
-Shared/Utils/CMakeFiles/Utils.dir/all:
-	$(MAKE) $(MAKESILENT) -f Shared\Utils\CMakeFiles\Utils.dir\build.make Shared/Utils/CMakeFiles/Utils.dir/depend
-	$(MAKE) $(MAKESILENT) -f Shared\Utils\CMakeFiles\Utils.dir\build.make Shared/Utils/CMakeFiles/Utils.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\github\module-event\build\CMakeFiles --progress-num=1,2 "Built target Utils"
-.PHONY : Shared/Utils/CMakeFiles/Utils.dir/all
+external/CMakeFiles/external.dir/all:
+	$(MAKE) $(MAKESILENT) -f external\CMakeFiles\external.dir\build.make external/CMakeFiles/external.dir/depend
+	$(MAKE) $(MAKESILENT) -f external\CMakeFiles\external.dir\build.make external/CMakeFiles/external.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\github\module-event\build\CMakeFiles --progress-num=5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85 "Built target external"
+.PHONY : external/CMakeFiles/external.dir/all
 
 # Build rule for subdir invocation for target.
-Shared/Utils/CMakeFiles/Utils.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\github\module-event\build\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Shared/Utils/CMakeFiles/Utils.dir/all
+external/CMakeFiles/external.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\github\module-event\build\CMakeFiles 81
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/CMakeFiles/external.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\github\module-event\build\CMakeFiles 0
-.PHONY : Shared/Utils/CMakeFiles/Utils.dir/rule
+.PHONY : external/CMakeFiles/external.dir/rule
 
 # Convenience name for target.
-Utils: Shared/Utils/CMakeFiles/Utils.dir/rule
-.PHONY : Utils
+external: external/CMakeFiles/external.dir/rule
+.PHONY : external
 
 # clean rule for target.
-Shared/Utils/CMakeFiles/Utils.dir/clean:
-	$(MAKE) $(MAKESILENT) -f Shared\Utils\CMakeFiles\Utils.dir\build.make Shared/Utils/CMakeFiles/Utils.dir/clean
-.PHONY : Shared/Utils/CMakeFiles/Utils.dir/clean
+external/CMakeFiles/external.dir/clean:
+	$(MAKE) $(MAKESILENT) -f external\CMakeFiles\external.dir\build.make external/CMakeFiles/external.dir/clean
+.PHONY : external/CMakeFiles/external.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

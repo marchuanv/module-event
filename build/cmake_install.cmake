@@ -39,17 +39,17 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/github/module-event/build/WebSocketClient/cmake_install.cmake")
+  include("D:/github/module-event/build/websocket-client/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/github/module-event/build/WebSocketServer/cmake_install.cmake")
+  include("D:/github/module-event/build/websocket-server/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/github/module-event/build/Shared/cmake_install.cmake")
+  include("D:/github/module-event/build/external/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
