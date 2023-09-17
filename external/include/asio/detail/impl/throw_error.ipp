@@ -15,8 +15,8 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
-#include "detail/throw_error.hpp"
+#include "../config.hpp"
+#include "../throw_error.hpp"
 #include "system_error.hpp"
 
 #include "detail/push_options.hpp"

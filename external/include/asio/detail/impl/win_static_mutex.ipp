@@ -20,7 +20,7 @@
 #if defined(ASIO_WINDOWS)
 
 #include <cstdio>
-#include "detail/throw_error.hpp"
+#include "../throw_error.hpp"
 #include "detail/win_static_mutex.hpp"
 #include "error.hpp"
 

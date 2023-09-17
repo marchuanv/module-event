@@ -15,12 +15,12 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "../detail/config.hpp"
 
 #if !defined(ASIO_NO_TS_EXECUTORS)
 
-#include "detail/atomic_count.hpp"
-#include "detail/global.hpp"
+#include "../detail/atomic_count.hpp"
+#include "../detail/global.hpp"
 #include "detail/memory.hpp"
 #include "executor.hpp"
 #include "system_executor.hpp"
