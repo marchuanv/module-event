@@ -15,10 +15,10 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
-#include "detail/cstdint.hpp"
-#include "ip/address.hpp"
-#include "ip/detail/endpoint.hpp"
+#include "../detail/config.hpp"
+#include "../detail/cstdint.hpp"
+#include "address.hpp"
+#include "detail/endpoint.hpp"
 
 #if defined(ASIO_HAS_STD_HASH)
 # include <functional>
@@ -28,7 +28,7 @@
 # include <iosfwd>
 #endif // !defined(ASIO_NO_IOSTREAM)
 
-#include "detail/push_options.hpp"
+#include "../detail/push_options.hpp"
 
 namespace asio {
 namespace ip {
@@ -284,8 +284,8 @@ struct hash<asio::ip::basic_endpoint<InternetProtocol> >
 } // namespace std
 #endif // defined(ASIO_HAS_STD_HASH)
 
-#include "detail/pop_options.hpp"
+#include "../detail/pop_options.hpp"
 
-#include "ip/impl/basic_endpoint.hpp"
+#include "impl/basic_endpoint.hpp"
 
 #endif // ASIO_IP_BASIC_ENDPOINT_HPP

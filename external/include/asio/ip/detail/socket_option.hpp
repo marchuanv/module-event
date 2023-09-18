@@ -15,16 +15,16 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "../../detail/config.hpp"
 #include <cstddef>
 #include <cstring>
 #include <stdexcept>
-#include "detail/socket_ops.hpp"
-#include "detail/socket_types.hpp"
-#include "detail/throw_exception.hpp"
-#include "ip/address.hpp"
+#include "../../detail/socket_ops.hpp"
+#include "../../detail/socket_types.hpp"
+#include "../../detail/throw_exception.hpp"
+#include "../address.hpp"
 
-#include "detail/push_options.hpp"
+#include "../../detail/push_options.hpp"
 
 namespace asio {
 namespace ip {
@@ -561,6 +561,6 @@ private:
 } // namespace ip
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../../detail/pop_options.hpp"
 
 #endif // ASIO_IP_DETAIL_SOCKET_OPTION_HPP

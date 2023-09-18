@@ -16,17 +16,17 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "../../detail/config.hpp"
 #include <climits>
 #include <cstdio>
 #include <cstdlib>
 #include <stdexcept>
-#include "error.hpp"
-#include "detail/throw_error.hpp"
-#include "detail/throw_exception.hpp"
-#include "ip/network_v4.hpp"
+#include "../../error.hpp"
+#include "../../detail/throw_error.hpp"
+#include "../../detail/throw_exception.hpp"
+#include "../network_v4.hpp"
 
-#include "detail/push_options.hpp"
+#include "../../detail/push_options.hpp"
 
 namespace asio {
 namespace ip {
@@ -213,6 +213,6 @@ network_v4 make_network_v4(string_view str,
 } // namespace ip
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../../detail/pop_options.hpp"
 
 #endif // ASIO_IP_IMPL_NETWORK_V4_IPP

@@ -15,15 +15,15 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
-#include "basic_datagram_socket.hpp"
-#include "detail/socket_types.hpp"
-#include "ip/basic_endpoint.hpp"
-#include "ip/basic_resolver.hpp"
-#include "ip/basic_resolver_iterator.hpp"
-#include "ip/basic_resolver_query.hpp"
+#include "../detail/config.hpp"
+#include "../basic_datagram_socket.hpp"
+#include "../detail/socket_types.hpp"
+#include "basic_endpoint.hpp"
+#include "basic_resolver.hpp"
+#include "basic_resolver_iterator.hpp"
+#include "basic_resolver_query.hpp"
 
-#include "detail/push_options.hpp"
+#include "../detail/push_options.hpp"
 
 namespace asio {
 namespace ip {
@@ -106,6 +106,6 @@ private:
 } // namespace ip
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../detail/pop_options.hpp"
 
 #endif // ASIO_IP_UDP_HPP

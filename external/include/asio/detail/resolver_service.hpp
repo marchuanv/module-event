@@ -19,8 +19,8 @@
 
 #if !defined(ASIO_WINDOWS_RUNTIME)
 
-#include "ip/basic_resolver_query.hpp"
-#include "ip/basic_resolver_results.hpp"
+#include "../ip/basic_resolver_query.hpp"
+#include "../ip/basic_resolver_results.hpp"
 #include "concurrency_hint.hpp"
 #include "memory.hpp"
 #include "resolve_endpoint_op.hpp"

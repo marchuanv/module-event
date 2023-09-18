@@ -25,7 +25,7 @@
 #include "resolve_op.hpp"
 #include "socket_ops.hpp"
 #include "../error.hpp"
-#include "ip/basic_resolver_results.hpp"
+#include "../ip/basic_resolver_results.hpp"
 
 #if defined(ASIO_HAS_IOCP)
 #include "win_iocp_io_context.hpp"
