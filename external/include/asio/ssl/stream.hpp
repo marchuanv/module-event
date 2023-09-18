@@ -15,25 +15,25 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "../detail/config.hpp"
 
-#include "async_result.hpp"
-#include "detail/buffer_sequence_adapter.hpp"
-#include "detail/handler_type_requirements.hpp"
-#include "detail/non_const_lvalue.hpp"
-#include "detail/noncopyable.hpp"
-#include "detail/type_traits.hpp"
-#include "ssl/context.hpp"
-#include "ssl/detail/buffered_handshake_op.hpp"
-#include "ssl/detail/handshake_op.hpp"
-#include "ssl/detail/io.hpp"
-#include "ssl/detail/read_op.hpp"
-#include "ssl/detail/shutdown_op.hpp"
-#include "ssl/detail/stream_core.hpp"
-#include "ssl/detail/write_op.hpp"
-#include "ssl/stream_base.hpp"
+#include "../async_result.hpp"
+#include "../detail/buffer_sequence_adapter.hpp"
+#include "../detail/handler_type_requirements.hpp"
+#include "../detail/non_const_lvalue.hpp"
+#include "../detail/noncopyable.hpp"
+#include "../detail/type_traits.hpp"
+#include "context.hpp"
+#include "detail/buffered_handshake_op.hpp"
+#include "detail/handshake_op.hpp"
+#include "detail/io.hpp"
+#include "detail/read_op.hpp"
+#include "detail/shutdown_op.hpp"
+#include "detail/stream_core.hpp"
+#include "detail/write_op.hpp"
+#include "stream_base.hpp"
 
-#include "detail/push_options.hpp"
+#include "../detail/push_options.hpp"
 
 namespace asio {
 namespace ssl {
@@ -1068,6 +1068,6 @@ private:
 } // namespace ssl
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../detail/pop_options.hpp"
 
 #endif // ASIO_SSL_STREAM_HPP

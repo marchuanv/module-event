@@ -21,13 +21,13 @@
 #include "../buffer.hpp"
 #include "../io_context.hpp"
 #include "context_base.hpp"
-#include "../detail/openssl_types.hpp"
-#include "../detail/openssl_init.hpp"
-#include "../detail/password_callback.hpp"
-#include "../detail/verify_callback.hpp"
+#include "detail/openssl_types.hpp"
+#include "detail/openssl_init.hpp"
+#include "detail/password_callback.hpp"
+#include "detail/verify_callback.hpp"
 #include "verify_mode.hpp"
 
-#include "detail/push_options.hpp"
+#include "../detail/push_options.hpp"
 
 namespace asio {
 namespace ssl {
@@ -754,11 +754,11 @@ private:
 } // namespace ssl
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../detail/pop_options.hpp"
 
-#include "ssl/impl/context.hpp"
+#include "impl/context.hpp"
 #if defined(ASIO_HEADER_ONLY)
-# include "asio/ssl/impl/context.ipp"
+# include "impl/context.ipp"
 #endif // defined(ASIO_HEADER_ONLY)
 
 #endif // ASIO_SSL_CONTEXT_HPP
