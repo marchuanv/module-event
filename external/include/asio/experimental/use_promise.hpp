@@ -16,11 +16,11 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "../detail/config.hpp"
 #include <memory>
-#include "detail/type_traits.hpp"
+#include "../detail/type_traits.hpp"
 
-#include "detail/push_options.hpp"
+#include "../detail/push_options.hpp"
 
 namespace asio {
 namespace experimental {
@@ -104,8 +104,8 @@ constexpr use_promise_t<> use_promise;
 } // namespace experimental
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../detail/pop_options.hpp"
 
-#include "experimental/impl/use_promise.hpp"
+#include "impl/use_promise.hpp"
 
 #endif // ASIO_EXPERIMENTAL_USE_CORO_HPP

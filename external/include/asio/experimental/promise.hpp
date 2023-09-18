@@ -16,20 +16,20 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
-#include "detail/type_traits.hpp"
-#include "any_io_executor.hpp"
-#include "associated_cancellation_slot.hpp"
-#include "associated_executor.hpp"
-#include "bind_executor.hpp"
-#include "cancellation_signal.hpp"
-#include "dispatch.hpp"
-#include "experimental/impl/promise.hpp"
-#include "post.hpp"
+#include "../detail/config.hpp"
+#include "../detail/type_traits.hpp"
+#include "../any_io_executor.hpp"
+#include "../associated_cancellation_slot.hpp"
+#include "../associated_executor.hpp"
+#include "../bind_executor.hpp"
+#include "../cancellation_signal.hpp"
+#include "../dispatch.hpp"
+#include "impl/promise.hpp"
+#include "../post.hpp"
 
 #include <algorithm>
 
-#include "detail/push_options.hpp"
+#include "../detail/push_options.hpp"
 
 namespace asio {
 namespace experimental {
@@ -219,6 +219,6 @@ private:
 
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../detail/pop_options.hpp"
 
 #endif // ASIO_EXPERIMENTAL_PROMISE_HPP

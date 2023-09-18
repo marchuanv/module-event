@@ -15,14 +15,14 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "../detail/config.hpp"
 #include <vector>
-#include "detail/array.hpp"
-#include "detail/memory.hpp"
-#include "detail/utility.hpp"
-#include "experimental/cancellation_condition.hpp"
+#include "../detail/array.hpp"
+#include "../detail/memory.hpp"
+#include "../detail/utility.hpp"
+#include "cancellation_condition.hpp"
 
-#include "detail/push_options.hpp"
+#include "../detail/push_options.hpp"
 
 namespace asio {
 namespace experimental {
@@ -454,8 +454,8 @@ make_parallel_group(allocator_arg_t, const Allocator& allocator, Range&& range,
 } // namespace experimental
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../detail/pop_options.hpp"
 
-#include "experimental/impl/parallel_group.hpp"
+#include "impl/parallel_group.hpp"
 
 #endif // ASIO_EXPERIMENTAL_PARALLEL_GROUP_HPP

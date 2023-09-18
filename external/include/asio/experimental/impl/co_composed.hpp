@@ -15,19 +15,19 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "../../detail/config.hpp"
 #include <new>
 #include <tuple>
 #include <variant>
-#include "associated_cancellation_slot.hpp"
-#include "associator.hpp"
-#include "async_result.hpp"
-#include "cancellation_state.hpp"
-#include "detail/composed_work.hpp"
-#include "detail/recycling_allocator.hpp"
-#include "detail/throw_error.hpp"
-#include "detail/type_traits.hpp"
-#include "error.hpp"
+#include "../../associated_cancellation_slot.hpp"
+#include "../../associator.hpp"
+#include "../../async_result.hpp"
+#include "../../cancellation_state.hpp"
+#include "../../detail/composed_work.hpp"
+#include "../../detail/recycling_allocator.hpp"
+#include "../../detail/throw_error.hpp"
+#include "../../detail/type_traits.hpp"
+#include "../../error.hpp"
 
 #if defined(ASIO_HAS_STD_COROUTINE)
 # include <coroutine>
@@ -41,7 +41,7 @@
 # endif // defined(ASIO_HAS_SOURCE_LOCATION)
 #endif // defined(ASIO_ENABLE_HANDLER_TRACKING)
 
-#include "detail/push_options.hpp"
+#include "../../detail/push_options.hpp"
 
 namespace asio {
 namespace experimental {
@@ -1170,6 +1170,6 @@ struct coroutine_traits<void,
 # endif // defined(ASIO_HAS_STD_COROUTINE)
 #endif // !defined(GENERATING_DOCUMENTATION)
 
-#include "detail/pop_options.hpp"
+#include "../../detail/pop_options.hpp"
 
 #endif // ASIO_IMPL_EXPERIMENTAL_CO_COMPOSED_HPP

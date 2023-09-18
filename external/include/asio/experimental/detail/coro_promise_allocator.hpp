@@ -12,8 +12,8 @@
 #ifndef ASIO_EXPERIMENTAL_DETAIL_CORO_PROMISE_ALLOCATOR_HPP
 #define ASIO_EXPERIMENTAL_DETAIL_CORO_PROMISE_ALLOCATOR_HPP
 
-#include "detail/config.hpp"
-#include "experimental/coro_traits.hpp"
+#include "../../detail/config.hpp"
+#include "../coro_traits.hpp"
 
 namespace asio {
 namespace experimental {

@@ -15,15 +15,15 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
-#include "detail/non_const_lvalue.hpp"
-#include "detail/mutex.hpp"
-#include "execution/executor.hpp"
-#include "execution_context.hpp"
-#include "experimental/detail/channel_send_functions.hpp"
-#include "experimental/detail/channel_service.hpp"
+#include "../detail/config.hpp"
+#include "../detail/non_const_lvalue.hpp"
+#include "../detail/mutex.hpp"
+#include "../execution/executor.hpp"
+#include "../execution_context.hpp"
+#include "detail/channel_send_functions.hpp"
+#include "detail/channel_service.hpp"
 
-#include "detail/push_options.hpp"
+#include "../detail/push_options.hpp"
 
 namespace asio {
 namespace experimental {
@@ -486,6 +486,6 @@ private:
 } // namespace experimental
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../detail/pop_options.hpp"
 
 #endif // ASIO_EXPERIMENTAL_BASIC_CONCURRENT_CHANNEL_HPP

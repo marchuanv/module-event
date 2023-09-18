@@ -16,16 +16,16 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
-#include "dispatch.hpp"
-#include "error.hpp"
-#include "error_code.hpp"
-#include "experimental/coro_traits.hpp"
-#include "experimental/detail/coro_promise_allocator.hpp"
-#include "experimental/detail/partial_promise.hpp"
-#include "post.hpp"
+#include "../detail/config.hpp"
+#include "../dispatch.hpp"
+#include "../error.hpp"
+#include "../error_code.hpp"
+#include "coro_traits.hpp"
+#include "detail/coro_promise_allocator.hpp"
+#include "detail/partial_promise.hpp"
+#include "../post.hpp"
 
-#include "detail/push_options.hpp"
+#include "../detail/push_options.hpp"
 
 namespace asio {
 namespace experimental {
@@ -286,8 +286,8 @@ using task = coro<void(), T, Executor, Allocator>;
 } // namespace experimental
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../detail/pop_options.hpp"
 
-#include "experimental/impl/coro.hpp"
+#include "impl/coro.hpp"
 
 #endif // ASIO_EXPERIMENTAL_CORO_HPP

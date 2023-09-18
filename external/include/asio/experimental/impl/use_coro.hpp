@@ -16,10 +16,10 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "deferred.hpp"
-#include "experimental/coro.hpp"
+#include "../../deferred.hpp"
+#include "../coro.hpp"
 
-#include "detail/push_options.hpp"
+#include "../../detail/push_options.hpp"
 
 namespace asio {
 
@@ -209,6 +209,6 @@ struct async_result<
 
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../../detail/pop_options.hpp"
 
 #endif // ASIO_EXPERIMENTAL_IMPL_USE_CORO_HPP

@@ -15,19 +15,19 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "../../detail/config.hpp"
 
 #include <tuple>
 
-#include "associator.hpp"
-#include "async_result.hpp"
-#include "detail/handler_alloc_helpers.hpp"
-#include "detail/handler_cont_helpers.hpp"
-#include "detail/handler_invoke_helpers.hpp"
-#include "detail/type_traits.hpp"
-#include "detail/variadic_templates.hpp"
+#include "../../associator.hpp"
+#include "../../async_result.hpp"
+#include "../../detail/handler_alloc_helpers.hpp"
+#include "../../detail/handler_cont_helpers.hpp"
+#include "../../detail/handler_invoke_helpers.hpp"
+#include "../../detail/type_traits.hpp"
+#include "../../detail/variadic_templates.hpp"
 
-#include "detail/push_options.hpp"
+#include "../../detail/push_options.hpp"
 
 namespace asio {
 namespace experimental {
@@ -234,6 +234,6 @@ struct associator<Associator,
 
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../../detail/pop_options.hpp"
 
 #endif // ASIO_IMPL_EXPERIMENTAL_AS_SINGLE_HPP

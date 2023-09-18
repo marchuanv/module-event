@@ -15,18 +15,18 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
-#include "associated_cancellation_slot.hpp"
-#include "cancellation_type.hpp"
-#include "detail/mutex.hpp"
-#include "detail/op_queue.hpp"
-#include "execution_context.hpp"
-#include "experimental/detail/channel_message.hpp"
-#include "experimental/detail/channel_receive_op.hpp"
-#include "experimental/detail/channel_send_op.hpp"
-#include "experimental/detail/has_signature.hpp"
+#include "../../detail/config.hpp"
+#include "../../associated_cancellation_slot.hpp"
+#include "../../cancellation_type.hpp"
+#include "../../detail/mutex.hpp"
+#include "../../detail/op_queue.hpp"
+#include "../../execution_context.hpp"
+#include "channel_message.hpp"
+#include "channel_receive_op.hpp"
+#include "channel_send_op.hpp"
+#include "has_signature.hpp"
 
-#include "detail/push_options.hpp"
+#include "../../detail/push_options.hpp"
 
 namespace asio {
 namespace experimental {
@@ -670,8 +670,8 @@ private:
 } // namespace experimental
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../../detail/pop_options.hpp"
 
-#include "experimental/detail/impl/channel_service.hpp"
+#include "impl/channel_service.hpp"
 
 #endif // ASIO_EXPERIMENTAL_DETAIL_CHANNEL_SERVICE_HPP

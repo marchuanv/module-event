@@ -15,20 +15,20 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "../detail/config.hpp"
 #include <optional>
 #include <stdexcept>
 #include <tuple>
 #include <variant>
-#include "awaitable.hpp"
-#include "co_spawn.hpp"
-#include "detail/type_traits.hpp"
-#include "experimental/deferred.hpp"
-#include "experimental/parallel_group.hpp"
-#include "multiple_exceptions.hpp"
-#include "this_coro.hpp"
+#include "../awaitable.hpp"
+#include "../co_spawn.hpp"
+#include "../detail/type_traits.hpp"
+#include "deferred.hpp"
+#include "parallel_group.hpp"
+#include "../multiple_exceptions.hpp"
+#include "../this_coro.hpp"
 
-#include "detail/push_options.hpp"
+#include "../detail/push_options.hpp"
 
 namespace asio {
 namespace experimental {
@@ -531,6 +531,6 @@ awaitable<std::variant<T..., U>, Executor> operator||(
 } // namespace experimental
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../detail/pop_options.hpp"
 
 #endif // ASIO_EXPERIMENTAL_AWAITABLE_OPERATORS_HPP
