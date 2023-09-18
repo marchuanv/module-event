@@ -16,7 +16,7 @@
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
 #include "../detail/config.hpp"
-#include "io_context.hpp"
+#include "../io_context.hpp"
 #include "../detail/concurrency_hint.hpp"
 #include "../detail/limits.hpp"
 #include "../detail/scoped_ptr.hpp"
@@ -26,7 +26,7 @@
 #if defined(ASIO_HAS_IOCP)
 # include "../detail/win_iocp_io_context.hpp"
 #else
-# include "asio/detail/scheduler.hpp"
+# include "../detail/scheduler.hpp"
 #endif
 
 #include "../detail/push_options.hpp"

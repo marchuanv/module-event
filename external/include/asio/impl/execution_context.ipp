@@ -16,7 +16,7 @@
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
 #include "../detail/config.hpp"
-#include "execution_context.hpp"
+#include "../execution_context.hpp"
 #include "../detail/service_registry.hpp"
 #include "../detail/push_options.hpp"
 

@@ -18,7 +18,7 @@
 #include "../detail/config.hpp"
 #include "../detail/type_traits.hpp"
 #include "executor.hpp"
-#include "../detail/scheduler.hpp"
+#include "scheduler.hpp"
 #include "sender.hpp"
 #include "../is_applicable_property.hpp"
 #include "../traits/query_static_constexpr_member.hpp"

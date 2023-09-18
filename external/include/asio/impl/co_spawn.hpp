@@ -17,7 +17,7 @@
 
 #include "../detail/config.hpp"
 #include "../associated_cancellation_slot.hpp"
-#include "awaitable.hpp"
+#include "../awaitable.hpp"
 #include "../detail/memory.hpp"
 #include "../detail/recycling_allocator.hpp"
 #include "../dispatch.hpp"

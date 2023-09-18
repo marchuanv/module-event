@@ -22,7 +22,7 @@
 
 #include <stdexcept>
 #include "../error.hpp"
-#include "serial_port_base.hpp"
+#include "../serial_port_base.hpp"
 #include "../detail/throw_exception.hpp"
 
 #if defined(GENERATING_DOCUMENTATION)

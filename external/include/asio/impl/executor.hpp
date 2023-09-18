@@ -22,9 +22,8 @@
 #include "../detail/atomic_count.hpp"
 #include "../detail/global.hpp"
 #include "../detail/memory.hpp"
-#include "executor.hpp"
-#include "system_executor.hpp"
-
+#include "../executor.hpp"
+#include "../system_executor.hpp"
 #include "../detail/push_options.hpp"
 
 namespace asio {

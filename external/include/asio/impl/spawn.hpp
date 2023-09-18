@@ -16,11 +16,11 @@
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
 #include "../detail/config.hpp"
-#include "associated_allocator.hpp"
-#include "associated_cancellation_slot.hpp"
-#include "associated_executor.hpp"
+#include "../associated_allocator.hpp"
+#include "../associated_cancellation_slot.hpp"
+#include "../associated_executor.hpp"
 #include "../async_result.hpp"
-#include "bind_executor.hpp"
+#include "../bind_executor.hpp"
 #include "../detail/atomic_count.hpp"
 #include "../detail/bind_handler.hpp"
 #include "../detail/handler_alloc_helpers.hpp"
@@ -31,14 +31,14 @@
 #include "../detail/type_traits.hpp"
 #include "../detail/utility.hpp"
 #include "../detail/variadic_templates.hpp"
-#include "system_error.hpp"
+#include "../system_error.hpp"
 
 #if defined(ASIO_HAS_STD_TUPLE)
 # include <tuple>
 #endif // defined(ASIO_HAS_STD_TUPLE)
 
 #if defined(ASIO_HAS_BOOST_CONTEXT_FIBER)
-# include <boost/context/fiber.hpp>
+#include <boost/context/fiber.hpp>
 #endif // defined(ASIO_HAS_BOOST_CONTEXT_FIBER)
 
 #include "../detail/push_options.hpp"

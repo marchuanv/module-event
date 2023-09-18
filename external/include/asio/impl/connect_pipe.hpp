@@ -19,7 +19,7 @@
 
 #if defined(ASIO_HAS_PIPE)
 
-#include "connect_pipe.hpp"
+#include "../connect_pipe.hpp"
 #include "../detail/throw_error.hpp"
 
 #include "../detail/push_options.hpp"

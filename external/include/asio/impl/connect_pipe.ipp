@@ -21,7 +21,7 @@
 
 #if defined(ASIO_HAS_PIPE)
 
-#include "connect_pipe.hpp"
+#include "../connect_pipe.hpp"
 
 #if defined(ASIO_HAS_IOCP)
 # include <cstdio>
