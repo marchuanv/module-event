@@ -15,8 +15,8 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
-#include "detail/socket_types.hpp"
+#include "../../detail/config.hpp"
+#include "../../detail/socket_types.hpp"
 #if defined(ASIO_USE_WOLFSSL)
 # include <wolfssl/options.h>
 #endif // defined(ASIO_USE_WOLFSSL)

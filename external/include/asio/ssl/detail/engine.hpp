@@ -15,16 +15,16 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "../../detail/config.hpp"
 
-#include "buffer.hpp"
-#include "detail/static_mutex.hpp"
-#include "ssl/detail/openssl_types.hpp"
-#include "ssl/detail/verify_callback.hpp"
-#include "ssl/stream_base.hpp"
-#include "ssl/verify_mode.hpp"
+#include "../../buffer.hpp"
+#include "../../detail/static_mutex.hpp"
+#include "../detail/openssl_types.hpp"
+#include "../detail/verify_callback.hpp"
+#include "../stream_base.hpp"
+#include "../verify_mode.hpp"
 
-#include "detail/push_options.hpp"
+#include "../../detail/push_options.hpp"
 
 namespace asio {
 namespace ssl {
@@ -164,10 +164,10 @@ private:
 } // namespace ssl
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../../detail/pop_options.hpp"
 
 #if defined(ASIO_HEADER_ONLY)
-# include "asio/ssl/detail/impl/engine.ipp"
+# include "impl/engine.ipp"
 #endif // defined(ASIO_HEADER_ONLY)
 
 #endif // ASIO_SSL_DETAIL_ENGINE_HPP

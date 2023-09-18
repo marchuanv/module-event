@@ -15,15 +15,15 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "../detail/config.hpp"
 
 #if !defined(ASIO_NO_DEPRECATED)
 
 #include <string>
-#include "ssl/detail/openssl_types.hpp"
-#include "ssl/verify_context.hpp"
+#include "detail/openssl_types.hpp"
+#include "verify_context.hpp"
 
-#include "detail/push_options.hpp"
+#include "../detail/push_options.hpp"
 
 namespace asio {
 namespace ssl {
@@ -87,10 +87,10 @@ private:
 } // namespace ssl
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../detail/pop_options.hpp"
 
 #if defined(ASIO_HEADER_ONLY)
-# include "asio/ssl/impl/rfc2818_verification.ipp"
+# include "impl/rfc2818_verification.ipp"
 #endif // defined(ASIO_HEADER_ONLY)
 
 #endif // !defined(ASIO_NO_DEPRECATED)

@@ -16,15 +16,15 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "../../../detail/config.hpp"
 #include <vector>
-#include "detail/assert.hpp"
-#include "detail/mutex.hpp"
-#include "detail/tss_ptr.hpp"
-#include "ssl/detail/openssl_init.hpp"
-#include "ssl/detail/openssl_types.hpp"
+#include "../../../detail/assert.hpp"
+#include "../../../detail/mutex.hpp"
+#include "../../../detail/tss_ptr.hpp"
+#include "../../detail/openssl_init.hpp"
+#include "../../detail/openssl_types.hpp"
 
-#include "detail/push_options.hpp"
+#include "../../../detail/push_options.hpp"
 
 namespace asio {
 namespace ssl {
@@ -164,6 +164,6 @@ STACK_OF(SSL_COMP)* openssl_init_base::get_null_compression_methods()
 } // namespace ssl
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../../../detail/pop_options.hpp"
 
 #endif // ASIO_SSL_DETAIL_IMPL_OPENSSL_INIT_IPP

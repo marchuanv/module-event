@@ -15,11 +15,11 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
-#include "ssl/error.hpp"
-#include "ssl/detail/openssl_init.hpp"
+#include "../../detail/config.hpp"
+#include "../../error.hpp"
+#include "../detail/openssl_init.hpp"
 
-#include "detail/push_options.hpp"
+#include "../../detail/push_options.hpp"
 
 namespace asio {
 namespace error {
@@ -119,6 +119,6 @@ const asio::error_category& get_stream_category()
 } // namespace ssl
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../../detail/pop_options.hpp"
 
 #endif // ASIO_SSL_IMPL_ERROR_IPP

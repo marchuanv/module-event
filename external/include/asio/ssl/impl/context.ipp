@@ -16,15 +16,15 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "../../detail/config.hpp"
 
 #include <cstring>
-#include "detail/throw_error.hpp"
-#include "error.hpp"
-#include "ssl/context.hpp"
-#include "ssl/error.hpp"
+#include "../../detail/throw_error.hpp"
+#include "../../error.hpp"
+#include "context.hpp"
+#include "../../error.hpp"
 
-#include "detail/push_options.hpp"
+#include "../../detail/push_options.hpp"
 
 namespace asio {
 namespace ssl {
@@ -1316,6 +1316,6 @@ asio::error_code context::translate_error(long error)
 } // namespace ssl
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../../detail/pop_options.hpp"
 
 #endif // ASIO_SSL_IMPL_CONTEXT_IPP

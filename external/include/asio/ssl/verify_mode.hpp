@@ -15,10 +15,10 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
-#include "ssl/detail/openssl_types.hpp"
+#include "../detail/config.hpp"
+#include "detail/openssl_types.hpp"
 
-#include "detail/push_options.hpp"
+#include "../detail/push_options.hpp"
 
 namespace asio {
 namespace ssl {
@@ -58,6 +58,6 @@ const int verify_client_once = SSL_VERIFY_CLIENT_ONCE;
 } // namespace ssl
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../detail/pop_options.hpp"
 
 #endif // ASIO_SSL_VERIFY_MODE_HPP

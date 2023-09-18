@@ -13,17 +13,17 @@
 
 #define ASIO_SOURCE
 
-#include "detail/config.hpp"
+#include "../../../detail/config.hpp"
 
 #if defined(ASIO_HEADER_ONLY)
 # error Do not compile Asio library source with ASIO_HEADER_ONLY defined
 #endif
 
-#include "ssl/impl/context.ipp"
-#include "ssl/impl/error.ipp"
-#include "ssl/detail/impl/engine.ipp"
-#include "ssl/detail/impl/openssl_init.ipp"
-#include "ssl/impl/host_name_verification.ipp"
-#include "ssl/impl/rfc2818_verification.ipp"
+#include "../impl/context.ipp"
+#include "../impl/error.ipp"
+#include "../detail/impl/engine.ipp"
+#include "../detail/impl/openssl_init.ipp"
+#include "../impl/host_name_verification.ipp"
+#include "../impl/rfc2818_verification.ipp"
 
 #endif // ASIO_SSL_IMPL_SRC_HPP

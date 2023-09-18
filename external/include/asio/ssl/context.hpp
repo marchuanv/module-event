@@ -15,17 +15,17 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "../detail/config.hpp"
 
 #include <string>
-#include "buffer.hpp"
-#include "io_context.hpp"
-#include "ssl/context_base.hpp"
-#include "ssl/detail/openssl_types.hpp"
-#include "ssl/detail/openssl_init.hpp"
-#include "ssl/detail/password_callback.hpp"
-#include "ssl/detail/verify_callback.hpp"
-#include "ssl/verify_mode.hpp"
+#include "../buffer.hpp"
+#include "../io_context.hpp"
+#include "context_base.hpp"
+#include "../detail/openssl_types.hpp"
+#include "../detail/openssl_init.hpp"
+#include "../detail/password_callback.hpp"
+#include "../detail/verify_callback.hpp"
+#include "verify_mode.hpp"
 
 #include "detail/push_options.hpp"
 
