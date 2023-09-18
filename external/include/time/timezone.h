@@ -9,7 +9,7 @@
 #ifndef CPPCOMMON_TIME_TIMEZONE_H
 #define CPPCOMMON_TIME_TIMEZONE_H
 
-#include "time/time.h"
+#include "time.h"
 
 #include <string>
 

@@ -9,9 +9,9 @@
 #ifndef CPPCOMMON_ERRORS_FATAL_H
 #define CPPCOMMON_ERRORS_FATAL_H
 
-#include "errors/system_error.h"
-#include "system/source_location.h"
-#include "system/stack_trace.h"
+#include "system_error.h"
+#include "../system/source_location.h"
+#include "../system/stack_trace.h"
 
 #include <string>
 

@@ -10,7 +10,7 @@
 #define CPPCOMMON_ERRORS_EXCEPTIONS_H
 
 #include "errors/system_error.h"
-#include "system/source_location.h"
+#include "../system/source_location.h"
 
 #include <exception>
 #include <string>

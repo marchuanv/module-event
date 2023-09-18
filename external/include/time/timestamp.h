@@ -9,7 +9,7 @@
 #ifndef CPPCOMMON_TIME_TIMESTAMP_H
 #define CPPCOMMON_TIME_TIMESTAMP_H
 
-#include "time/timespan.h"
+#include "timespan.h"
 
 namespace CppCommon {
 

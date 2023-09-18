@@ -9,7 +9,7 @@
 #ifndef CPPCOMMON_SYSTEM_STACK_TRACE_H
 #define CPPCOMMON_SYSTEM_STACK_TRACE_H
 
-#include "string/format.h"
+#include "../string/format.h"
 
 #include <sstream>
 #include <string>
