@@ -15,9 +15,9 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
-#include "detail/type_traits.hpp"
-#include "traits/static_query.hpp"
+#include "../detail/config.hpp"
+#include "../detail/type_traits.hpp"
+#include "../traits/static_query.hpp"
 
 #if defined(ASIO_HAS_DECLTYPE) \
   && defined(ASIO_HAS_NOEXCEPT)
@@ -25,7 +25,7 @@
 #endif // defined(ASIO_HAS_DECLTYPE)
        //   && defined(ASIO_HAS_NOEXCEPT)
 
-#include "detail/push_options.hpp"
+#include "../detail/push_options.hpp"
 
 namespace asio {
 namespace traits {
@@ -119,6 +119,6 @@ struct static_require_concept : static_require_concept_default<T, Property>
 } // namespace traits
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../detail/pop_options.hpp"
 
 #endif // ASIO_TRAITS_STATIC_REQUIRE_CONCEPT_HPP

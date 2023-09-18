@@ -16,17 +16,17 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "../../../detail/config.hpp"
 
 #if defined(ASIO_HAS_LOCAL_SOCKETS)
 
 #include <cstring>
-#include "detail/socket_ops.hpp"
-#include "detail/throw_error.hpp"
-#include "error.hpp"
-#include "local/detail/endpoint.hpp"
+#include "../../../detail/socket_ops.hpp"
+#include "../../../detail/throw_error.hpp"
+#include "../../../error.hpp"
+#include "../../../local/detail/endpoint.hpp"
 
-#include "detail/push_options.hpp"
+#include "../../../detail/push_options.hpp"
 
 namespace asio {
 namespace local {
@@ -124,7 +124,7 @@ void endpoint::init(const char* path_name, std::size_t path_length)
 } // namespace local
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../../../detail/pop_options.hpp"
 
 #endif // defined(ASIO_HAS_LOCAL_SOCKETS)
 

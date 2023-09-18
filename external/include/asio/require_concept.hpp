@@ -21,7 +21,6 @@
 #include "traits/require_concept_member.hpp"
 #include "traits/require_concept_free.hpp"
 #include "traits/static_require_concept.hpp"
-
 #include "detail/push_options.hpp"
 
 #if defined(GENERATING_DOCUMENTATION)

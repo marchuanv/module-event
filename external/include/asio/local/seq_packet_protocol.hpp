@@ -15,17 +15,17 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "../detail/config.hpp"
 
 #if defined(ASIO_HAS_LOCAL_SOCKETS) \
   || defined(GENERATING_DOCUMENTATION)
 
-#include "basic_socket_acceptor.hpp"
-#include "basic_seq_packet_socket.hpp"
-#include "detail/socket_types.hpp"
-#include "local/basic_endpoint.hpp"
+#include "../basic_socket_acceptor.hpp"
+#include "../basic_seq_packet_socket.hpp"
+#include "../detail/socket_types.hpp"
+#include "basic_endpoint.hpp"
 
-#include "detail/push_options.hpp"
+#include "../detail/push_options.hpp"
 
 namespace asio {
 namespace local {
@@ -76,7 +76,7 @@ public:
 } // namespace local
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../detail/pop_options.hpp"
 
 #endif // defined(ASIO_HAS_LOCAL_SOCKETS)
        //   || defined(GENERATING_DOCUMENTATION)
