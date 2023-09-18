@@ -19,8 +19,8 @@
 
 #if defined(ASIO_HAS_IOCP)
 
-#include "io_context.hpp"
-#include "query.hpp"
+#include "../io_context.hpp"
+#include "../query.hpp"
 #include "handler_alloc_helpers.hpp"
 #include "memory.hpp"
 #include "noncopyable.hpp"

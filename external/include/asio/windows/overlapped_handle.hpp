@@ -15,13 +15,13 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "../detail/config.hpp"
 
 #if defined(ASIO_HAS_WINDOWS_RANDOM_ACCESS_HANDLE) \
   || defined(ASIO_HAS_WINDOWS_STREAM_HANDLE) \
   || defined(GENERATING_DOCUMENTATION)
 
-#include "windows/basic_overlapped_handle.hpp"
+#include "../windows/basic_overlapped_handle.hpp"
 
 namespace asio {
 namespace windows {

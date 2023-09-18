@@ -15,8 +15,8 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "associator.hpp"
-#include "buffer.hpp"
+#include "../associator.hpp"
+#include "../buffer.hpp"
 #include "../detail/array_fwd.hpp"
 #include "../detail/base_from_cancellation_state.hpp"
 #include "../detail/base_from_completion_cond.hpp"

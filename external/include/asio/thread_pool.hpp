@@ -1139,7 +1139,7 @@ struct is_executor<thread_pool> : false_type
 
 #include "impl/thread_pool.hpp"
 #if defined(ASIO_HEADER_ONLY)
-# include "asio/impl/thread_pool.ipp"
+# include "impl/thread_pool.ipp"
 #endif // defined(ASIO_HEADER_ONLY)
 
 #endif // ASIO_THREAD_POOL_HPP

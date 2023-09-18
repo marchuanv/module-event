@@ -15,13 +15,13 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
-#include "windows/basic_overlapped_handle.hpp"
+#include "../detail/config.hpp"
+#include "../windows/basic_overlapped_handle.hpp"
 
 #if defined(ASIO_HAS_WINDOWS_RANDOM_ACCESS_HANDLE) \
   || defined(GENERATING_DOCUMENTATION)
 
-#include "detail/push_options.hpp"
+#include "../detail/push_options.hpp"
 
 namespace asio {
 namespace windows {
@@ -571,7 +571,7 @@ private:
 } // namespace windows
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../detail/pop_options.hpp"
 
 #endif // defined(ASIO_HAS_WINDOWS_RANDOM_ACCESS_HANDLE)
        //   || defined(GENERATING_DOCUMENTATION)
