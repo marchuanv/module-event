@@ -15,15 +15,13 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
-
+#include "../detail/config.hpp"
 #include <typeinfo>
-#include "basic_datagram_socket.hpp"
-#include "detail/socket_types.hpp"
-#include "detail/throw_exception.hpp"
-#include "generic/basic_endpoint.hpp"
-
-#include "detail/push_options.hpp"
+#include "../basic_datagram_socket.hpp"
+#include "../detail/socket_types.hpp"
+#include "../detail/throw_exception.hpp"
+#include "../generic/basic_endpoint.hpp"
+#include "../detail/push_options.hpp"
 
 namespace asio {
 namespace generic {
@@ -118,6 +116,6 @@ private:
 } // namespace generic
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../detail/pop_options.hpp"
 
 #endif // ASIO_GENERIC_DATAGRAM_PROTOCOL_HPP

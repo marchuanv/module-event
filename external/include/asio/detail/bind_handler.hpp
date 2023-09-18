@@ -21,7 +21,6 @@
 #include "handler_cont_helpers.hpp"
 #include "handler_invoke_helpers.hpp"
 #include "type_traits.hpp"
-
 #include "push_options.hpp"
 
 namespace asio {

@@ -17,7 +17,7 @@
 
 #include "../detail/config.hpp"
 #include "associator.hpp"
-#include "async_result.hpp"
+#include "../async_result.hpp"
 #include "../detail/handler_alloc_helpers.hpp"
 #include "../detail/handler_cont_helpers.hpp"
 #include "../detail/handler_invoke_helpers.hpp"

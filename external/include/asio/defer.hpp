@@ -24,7 +24,6 @@
 #include "execution/executor.hpp"
 #include "is_executor.hpp"
 #include "require.hpp"
-
 #include "detail/push_options.hpp"
 
 namespace asio {

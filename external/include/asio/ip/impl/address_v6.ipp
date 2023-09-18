@@ -15,18 +15,17 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "../../detail/config.hpp"
 #include <cstring>
 #include <stdexcept>
 #include <typeinfo>
-#include "detail/socket_ops.hpp"
-#include "detail/throw_error.hpp"
-#include "detail/throw_exception.hpp"
-#include "error.hpp"
-#include "ip/address_v6.hpp"
-#include "ip/bad_address_cast.hpp"
-
-#include "detail/push_options.hpp"
+#include "../../detail/socket_ops.hpp"
+#include "../../detail/throw_error.hpp"
+#include "../../detail/throw_exception.hpp"
+#include "../../error.hpp"
+#include "../address_v6.hpp"
+#include "../bad_address_cast.hpp"
+#include "../../detail/push_options.hpp"
 
 namespace asio {
 namespace ip {
@@ -345,6 +344,6 @@ address_v6 make_address_v6(
 } // namespace ip
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../../detail/pop_options.hpp"
 
 #endif // ASIO_IP_IMPL_ADDRESS_V6_IPP

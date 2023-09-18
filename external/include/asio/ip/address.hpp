@@ -15,15 +15,15 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "../detail/config.hpp"
 #include <string>
-#include "detail/throw_exception.hpp"
-#include "detail/string_view.hpp"
-#include "detail/type_traits.hpp"
-#include "error_code.hpp"
-#include "ip/address_v4.hpp"
-#include "ip/address_v6.hpp"
-#include "ip/bad_address_cast.hpp"
+#include "../detail/throw_exception.hpp"
+#include "../detail/string_view.hpp"
+#include "../detail/type_traits.hpp"
+#include "../error_code.hpp"
+#include "address_v4.hpp"
+#include "address_v6.hpp"
+#include "bad_address_cast.hpp"
 
 #if defined(ASIO_HAS_STD_HASH)
 # include <functional>
@@ -33,7 +33,7 @@
 # include <iosfwd>
 #endif // !defined(ASIO_NO_IOSTREAM)
 
-#include "detail/push_options.hpp"
+#include "../detail/push_options.hpp"
 
 namespace asio {
 namespace ip {
@@ -280,11 +280,11 @@ struct hash<asio::ip::address>
 } // namespace std
 #endif // defined(ASIO_HAS_STD_HASH)
 
-#include "detail/pop_options.hpp"
+#include "../detail/pop_options.hpp"
 
-#include "ip/impl/address.hpp"
+#include "impl/address.hpp"
 #if defined(ASIO_HEADER_ONLY)
-# include "asio/ip/impl/address.ipp"
+# include "impl/address.ipp"
 #endif // defined(ASIO_HEADER_ONLY)
 
 #endif // ASIO_IP_ADDRESS_HPP

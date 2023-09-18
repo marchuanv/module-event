@@ -19,9 +19,9 @@
 
 #if defined(ASIO_WINDOWS_RUNTIME)
 
-#include "buffer.hpp"
+#include "../buffer.hpp"
 #include "../error.hpp"
-#include "execution_context.hpp"
+#include "../execution_context.hpp"
 #include "socket_base.hpp"
 #include "buffer_sequence_adapter.hpp"
 #include "memory.hpp"

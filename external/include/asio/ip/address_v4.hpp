@@ -15,14 +15,14 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "../detail/config.hpp"
 #include <string>
-#include "detail/array.hpp"
-#include "detail/cstdint.hpp"
-#include "detail/socket_types.hpp"
-#include "detail/string_view.hpp"
-#include "detail/winsock_init.hpp"
-#include "error_code.hpp"
+#include "../detail/array.hpp"
+#include "../detail/cstdint.hpp"
+#include "../detail/socket_types.hpp"
+#include "../detail/string_view.hpp"
+#include "../detail/winsock_init.hpp"
+#include "../error_code.hpp"
 
 #if defined(ASIO_HAS_STD_HASH)
 # include <functional>
@@ -32,7 +32,7 @@
 # include <iosfwd>
 #endif // !defined(ASIO_NO_IOSTREAM)
 
-#include "detail/push_options.hpp"
+#include "../detail/push_options.hpp"
 
 namespace asio {
 namespace ip {
@@ -420,11 +420,11 @@ struct hash<asio::ip::address_v4>
 } // namespace std
 #endif // defined(ASIO_HAS_STD_HASH)
 
-#include "detail/pop_options.hpp"
+#include "../detail/pop_options.hpp"
 
-#include "ip/impl/address_v4.hpp"
+#include "impl/address_v4.hpp"
 #if defined(ASIO_HEADER_ONLY)
-# include "asio/ip/impl/address_v4.ipp"
+# include "impl/address_v4.ipp"
 #endif // defined(ASIO_HEADER_ONLY)
 
 #endif // ASIO_IP_ADDRESS_V4_HPP

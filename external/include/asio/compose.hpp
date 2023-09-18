@@ -25,7 +25,6 @@
 #include "detail/handler_invoke_helpers.hpp"
 #include "detail/type_traits.hpp"
 #include "detail/variadic_templates.hpp"
-
 #include "detail/push_options.hpp"
 
 namespace asio {

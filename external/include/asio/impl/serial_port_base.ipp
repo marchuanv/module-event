@@ -21,7 +21,7 @@
 #if defined(ASIO_HAS_SERIAL_PORT)
 
 #include <stdexcept>
-#include "error.hpp"
+#include "../error.hpp"
 #include "serial_port_base.hpp"
 #include "../detail/throw_exception.hpp"
 

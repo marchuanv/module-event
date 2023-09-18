@@ -19,11 +19,11 @@
 
 #include <cstddef>
 #include <signal.h>
-#include "associated_cancellation_slot.hpp"
-#include "cancellation_type.hpp"
+#include "../associated_cancellation_slot.hpp"
+#include "../cancellation_type.hpp"
 #include "../error.hpp"
-#include "execution_context.hpp"
-#include "signal_set_base.hpp"
+#include "../execution_context.hpp"
+#include "../signal_set_base.hpp"
 #include "handler_alloc_helpers.hpp"
 #include "memory.hpp"
 #include "op_queue.hpp"

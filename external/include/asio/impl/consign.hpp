@@ -16,16 +16,14 @@
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
 #include "../detail/config.hpp"
-
-#include "associator.hpp"
-#include "async_result.hpp"
+#include "../associator.hpp"
+#include "../async_result.hpp"
 #include "../detail/handler_alloc_helpers.hpp"
 #include "../detail/handler_cont_helpers.hpp"
 #include "../detail/handler_invoke_helpers.hpp"
 #include "../detail/type_traits.hpp"
 #include "../detail/utility.hpp"
 #include "../detail/variadic_templates.hpp"
-
 #include "../detail/push_options.hpp"
 
 namespace asio {

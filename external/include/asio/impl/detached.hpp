@@ -16,7 +16,7 @@
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
 #include "../detail/config.hpp"
-#include "async_result.hpp"
+#include "../async_result.hpp"
 #include "../detail/variadic_templates.hpp"
 
 #include "../detail/push_options.hpp"

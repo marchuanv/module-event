@@ -15,17 +15,16 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "../../../detail/config.hpp"
 
 #include <cstring>
 #include <typeinfo>
-#include "detail/socket_ops.hpp"
-#include "detail/throw_error.hpp"
-#include "detail/throw_exception.hpp"
-#include "error.hpp"
-#include "generic/detail/endpoint.hpp"
-
-#include "detail/push_options.hpp"
+#include "../../../detail/socket_ops.hpp"
+#include "../../../detail/throw_error.hpp"
+#include "../../../detail/throw_exception.hpp"
+#include "../../../error.hpp"
+#include "../endpoint.hpp"
+#include "../../../detail/push_options.hpp"
 
 namespace asio {
 namespace generic {
@@ -105,6 +104,6 @@ void endpoint::init(const void* sock_addr,
 } // namespace generic
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../../../detail/pop_options.hpp"
 
 #endif // ASIO_GENERIC_DETAIL_IMPL_ENDPOINT_IPP

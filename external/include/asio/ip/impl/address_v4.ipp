@@ -15,17 +15,16 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "detail/config.hpp"
+#include "../../detail/config.hpp"
 #include <climits>
 #include <limits>
 #include <stdexcept>
-#include "error.hpp"
-#include "detail/socket_ops.hpp"
-#include "detail/throw_error.hpp"
-#include "detail/throw_exception.hpp"
-#include "ip/address_v4.hpp"
-
-#include "detail/push_options.hpp"
+#include "../../error.hpp"
+#include "../../detail/socket_ops.hpp"
+#include "../../detail/throw_error.hpp"
+#include "../../detail/throw_exception.hpp"
+#include "../address_v4.hpp"
+#include "../../detail/push_options.hpp"
 
 namespace asio {
 namespace ip {
@@ -205,6 +204,6 @@ address_v4 make_address_v4(string_view str,
 } // namespace ip
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "../../detail/pop_options.hpp"
 
 #endif // ASIO_IP_IMPL_ADDRESS_V4_IPP

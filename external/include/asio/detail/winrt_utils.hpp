@@ -26,7 +26,7 @@
 #include <robuffer.h>
 #include <windows.storage.streams.h>
 #include <wrl/implements.h>
-#include "buffer.hpp"
+#include "../buffer.hpp"
 #include "error_code.hpp"
 #include "memory.hpp"
 #include "socket_ops.hpp"

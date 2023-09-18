@@ -24,9 +24,9 @@
 
 #include "associated_cancellation_slot.hpp"
 #include "associated_immediate_executor.hpp"
-#include "buffer.hpp"
+#include "../buffer.hpp"
 #include "cancellation_type.hpp"
-#include "execution_context.hpp"
+#include "../execution_context.hpp"
 #include "bind_handler.hpp"
 #include "buffer_sequence_adapter.hpp"
 #include "descriptor_ops.hpp"

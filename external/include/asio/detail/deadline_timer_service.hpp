@@ -17,10 +17,10 @@
 
 #include "config.hpp"
 #include <cstddef>
-#include "associated_cancellation_slot.hpp"
-#include "cancellation_type.hpp"
+#include "../associated_cancellation_slot.hpp"
+#include "../cancellation_type.hpp"
 #include "../error.hpp"
-#include "execution_context.hpp"
+#include "../execution_context.hpp"
 #include "bind_handler.hpp"
 #include "fenced_block.hpp"
 #include "memory.hpp"

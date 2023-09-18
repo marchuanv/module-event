@@ -16,7 +16,7 @@
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
 #include <algorithm>
-#include "associator.hpp"
+#include "../associator.hpp"
 #include "../detail/base_from_cancellation_state.hpp"
 #include "../detail/bind_handler.hpp"
 #include "../detail/handler_alloc_helpers.hpp"
@@ -27,9 +27,8 @@
 #include "../detail/non_const_lvalue.hpp"
 #include "../detail/throw_error.hpp"
 #include "../detail/type_traits.hpp"
-#include "error.hpp"
-#include "post.hpp"
-
+#include "../error.hpp"
+#include "../post.hpp"
 #include "../detail/push_options.hpp"
 
 namespace asio {

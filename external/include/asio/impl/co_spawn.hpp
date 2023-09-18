@@ -16,15 +16,15 @@
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
 #include "../detail/config.hpp"
-#include "associated_cancellation_slot.hpp"
+#include "../associated_cancellation_slot.hpp"
 #include "awaitable.hpp"
 #include "../detail/memory.hpp"
 #include "../detail/recycling_allocator.hpp"
-#include "dispatch.hpp"
-#include "execution/outstanding_work.hpp"
-#include "post.hpp"
-#include "prefer.hpp"
-#include "use_awaitable.hpp"
+#include "../dispatch.hpp"
+#include "../execution/outstanding_work.hpp"
+#include "../post.hpp"
+#include "../prefer.hpp"
+#include "../use_awaitable.hpp"
 
 #include "../detail/push_options.hpp"
 

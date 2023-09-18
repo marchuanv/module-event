@@ -18,11 +18,11 @@
 #include "config.hpp"
 #include "type_traits.hpp"
 #include "variadic_templates.hpp"
-#include "execution/executor.hpp"
-#include "execution/outstanding_work.hpp"
-#include "executor_work_guard.hpp"
+#include "../execution/executor.hpp"
+#include "../execution/outstanding_work.hpp"
+#include "../executor_work_guard.hpp"
 #include "is_executor.hpp"
-#include "system_executor.hpp"
+#include "../system_executor.hpp"
 
 #include "push_options.hpp"
 

@@ -31,7 +31,7 @@
 #include "../detail/handler_type_requirements.hpp"
 #include "../detail/non_const_lvalue.hpp"
 #include "../detail/throw_error.hpp"
-#include "error.hpp"
+#include "../error.hpp"
 
 #include "../detail/push_options.hpp"
 

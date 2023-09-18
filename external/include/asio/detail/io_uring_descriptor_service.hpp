@@ -20,9 +20,9 @@
 #if defined(ASIO_HAS_IO_URING)
 
 #include "associated_cancellation_slot.hpp"
-#include "buffer.hpp"
+#include "../buffer.hpp"
 #include "cancellation_type.hpp"
-#include "execution_context.hpp"
+#include "../execution_context.hpp"
 #include "buffer_sequence_adapter.hpp"
 #include "descriptor_ops.hpp"
 #include "io_uring_descriptor_read_at_op.hpp"

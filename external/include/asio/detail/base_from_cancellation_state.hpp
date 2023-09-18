@@ -19,7 +19,6 @@
 #include "../associated_cancellation_slot.hpp"
 #include "../cancellation_state.hpp"
 #include "type_traits.hpp"
-
 #include "push_options.hpp"
 
 namespace asio {
@@ -158,6 +157,6 @@ protected:
 } // namespace detail
 } // namespace asio
 
-#include "detail/pop_options.hpp"
+#include "pop_options.hpp"
 
 #endif // ASIO_DETAIL_BASE_FROM_CANCELLATION_STATE_HPP

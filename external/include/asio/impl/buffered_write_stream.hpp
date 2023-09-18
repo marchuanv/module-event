@@ -15,7 +15,7 @@
 # pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
-#include "associator.hpp"
+#include "../associator.hpp"
 #include "../detail/handler_alloc_helpers.hpp"
 #include "../detail/handler_cont_helpers.hpp"
 #include "../detail/handler_invoke_helpers.hpp"

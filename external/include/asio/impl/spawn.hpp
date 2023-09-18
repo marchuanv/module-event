@@ -19,7 +19,7 @@
 #include "associated_allocator.hpp"
 #include "associated_cancellation_slot.hpp"
 #include "associated_executor.hpp"
-#include "async_result.hpp"
+#include "../async_result.hpp"
 #include "bind_executor.hpp"
 #include "../detail/atomic_count.hpp"
 #include "../detail/bind_handler.hpp"
