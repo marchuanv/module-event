@@ -16,9 +16,9 @@
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
 #include "buffer.hpp"
-#include "completion_condition.hpp"
-#include "read.hpp"
-#include "write.hpp"
-#include "read_until.hpp"
+#include "../completion_condition.hpp"
+#include "../read.hpp"
+#include "../write.hpp"
+#include "../read_until.hpp"
 
 #endif // ASIO_TS_BUFFER_HPP
