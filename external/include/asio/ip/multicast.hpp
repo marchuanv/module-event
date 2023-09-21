@@ -17,7 +17,7 @@
 
 #include "../detail/config.hpp"
 #include <cstddef>
-#include "../detail/socket_option.hpp"
+#include "detail/socket_option.hpp"
 
 #include "../detail/push_options.hpp"
 

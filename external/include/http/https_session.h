@@ -13,7 +13,7 @@
 #include "http_response.h"
 
 #include "cache/filecache.h"
-#include "ssl_session.h"
+#include "../asio/ssl_session.h"
 
 namespace CppServer {
 namespace HTTP {

@@ -12,8 +12,8 @@
 #include "http_request.h"
 #include "http_response.h"
 
-#include "ssl_client.h"
-#include "timer.h"
+#include "../asio/ssl_client.h"
+#include "../asio/timer.h"
 
 #include <future>
 

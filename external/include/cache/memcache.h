@@ -9,8 +9,8 @@
 #ifndef CPPCOMMON_CACHE_MEMCACHE_H
 #define CPPCOMMON_CACHE_MEMCACHE_H
 
-#include "time/timespan.h"
-#include "time/timestamp.h"
+#include "../time/timespan.h"
+#include "../time/timestamp.h"
 
 #include <mutex>
 #include <map>

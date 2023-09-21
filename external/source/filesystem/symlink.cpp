@@ -6,7 +6,7 @@
     \copyright MIT License
 */
 
-#include "symlink.h"
+#include "../../include/filesystem/symlink.h"
 
 #include "utility/resource.h"
 
