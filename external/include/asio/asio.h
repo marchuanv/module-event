@@ -35,8 +35,8 @@
 #pragma warning(disable: 4459) // C4459: declaration of 'identifier' hides global declaration
 #endif
 
-#include "./asio.hpp"
-#include "./ssl.hpp"
+#include "asio.hpp"
+#include "ssl.hpp"
 
 #if defined(_MSC_VER)
 #pragma warning(pop)

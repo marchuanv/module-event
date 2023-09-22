@@ -1,0 +1,159 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "websocket-client",
+					"jsonFile" : "directory-websocket-client-Debug-acb3e128c7e48b82650e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "websocket-client",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "websocket-server",
+					"jsonFile" : "directory-websocket-server-Debug-9b4534af13c24c934be5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "websocket-server",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "external",
+					"jsonFile" : "directory-external-Debug-d8969718d56d94ae4e32.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "external",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "EventModule"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "WebSocketClient",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "WebSocketServer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "external",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "WebSocketClient::@d3c3469c7099ee6c9c37",
+					"jsonFile" : "target-WebSocketClient-Debug-e86ad5c40b8caf368c57.json",
+					"name" : "WebSocketClient",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "WebSocketServer::@32fcdbb69c938f2ca801",
+					"jsonFile" : "target-WebSocketServer-Debug-6f89e7b88d6e6395afaa.json",
+					"name" : "WebSocketServer",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "external::@89556154f30252d09d22",
+					"jsonFile" : "target-external-Debug-7056e20360d470790425.json",
+					"name" : "external",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/github/module-event/build",
+		"source" : "D:/github/module-event"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

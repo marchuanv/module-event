@@ -353,8 +353,7 @@ inline asio::error_code make_error_code(addrinfo_errors e)
 
 inline asio::error_code make_error_code(misc_errors e)
 {
-  return asio::error_code(
-      static_cast<int>(e), get_misc_category());
+  return asio::error_code(static_cast<int>(e), get_misc_category());
 }
 
 } // namespace error

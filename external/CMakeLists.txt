@@ -1,3 +1,4 @@
+set(CMAKE_C_COMPILER "D:/msys64/ucrt64/bin/gcc.exe")
 cmake_minimum_required(VERSION 3.19)
 project(external)
 set(CMAKE_CXX_STANDARD 20)

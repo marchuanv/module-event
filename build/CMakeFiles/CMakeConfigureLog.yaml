@@ -5,9 +5,948 @@ events:
     kind: "message-v1"
     backtrace:
       - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:4 (project)"
     message: |
       The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/msys64/ucrt64/bin 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      Access is denied
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/msys64/ucrt64/bin 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      Access is denied
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/msys64/ucrt64/bin 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      Access is denied
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/msys64/ucrt64/bin 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      Access is denied
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/msys64/ucrt64/bin 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      Access is denied
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/msys64/ucrt64/bin 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      Access is denied
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/msys64/ucrt64/bin 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      Access is denied
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/msys64/ucrt64/bin 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      Access is denied
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/msys64/ucrt64/bin 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      Access is denied
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/msys64/ucrt64/bin 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      Access is denied
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/msys64/ucrt64/bin 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      Access is denied
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/msys64/ucrt64/bin 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      Access is denied
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1117 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1117 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: D:/msys64/ucrt64/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        D:/github/module-event/build/CMakeFiles/3.27.5/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-vcuy2j"
+      binary: "D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-vcuy2j"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-vcuy2j'
+        
+        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 D:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_c0580/fast
+        D:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_c0580.dir\\build.make CMakeFiles/cmTC_c0580.dir/build
+        mingw32-make[1]: Entering directory 'D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-vcuy2j'
+        Building C object CMakeFiles/cmTC_c0580.dir/CMakeCCompilerABI.c.obj
+        D:\\msys64\\ucrt64\\bin    -o CMakeFiles\\cmTC_c0580.dir\\CMakeCCompilerABI.c.obj -c D:\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c
+        process_begin: CreateProcess(NULL, D:\\msys64\\ucrt64\\bin -o CMakeFiles\\cmTC_c0580.dir\\CMakeCCompilerABI.c.obj -c D:\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c, ...) failed.
+        make (e=5): Access is denied.\x0d
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_c0580.dir\\build.make:77: CMakeFiles/cmTC_c0580.dir/CMakeCCompilerABI.c.obj] Error 5
+        mingw32-make[1]: Leaving directory 'D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-vcuy2j'
+        mingw32-make: *** [Makefile:126: cmTC_c0580/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Check for working C compiler: D:/msys64/ucrt64/bin"
+    directories:
+      source: "D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-fw229l"
+      binary: "D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-fw229l"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-fw229l'
+        
+        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 D:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_34224/fast
+        D:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_34224.dir\\build.make CMakeFiles/cmTC_34224.dir/build
+        mingw32-make[1]: Entering directory 'D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-fw229l'
+        Building C object CMakeFiles/cmTC_34224.dir/testCCompiler.c.obj
+        D:\\msys64\\ucrt64\\bin    -o CMakeFiles\\cmTC_34224.dir\\testCCompiler.c.obj -c D:\\github\\module-event\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fw229l\\testCCompiler.c
+        process_begin: CreateProcess(NULL, D:\\msys64\\ucrt64\\bin -o CMakeFiles\\cmTC_34224.dir\\testCCompiler.c.obj -c D:\\github\\module-event\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fw229l\\testCCompiler.c, ...) failed.
+        make (e=5): Access is denied.\x0d
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_34224.dir\\build.make:77: CMakeFiles/cmTC_34224.dir/testCCompiler.c.obj] Error 5
+        mingw32-make[1]: Leaving directory 'D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-fw229l'
+        mingw32-make: *** [Makefile:126: cmTC_34224/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/msys64/ucrt64/bin 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      Access is denied
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/msys64/ucrt64/bin 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      Access is denied
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/msys64/ucrt64/bin 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      Access is denied
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/msys64/ucrt64/bin 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      Access is denied
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/msys64/ucrt64/bin 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      Access is denied
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/msys64/ucrt64/bin 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      Access is denied
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/msys64/ucrt64/bin 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      Access is denied
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/msys64/ucrt64/bin 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      Access is denied
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/msys64/ucrt64/bin 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      Access is denied
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/msys64/ucrt64/bin 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      Access is denied
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/msys64/ucrt64/bin 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      Access is denied
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/msys64/ucrt64/bin 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      Access is denied
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1117 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1117 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: D:/msys64/ucrt64/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        D:/github/module-event/build/CMakeFiles/3.27.5/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-7is62o"
+      binary: "D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-7is62o"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-7is62o'
+        
+        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 D:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_6c61f/fast
+        D:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_6c61f.dir\\build.make CMakeFiles/cmTC_6c61f.dir/build
+        mingw32-make[1]: Entering directory 'D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-7is62o'
+        Building C object CMakeFiles/cmTC_6c61f.dir/CMakeCCompilerABI.c.obj
+        D:\\msys64\\ucrt64\\bin    -o CMakeFiles\\cmTC_6c61f.dir\\CMakeCCompilerABI.c.obj -c D:\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c
+        process_begin: CreateProcess(NULL, D:\\msys64\\ucrt64\\bin -o CMakeFiles\\cmTC_6c61f.dir\\CMakeCCompilerABI.c.obj -c D:\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c, ...) failed.
+        make (e=5): Access is denied.\x0d
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_6c61f.dir\\build.make:77: CMakeFiles/cmTC_6c61f.dir/CMakeCCompilerABI.c.obj] Error 5
+        mingw32-make[1]: Leaving directory 'D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-7is62o'
+        mingw32-make: *** [Makefile:126: cmTC_6c61f/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Check for working C compiler: D:/msys64/ucrt64/bin"
+    directories:
+      source: "D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-owvgjg"
+      binary: "D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-owvgjg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-owvgjg'
+        
+        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 D:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_0d035/fast
+        D:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_0d035.dir\\build.make CMakeFiles/cmTC_0d035.dir/build
+        mingw32-make[1]: Entering directory 'D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-owvgjg'
+        Building C object CMakeFiles/cmTC_0d035.dir/testCCompiler.c.obj
+        D:\\msys64\\ucrt64\\bin    -o CMakeFiles\\cmTC_0d035.dir\\testCCompiler.c.obj -c D:\\github\\module-event\\build\\CMakeFiles\\CMakeScratch\\TryCompile-owvgjg\\testCCompiler.c
+        process_begin: CreateProcess(NULL, D:\\msys64\\ucrt64\\bin -o CMakeFiles\\cmTC_0d035.dir\\testCCompiler.c.obj -c D:\\github\\module-event\\build\\CMakeFiles\\CMakeScratch\\TryCompile-owvgjg\\testCCompiler.c, ...) failed.
+        make (e=5): Access is denied.\x0d
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_0d035.dir\\build.make:77: CMakeFiles/cmTC_0d035.dir/testCCompiler.c.obj] Error 5
+        mingw32-make[1]: Leaving directory 'D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-owvgjg'
+        mingw32-make: *** [Makefile:126: cmTC_0d035/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/msys64/ucrt64/bin 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      Access is denied
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/msys64/ucrt64/bin 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      Access is denied
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/msys64/ucrt64/bin 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      Access is denied
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/msys64/ucrt64/bin 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      Access is denied
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/msys64/ucrt64/bin 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      Access is denied
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/msys64/ucrt64/bin 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      Access is denied
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/msys64/ucrt64/bin 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      Access is denied
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/msys64/ucrt64/bin 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      Access is denied
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/msys64/ucrt64/bin 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      Access is denied
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/msys64/ucrt64/bin 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      Access is denied
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/msys64/ucrt64/bin 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      Access is denied
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/msys64/ucrt64/bin 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      Access is denied
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1117 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1117 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: D:/msys64/ucrt64/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        D:/github/module-event/build/CMakeFiles/3.27.5/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-r4qi0s"
+      binary: "D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-r4qi0s"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-r4qi0s'
+        
+        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 D:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_521a0/fast
+        D:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_521a0.dir\\build.make CMakeFiles/cmTC_521a0.dir/build
+        mingw32-make[1]: Entering directory 'D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-r4qi0s'
+        Building C object CMakeFiles/cmTC_521a0.dir/CMakeCCompilerABI.c.obj
+        D:\\msys64\\ucrt64\\bin    -o CMakeFiles\\cmTC_521a0.dir\\CMakeCCompilerABI.c.obj -c D:\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c
+        process_begin: CreateProcess(NULL, D:\\msys64\\ucrt64\\bin -o CMakeFiles\\cmTC_521a0.dir\\CMakeCCompilerABI.c.obj -c D:\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c, ...) failed.
+        make (e=5): Access is denied.\x0d
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_521a0.dir\\build.make:77: CMakeFiles/cmTC_521a0.dir/CMakeCCompilerABI.c.obj] Error 5
+        mingw32-make[1]: Leaving directory 'D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-r4qi0s'
+        mingw32-make: *** [Makefile:126: cmTC_521a0/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Check for working C compiler: D:/msys64/ucrt64/bin"
+    directories:
+      source: "D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-vb770n"
+      binary: "D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-vb770n"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-vb770n'
+        
+        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 D:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_f3b48/fast
+        D:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_f3b48.dir\\build.make CMakeFiles/cmTC_f3b48.dir/build
+        mingw32-make[1]: Entering directory 'D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-vb770n'
+        Building C object CMakeFiles/cmTC_f3b48.dir/testCCompiler.c.obj
+        D:\\msys64\\ucrt64\\bin    -o CMakeFiles\\cmTC_f3b48.dir\\testCCompiler.c.obj -c D:\\github\\module-event\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vb770n\\testCCompiler.c
+        process_begin: CreateProcess(NULL, D:\\msys64\\ucrt64\\bin -o CMakeFiles\\cmTC_f3b48.dir\\testCCompiler.c.obj -c D:\\github\\module-event\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vb770n\\testCCompiler.c, ...) failed.
+        make (e=5): Access is denied.\x0d
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_f3b48.dir\\build.make:77: CMakeFiles/cmTC_f3b48.dir/testCCompiler.c.obj] Error 5
+        mingw32-make[1]: Leaving directory 'D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-vb770n'
+        mingw32-make: *** [Makefile:126: cmTC_f3b48/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
   -
     kind: "message-v1"
     backtrace:
@@ -61,23 +1000,23 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-x04iki"
-      binary: "D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-x04iki"
+      source: "D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-ara2yl"
+      binary: "D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-ara2yl"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
-      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_C_FLAGS_DEBUG: ""
       CMAKE_EXE_LINKER_FLAGS: ""
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-x04iki'
+        Change Dir: 'D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-ara2yl'
         
-        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 D:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_a4072/fast
-        D:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a4072.dir\\build.make CMakeFiles/cmTC_a4072.dir/build
-        mingw32-make[1]: Entering directory 'D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-x04iki'
-        Building C object CMakeFiles/cmTC_a4072.dir/CMakeCCompilerABI.c.obj
-        D:\\msys64\\ucrt64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_a4072.dir\\CMakeCCompilerABI.c.obj -c D:\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c
+        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 D:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_63059/fast
+        D:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_63059.dir\\build.make CMakeFiles/cmTC_63059.dir/build
+        mingw32-make[1]: Entering directory 'D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-ara2yl'
+        Building C object CMakeFiles/cmTC_63059.dir/CMakeCCompilerABI.c.obj
+        D:\\msys64\\ucrt64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_63059.dir\\CMakeCCompilerABI.c.obj -c D:\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=D:\\msys64\\ucrt64\\bin\\gcc.exe
         Target: x86_64-w64-mingw32
@@ -85,8 +1024,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.1.0 (Rev7, Built by MSYS2 project) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a4072.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_a4072.dir\\'
-         D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT D:\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_a4072.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\MARCHU~1\\AppData\\Local\\Temp\\ccywMLmO.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_63059.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_63059.dir\\'
+         D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT D:\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_63059.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\MARCHU~1\\AppData\\Local\\Temp\\ccjcmmtt.s
         GNU C17 (Rev7, Built by MSYS2 project) version 13.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p9, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -105,17 +1044,17 @@ events:
          D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed
         End of search list.
         Compiler executable checksum: 5c55b3fa8ea55b4b94e75a405b1f3898
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a4072.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_a4072.dir\\'
-         D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_a4072.dir\\CMakeCCompilerABI.c.obj C:\\Users\\MARCHU~1\\AppData\\Local\\Temp\\ccywMLmO.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_63059.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_63059.dir\\'
+         D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_63059.dir\\CMakeCCompilerABI.c.obj C:\\Users\\MARCHU~1\\AppData\\Local\\Temp\\ccjcmmtt.s
         GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40
         COMPILER_PATH=D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;D:/msys64/ucrt64/bin/../lib/gcc/;D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;D:/msys64/ucrt64/bin/../lib/gcc/;D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a4072.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_a4072.dir\\CMakeCCompilerABI.c.'
-        Linking C executable cmTC_a4072.exe
-        D:\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_a4072.dir\\link.txt --verbose=1
-        D:\\CMake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_a4072.dir/objects.a
-        D:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_a4072.dir/objects.a @CMakeFiles\\cmTC_a4072.dir\\objects1.rsp
-        D:\\msys64\\ucrt64\\bin\\gcc.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_a4072.dir/objects.a -Wl,--no-whole-archive -o cmTC_a4072.exe -Wl,--out-implib,libcmTC_a4072.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_63059.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_63059.dir\\CMakeCCompilerABI.c.'
+        Linking C executable cmTC_63059.exe
+        D:\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_63059.dir\\link.txt --verbose=1
+        D:\\CMake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_63059.dir/objects.a
+        D:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_63059.dir/objects.a @CMakeFiles\\cmTC_63059.dir\\objects1.rsp
+        D:\\msys64\\ucrt64\\bin\\gcc.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_63059.dir/objects.a -Wl,--no-whole-archive -o cmTC_63059.exe -Wl,--out-implib,libcmTC_63059.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
         Using built-in specs.
         COLLECT_GCC=D:\\msys64\\ucrt64\\bin\\gcc.exe
         COLLECT_LTO_WRAPPER=D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
@@ -126,10 +1065,10 @@ events:
         gcc version 13.1.0 (Rev7, Built by MSYS2 project) 
         COMPILER_PATH=D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;D:/msys64/ucrt64/bin/../lib/gcc/;D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;D:/msys64/ucrt64/bin/../lib/gcc/;D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a4072.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_a4072.'
-         ld -plugin D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\MARCHU~1\\AppData\\Local\\Temp\\ccE1PGHg.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_a4072.exe D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/msys64/ucrt64/bin/../lib/gcc -LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles\\cmTC_a4072.dir/objects.a --no-whole-archive --out-implib libcmTC_a4072.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/default-manifest.o D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a4072.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_a4072.'
-        mingw32-make[1]: Leaving directory 'D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-x04iki'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_63059.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_63059.'
+         ld -plugin D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\MARCHU~1\\AppData\\Local\\Temp\\ccf6PZOC.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_63059.exe D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/msys64/ucrt64/bin/../lib/gcc -LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles\\cmTC_63059.dir/objects.a --no-whole-archive --out-implib libcmTC_63059.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/default-manifest.o D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_63059.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_63059.'
+        mingw32-make[1]: Leaving directory 'D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-ara2yl'
         
       exitCode: 0
   -
@@ -161,13 +1100,13 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: 'D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-x04iki']
+        ignore line: [Change Dir: 'D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-ara2yl']
         ignore line: []
-        ignore line: [Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 D:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_a4072/fast]
-        ignore line: [D:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a4072.dir\\build.make CMakeFiles/cmTC_a4072.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-x04iki']
-        ignore line: [Building C object CMakeFiles/cmTC_a4072.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [D:\\msys64\\ucrt64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_a4072.dir\\CMakeCCompilerABI.c.obj -c D:\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 D:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_63059/fast]
+        ignore line: [D:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_63059.dir\\build.make CMakeFiles/cmTC_63059.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-ara2yl']
+        ignore line: [Building C object CMakeFiles/cmTC_63059.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [D:\\msys64\\ucrt64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_63059.dir\\CMakeCCompilerABI.c.obj -c D:\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=D:\\msys64\\ucrt64\\bin\\gcc.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -175,8 +1114,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.1.0 (Rev7  Built by MSYS2 project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a4072.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_a4072.dir\\']
-        ignore line: [ D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT D:\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_a4072.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\MARCHU~1\\AppData\\Local\\Temp\\ccywMLmO.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_63059.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_63059.dir\\']
+        ignore line: [ D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT D:\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_63059.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\MARCHU~1\\AppData\\Local\\Temp\\ccjcmmtt.s]
         ignore line: [GNU C17 (Rev7  Built by MSYS2 project) version 13.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.2.0-p9  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -195,8 +1134,8 @@ events:
         ignore line: [ D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 5c55b3fa8ea55b4b94e75a405b1f3898]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a4072.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_a4072.dir\\']
-        ignore line: [ D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_a4072.dir\\CMakeCCompilerABI.c.obj C:\\Users\\MARCHU~1\\AppData\\Local\\Temp\\ccywMLmO.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_63059.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_63059.dir\\']
+        ignore line: [ D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_63059.dir\\CMakeCCompilerABI.c.obj C:\\Users\\MARCHU~1\\AppData\\Local\\Temp\\ccjcmmtt.s]
         ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40]
         ignore line: [COMPILER_PATH=D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
         ignore line: [D:/msys64/ucrt64/bin/../lib/gcc/]
@@ -207,12 +1146,12 @@ events:
         ignore line: [D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
         ignore line: [D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a4072.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_a4072.dir\\CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_a4072.exe]
-        ignore line: [D:\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_a4072.dir\\link.txt --verbose=1]
-        ignore line: [D:\\CMake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_a4072.dir/objects.a]
-        ignore line: [D:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_a4072.dir/objects.a @CMakeFiles\\cmTC_a4072.dir\\objects1.rsp]
-        ignore line: [D:\\msys64\\ucrt64\\bin\\gcc.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_a4072.dir/objects.a -Wl --no-whole-archive -o cmTC_a4072.exe -Wl --out-implib libcmTC_a4072.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_63059.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_63059.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_63059.exe]
+        ignore line: [D:\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_63059.dir\\link.txt --verbose=1]
+        ignore line: [D:\\CMake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_63059.dir/objects.a]
+        ignore line: [D:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_63059.dir/objects.a @CMakeFiles\\cmTC_63059.dir\\objects1.rsp]
+        ignore line: [D:\\msys64\\ucrt64\\bin\\gcc.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_63059.dir/objects.a -Wl --no-whole-archive -o cmTC_63059.exe -Wl --out-implib libcmTC_63059.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=D:\\msys64\\ucrt64\\bin\\gcc.exe]
         ignore line: [COLLECT_LTO_WRAPPER=D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
@@ -230,13 +1169,13 @@ events:
         ignore line: [D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
         ignore line: [D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a4072.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_a4072.']
-        link line: [ ld -plugin D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\MARCHU~1\\AppData\\Local\\Temp\\ccE1PGHg.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_a4072.exe D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/msys64/ucrt64/bin/../lib/gcc -LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles\\cmTC_a4072.dir/objects.a --no-whole-archive --out-implib libcmTC_a4072.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/default-manifest.o D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_63059.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_63059.']
+        link line: [ ld -plugin D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\MARCHU~1\\AppData\\Local\\Temp\\ccf6PZOC.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_63059.exe D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/msys64/ucrt64/bin/../lib/gcc -LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles\\cmTC_63059.dir/objects.a --no-whole-archive --out-implib libcmTC_63059.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/default-manifest.o D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
           arg [ld] ==> ignore
           arg [-plugin] ==> ignore
           arg [D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\MARCHU~1\\AppData\\Local\\Temp\\ccE1PGHg.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\MARCHU~1\\AppData\\Local\\Temp\\ccf6PZOC.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
@@ -260,7 +1199,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_a4072.exe] ==> ignore
+          arg [cmTC_63059.exe] ==> ignore
           arg [D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o] ==> obj [D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o]
           arg [D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o] ==> obj [D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o]
           arg [-LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0] ==> dir [D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0]
@@ -270,10 +1209,10 @@ events:
           arg [-LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib]
           arg [-LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..] ==> dir [D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..]
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_a4072.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_63059.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_a4072.dll.a] ==> ignore
+          arg [libcmTC_63059.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -328,8 +1267,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-jg36nj"
-      binary: "D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-jg36nj"
+      source: "D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-wwn7py"
+      binary: "D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-wwn7py"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -338,13 +1277,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-jg36nj'
+        Change Dir: 'D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-wwn7py'
         
-        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 D:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_d42dc/fast
-        D:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_d42dc.dir\\build.make CMakeFiles/cmTC_d42dc.dir/build
-        mingw32-make[1]: Entering directory 'D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-jg36nj'
-        Building CXX object CMakeFiles/cmTC_d42dc.dir/CMakeCXXCompilerABI.cpp.obj
-        D:\\msys64\\ucrt64\\bin\\g++.exe   -std=gnu++20   -v -o CMakeFiles\\cmTC_d42dc.dir\\CMakeCXXCompilerABI.cpp.obj -c D:\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp
+        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 D:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_3cf58/fast
+        D:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_3cf58.dir\\build.make CMakeFiles/cmTC_3cf58.dir/build
+        mingw32-make[1]: Entering directory 'D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-wwn7py'
+        Building CXX object CMakeFiles/cmTC_3cf58.dir/CMakeCXXCompilerABI.cpp.obj
+        D:\\msys64\\ucrt64\\bin\\g++.exe   -std=gnu++20   -v -o CMakeFiles\\cmTC_3cf58.dir\\CMakeCXXCompilerABI.cpp.obj -c D:\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=D:\\msys64\\ucrt64\\bin\\g++.exe
         Target: x86_64-w64-mingw32
@@ -352,8 +1291,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.1.0 (Rev7, Built by MSYS2 project) 
-        COLLECT_GCC_OPTIONS='-std=gnu++20' '-v' '-o' 'CMakeFiles\\cmTC_d42dc.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_d42dc.dir\\'
-         D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT D:\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_d42dc.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -std=gnu++20 -version -o C:\\Users\\MARCHU~1\\AppData\\Local\\Temp\\cc71ejrv.s
+        COLLECT_GCC_OPTIONS='-std=gnu++20' '-v' '-o' 'CMakeFiles\\cmTC_3cf58.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_3cf58.dir\\'
+         D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT D:\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_3cf58.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -std=gnu++20 -version -o C:\\Users\\MARCHU~1\\AppData\\Local\\Temp\\ccFTUSI2.s
         GNU C++20 (Rev7, Built by MSYS2 project) version 13.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p9, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -378,17 +1317,17 @@ events:
          D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed
         End of search list.
         Compiler executable checksum: 414907923459f18275b92750c73f2fd6
-        COLLECT_GCC_OPTIONS='-std=gnu++20' '-v' '-o' 'CMakeFiles\\cmTC_d42dc.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_d42dc.dir\\'
-         D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_d42dc.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\MARCHU~1\\AppData\\Local\\Temp\\cc71ejrv.s
+        COLLECT_GCC_OPTIONS='-std=gnu++20' '-v' '-o' 'CMakeFiles\\cmTC_3cf58.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_3cf58.dir\\'
+         D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_3cf58.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\MARCHU~1\\AppData\\Local\\Temp\\ccFTUSI2.s
         GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40
         COMPILER_PATH=D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;D:/msys64/ucrt64/bin/../lib/gcc/;D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;D:/msys64/ucrt64/bin/../lib/gcc/;D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
-        COLLECT_GCC_OPTIONS='-std=gnu++20' '-v' '-o' 'CMakeFiles\\cmTC_d42dc.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_d42dc.dir\\CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_d42dc.exe
-        D:\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_d42dc.dir\\link.txt --verbose=1
-        D:\\CMake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_d42dc.dir/objects.a
-        D:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_d42dc.dir/objects.a @CMakeFiles\\cmTC_d42dc.dir\\objects1.rsp
-        D:\\msys64\\ucrt64\\bin\\g++.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_d42dc.dir/objects.a -Wl,--no-whole-archive -o cmTC_d42dc.exe -Wl,--out-implib,libcmTC_d42dc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        COLLECT_GCC_OPTIONS='-std=gnu++20' '-v' '-o' 'CMakeFiles\\cmTC_3cf58.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_3cf58.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_3cf58.exe
+        D:\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_3cf58.dir\\link.txt --verbose=1
+        D:\\CMake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_3cf58.dir/objects.a
+        D:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_3cf58.dir/objects.a @CMakeFiles\\cmTC_3cf58.dir\\objects1.rsp
+        D:\\msys64\\ucrt64\\bin\\g++.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_3cf58.dir/objects.a -Wl,--no-whole-archive -o cmTC_3cf58.exe -Wl,--out-implib,libcmTC_3cf58.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
         Using built-in specs.
         COLLECT_GCC=D:\\msys64\\ucrt64\\bin\\g++.exe
         COLLECT_LTO_WRAPPER=D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
@@ -399,10 +1338,10 @@ events:
         gcc version 13.1.0 (Rev7, Built by MSYS2 project) 
         COMPILER_PATH=D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;D:/msys64/ucrt64/bin/../lib/gcc/;D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;D:/msys64/ucrt64/bin/../lib/gcc/;D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d42dc.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_d42dc.'
-         ld -plugin D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\MARCHU~1\\AppData\\Local\\Temp\\cc94kMHE.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_d42dc.exe D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/msys64/ucrt64/bin/../lib/gcc -LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles\\cmTC_d42dc.dir/objects.a --no-whole-archive --out-implib libcmTC_d42dc.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/default-manifest.o D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d42dc.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_d42dc.'
-        mingw32-make[1]: Leaving directory 'D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-jg36nj'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3cf58.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_3cf58.'
+         ld -plugin D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\MARCHU~1\\AppData\\Local\\Temp\\ccnKO45c.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_3cf58.exe D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/msys64/ucrt64/bin/../lib/gcc -LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles\\cmTC_3cf58.dir/objects.a --no-whole-archive --out-implib libcmTC_3cf58.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/default-manifest.o D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3cf58.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_3cf58.'
+        mingw32-make[1]: Leaving directory 'D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-wwn7py'
         
       exitCode: 0
   -
@@ -440,13 +1379,13 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: 'D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-jg36nj']
+        ignore line: [Change Dir: 'D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-wwn7py']
         ignore line: []
-        ignore line: [Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 D:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_d42dc/fast]
-        ignore line: [D:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_d42dc.dir\\build.make CMakeFiles/cmTC_d42dc.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-jg36nj']
-        ignore line: [Building CXX object CMakeFiles/cmTC_d42dc.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [D:\\msys64\\ucrt64\\bin\\g++.exe   -std=gnu++20   -v -o CMakeFiles\\cmTC_d42dc.dir\\CMakeCXXCompilerABI.cpp.obj -c D:\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 D:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_3cf58/fast]
+        ignore line: [D:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_3cf58.dir\\build.make CMakeFiles/cmTC_3cf58.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'D:/github/module-event/build/CMakeFiles/CMakeScratch/TryCompile-wwn7py']
+        ignore line: [Building CXX object CMakeFiles/cmTC_3cf58.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [D:\\msys64\\ucrt64\\bin\\g++.exe   -std=gnu++20   -v -o CMakeFiles\\cmTC_3cf58.dir\\CMakeCXXCompilerABI.cpp.obj -c D:\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=D:\\msys64\\ucrt64\\bin\\g++.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -454,8 +1393,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.1.0 (Rev7  Built by MSYS2 project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-std=gnu++20' '-v' '-o' 'CMakeFiles\\cmTC_d42dc.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_d42dc.dir\\']
-        ignore line: [ D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT D:\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_d42dc.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -std=gnu++20 -version -o C:\\Users\\MARCHU~1\\AppData\\Local\\Temp\\cc71ejrv.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-std=gnu++20' '-v' '-o' 'CMakeFiles\\cmTC_3cf58.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_3cf58.dir\\']
+        ignore line: [ D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT D:\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_3cf58.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -std=gnu++20 -version -o C:\\Users\\MARCHU~1\\AppData\\Local\\Temp\\ccFTUSI2.s]
         ignore line: [GNU C++20 (Rev7  Built by MSYS2 project) version 13.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.2.0-p9  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -480,8 +1419,8 @@ events:
         ignore line: [ D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 414907923459f18275b92750c73f2fd6]
-        ignore line: [COLLECT_GCC_OPTIONS='-std=gnu++20' '-v' '-o' 'CMakeFiles\\cmTC_d42dc.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_d42dc.dir\\']
-        ignore line: [ D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_d42dc.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\MARCHU~1\\AppData\\Local\\Temp\\cc71ejrv.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-std=gnu++20' '-v' '-o' 'CMakeFiles\\cmTC_3cf58.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_3cf58.dir\\']
+        ignore line: [ D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_3cf58.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\MARCHU~1\\AppData\\Local\\Temp\\ccFTUSI2.s]
         ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40]
         ignore line: [COMPILER_PATH=D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
         ignore line: [D:/msys64/ucrt64/bin/../lib/gcc/]
@@ -492,12 +1431,12 @@ events:
         ignore line: [D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
         ignore line: [D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-std=gnu++20' '-v' '-o' 'CMakeFiles\\cmTC_d42dc.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_d42dc.dir\\CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_d42dc.exe]
-        ignore line: [D:\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_d42dc.dir\\link.txt --verbose=1]
-        ignore line: [D:\\CMake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_d42dc.dir/objects.a]
-        ignore line: [D:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_d42dc.dir/objects.a @CMakeFiles\\cmTC_d42dc.dir\\objects1.rsp]
-        ignore line: [D:\\msys64\\ucrt64\\bin\\g++.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_d42dc.dir/objects.a -Wl --no-whole-archive -o cmTC_d42dc.exe -Wl --out-implib libcmTC_d42dc.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-std=gnu++20' '-v' '-o' 'CMakeFiles\\cmTC_3cf58.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_3cf58.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_3cf58.exe]
+        ignore line: [D:\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_3cf58.dir\\link.txt --verbose=1]
+        ignore line: [D:\\CMake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_3cf58.dir/objects.a]
+        ignore line: [D:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_3cf58.dir/objects.a @CMakeFiles\\cmTC_3cf58.dir\\objects1.rsp]
+        ignore line: [D:\\msys64\\ucrt64\\bin\\g++.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_3cf58.dir/objects.a -Wl --no-whole-archive -o cmTC_3cf58.exe -Wl --out-implib libcmTC_3cf58.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=D:\\msys64\\ucrt64\\bin\\g++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
@@ -515,13 +1454,13 @@ events:
         ignore line: [D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
         ignore line: [D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d42dc.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_d42dc.']
-        link line: [ ld -plugin D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\MARCHU~1\\AppData\\Local\\Temp\\cc94kMHE.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_d42dc.exe D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/msys64/ucrt64/bin/../lib/gcc -LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles\\cmTC_d42dc.dir/objects.a --no-whole-archive --out-implib libcmTC_d42dc.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/default-manifest.o D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3cf58.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_3cf58.']
+        link line: [ ld -plugin D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\MARCHU~1\\AppData\\Local\\Temp\\ccnKO45c.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_3cf58.exe D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/msys64/ucrt64/bin/../lib/gcc -LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles\\cmTC_3cf58.dir/objects.a --no-whole-archive --out-implib libcmTC_3cf58.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/default-manifest.o D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
           arg [ld] ==> ignore
           arg [-plugin] ==> ignore
           arg [D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\MARCHU~1\\AppData\\Local\\Temp\\cc94kMHE.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\MARCHU~1\\AppData\\Local\\Temp\\ccnKO45c.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -545,7 +1484,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_d42dc.exe] ==> ignore
+          arg [cmTC_3cf58.exe] ==> ignore
           arg [D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o] ==> obj [D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o]
           arg [D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o] ==> obj [D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o]
           arg [-LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0] ==> dir [D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0]
@@ -555,10 +1494,10 @@ events:
           arg [-LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib]
           arg [-LD:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..] ==> dir [D:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..]
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_d42dc.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_3cf58.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_d42dc.dll.a] ==> ignore
+          arg [libcmTC_3cf58.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
